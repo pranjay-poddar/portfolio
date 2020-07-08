@@ -102,8 +102,10 @@
                  smartBackspace: true // Default value
                 });
             </script>
+            
+            
 
-            <div class="social">
+            <div id ='social'class="social">
                 <a href="https://www.linkedin.com/in/pranjay-poddar/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
                 <a href="https://github.com/pranjay-poddar" target="_blank"><i class="fab fa-github"></i></a>
                 <a href="https://www.behance.net/pranjaypoddar" target="_blank"><i class="fab fa-behance"></i></a>
@@ -115,6 +117,18 @@
             </div>
         </div>
     </header>
+    <script>
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("social").style.bottom = "10px";
+  } else {
+    document.getElementById("social").style.bottom = "1000px";
+  }
+  prevScrollpos = currentScrollPos;
+}
+</script>
 
     <!--End Header Area-->
     
