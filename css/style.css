@@ -604,8 +604,8 @@ a.button4:hover {
     cursor: pointer;
 }
 .projects .portfolio-item img{
-    width: 250px;
-    height: 250px;
+    width: 350px;
+    height: 350px;
 }
 .projects #portfolio-filters {
     padding: 0;
@@ -624,6 +624,7 @@ a.button4:hover {
     line-height: 1;
     text-transform: uppercase;
     color: #fff;
+    background: rgba(255, 255, 255, 0.1);
     margin: 0 3px 10px 3px;
     transition: all 0.3s ease-in-out;
     border-radius: 4px;
@@ -641,9 +642,11 @@ a.button4:hover {
     position: relative;
     overflow: hidden;
     z-index: 1;
+    background: rgba(0, 0, 0, 0.6);
 }
 .projects .portfolio-wrap::before {
     content: "";
+    background: rgba(0, 0, 0, 0.6);
     position: absolute;
     left: 30px;
     right: 30px;
@@ -663,7 +666,7 @@ a.button4:hover {
     text-align: center;
     z-index: 3;
     transition: all ease-in-out 0.3s;
-    display: inline-block;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -696,11 +699,11 @@ a.button4:hover {
 }
 .projects .portfolio-wrap .portfolio-info h4 {
     font-size: 20px;
-    color: #000000;
+    color: #fff;
     font-weight: 700;
 }
 .projects .portfolio-wrap .portfolio-info p {
-    color: #000000;
+    color: #ffffff;
     font-size: 16px;
     padding: 1em;
     margin: 0;
@@ -710,7 +713,7 @@ a.button4:hover {
     z-index: 4;
 }
 .projects .portfolio-wrap .portfolio-links a {
-    color: #000000;
+    color: #fff;
     margin: 0 2px;
     font-size: 28px;
     display: inline-block;
