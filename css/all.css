@@ -2,12 +2,7 @@
  * Font Awesome Free 5.13.1 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  */
-.fa,
-.fas,
-.far,
-.fal,
-.fad,
-.fab {
+.fa,.fas,.far,.fal,.fad,.fab {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   display: inline-block;
@@ -26,10 +21,8 @@
 
 .fa-sm {
   font-size: .875em; }
-
 .fa-1x {
   font-size: 1em; }
-
 .fa-2x {
   font-size: 2em; }
 
