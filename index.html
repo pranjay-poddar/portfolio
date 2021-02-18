@@ -6,15 +6,26 @@
     <title>Pranjay Poddar</title>
     <meta name="description" content="A CSE undergrad and a tech enthusiast who specialises in Cloud Computing. ">
     <meta name="keywords" content="Pranjay Poddar, Portfolio Website, Pranjay Poddar website, Pranjay Poddar SRM, Portfolio, CV, Resume,SRMIST KTR Chennai">
+    <link rel="manifest" href="./manifest.webmanifest">
     <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-171690017-1"></script>
+<script>
+    function preloader() {
+      var preloader = document.getElementById("preloader");
+      preloader.style.opacity = "0";
+      preloader.setAttribute("aria-busy", "false");
+      document.getElementById("site").style.opacity = "1";
+    }
+    window.onload = preloader;
+    </script>
 <script>
 	
 	
 //   document.addEventListener("contextmenu", function(e){
 //     e.preventDefault();
 // }, false);
-	
+
+
 	
 
   window.dataLayer = window.dataLayer || [];
@@ -68,10 +79,12 @@ drift.load('izskvvhsx7wr');
 <!-- End of Async Drift Code -->
 
 </head>
+<div id="preloader" aria-busy="true" aria-label="Loading, Please Wait." role="progressbar"><i class="fas fa-user-astronaut" id="icon"></i>
+</div>
 <body>
-
+    
     <!--Particle Animation-->
-
+   <div id ="myDiv">
     <div id="particles-js"></div>
     <script src="js/particles.js"></script>
     <script src="js/particle-js-script.js"></script>
@@ -123,6 +136,8 @@ drift.load('izskvvhsx7wr');
         </div>
     </header>
 <!--End Header Area-->
+<!-- Pre-loader -->
+
 <!--About Section-->
 <section id="about" class="about">
 <div class="about-me container">         
@@ -727,4 +742,5 @@ $(this).addClass('filter-active');
 </script>
 <!-------------------------------------END ANIMATION SCRIPTS-------------->
 </body>
+</div>
 </html>
