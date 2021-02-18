@@ -602,11 +602,14 @@ a.button4:hover {
 .projects .portfolio-item {
     margin-bottom: 30px;
     cursor: pointer;
+    padding: 0;
 }
+
 .projects .portfolio-item img{
     width: 350px;
     height: 350px;
 }
+
 .projects #portfolio-filters {
     padding: 0;
     margin: 0 auto 15px auto;
@@ -642,7 +645,7 @@ a.button4:hover {
     position: relative;
     overflow: hidden;
     z-index: 1;
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0,0.8);
 }
 .projects .portfolio-wrap::before {
     content: "";
@@ -705,7 +708,7 @@ a.button4:hover {
 .projects .portfolio-wrap .portfolio-info p {
     color: #ffffff;
     font-size: 16px;
-    padding: 1em;
+    padding: 0px;
     margin: 0;
 }
 .projects .portfolio-wrap .portfolio-links {
@@ -733,7 +736,7 @@ a.button4:hover {
     opacity: 1;
 }
 .projects .portfolio-wrap:hover .img-fluid {
-    opacity: .5;
+    opacity: 0.5;
 }
 .projects .portfolio-wrap:hover .portfolio-info::before {
     top: 15px;
