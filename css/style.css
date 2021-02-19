@@ -821,11 +821,13 @@ a.button4:hover {
     font-size: 20px;
     color: #fff;
     font-weight: 700;
+    padding: 20px;
 }
 .projects .portfolio-wrap .portfolio-info p {
     color: #ffffff;
     font-size: 16px;
-    padding: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
     margin: 0;
 }
 .projects .portfolio-wrap .portfolio-links {
