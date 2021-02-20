@@ -6,19 +6,19 @@
     "background_color":"#fff",
     "description": "A portfolio app",
     "icons": [{
-      "src": "images/a48.png",
-      "sizes": "48x48",
+      "src": "./apple touch/57.png",
+      "sizes": "57x57",
       "type": "image/png"
     }, {
-      "src": "images/a72.png",
+      "src": "./apple touch/72.png",
       "sizes": "72x72",
       "type": "image/png"
     }, {
-      "src": "images/a.png",
-      "sizes": "96x96",
+      "src": "./apple touch/114.png",
+      "sizes": "114x114",
       "type": "image/png"
     }, {
-      "src": "images/a144.png",
+      "src": "./apple touch/144.png",
       "sizes": "144x144",
       "type": "image/png"
     }]
