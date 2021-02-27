@@ -114,7 +114,27 @@
     }
   }
    */
-
+   /* scrollbar start  */
+   ::-webkit-scrollbar {
+    width: 5px;
+    border-radius: 50%;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: black; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #be5df7; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #9208e2; 
+  }
+  /* scrollbar end  */
 body{
     font-family: 'Open Sans', sans-serif;
     color:#fff;
