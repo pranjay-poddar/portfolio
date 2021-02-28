@@ -26,11 +26,16 @@
     </script> -->
 <script>
 // right click disable---------start--------------------------
-  document.addEventListener("contextmenu", function(e){
-    e.preventDefault();
-}, false);
+//   document.addEventListener("contextmenu", function(e){
+//     e.preventDefault();
+// }, false);
 // right click disable---------end--------------------------
-
+// dark mode toggle start-----------------------------------
+function lightmode() {
+    var element = document.body;
+    element.classList.toggle("light-mode");
+}
+// dark mode toggle end ------------------------------------
 	
 
   window.dataLayer = window.dataLayer || [];
@@ -92,14 +97,17 @@ drift.load('izskvvhsx7wr');
     <!--Particle Animation-->
    <div id ="myDiv">
     <div id="particles-js"></div>
+    <div id="bparticles-js"></div>
     <script src="js/particles.js"></script>
     <script src="js/particle-js-script.js"></script>
-
+    <script src="js/blackparticle-js-script.js"></script>
+    <script src="js/bparticles.js"></script>
     <!--End Of Particle Animation-->
 
     <!--Header Area-->
-
+   
     <header id="header" class="header-top">
+       
     <div class="conatiner">
      <div class="navbar navbar-inverse navbar-fixed-top navbar-fixed-width" role="navigation"></div>
         <nav class="navbar navbar fixed-top navbar-expand-md nav-menu" id="nav">
@@ -119,7 +127,21 @@ drift.load('izskvvhsx7wr');
             </div>
         </div>
         </nav>
-            <h2 id="greetings" style="font-size: 200%; color: #bc96e6;">Hi!, My Name Is</h2>
+        <div class="circle">
+            <div class="push-btn-container">
+          <!--     <div class="centering"> -->
+              <div class="push-toggle">
+                  <input onclick="lightmode()" type="checkbox">
+                  <span class="push-button"></span>
+                  <span class="push-btn-label">
+                    <i class="far fa-lightbulb"></i>
+                    </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- </div> -->
+            <h2 id="greetings">Hi!, My Name Is</h2>
             <h1>Pranjay Poddar</h1>
             
             <h2 class="typeh2">I am a <span class="type"></span></h2>
@@ -139,7 +161,7 @@ drift.load('izskvvhsx7wr');
                  smartBackspace: true // Default value
                 });
             </script>
-        
+            
         </div>
     </header>
 <!--End Header Area-->
@@ -183,7 +205,7 @@ drift.load('izskvvhsx7wr');
                 </ul>
             </div>
         </div>
-        <a href="https://drive.google.com/file/d/1KBMlleMR9OXCcY01BY4RBnDMavMfQGul/view?usp=sharing" class="button4" style="background-color:#bc96e6; color: #ffffff;" target="_blank">Download Resume</a>
+        <a href="https://drive.google.com/file/d/1KBMlleMR9OXCcY01BY4RBnDMavMfQGul/view?usp=sharing" class="button4" target="_blank">Download Resume</a>
     </div>
 </div>
 </div>
@@ -704,7 +726,7 @@ drift.load('izskvvhsx7wr');
 <!--End Of Contacts Section-->
 <section class="thanks">
     <div class="container">
-<h4 style="text-align: center; ">&copy2021 <span href="#about" style="color:#bc96e6; cursor: pointer;">Pranjay Poddar</span></h4>
+<h4 style="text-align: center; ">&copy2021 <span href="#about" id="credit">Pranjay Poddar</span></h4>
       
     </div>
 </section>

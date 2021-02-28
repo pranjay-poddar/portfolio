@@ -135,13 +135,25 @@
     background: #9208e2; 
   }
   /* scrollbar end  */
+ 
 body{
     font-family: 'Open Sans', sans-serif;
     color:#fff;
-    background-image: url("backg1.jpg");
     position: relative;
+    background-image: url("./backg1.jpg");
     background: transparent;
     scroll-behavior: smooth;
+}
+body::before {
+    content: "";
+    position: fixed;
+    background-color:black ;
+    background-image: url("./backg1.jpg");
+    background-size: cover;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 100vh;
 }
 #particles-js {
     position: fixed;
@@ -153,15 +165,20 @@ body{
     background-repeat: no-repeat;
     left: 0;
 }
-body::before {
-    content: "";
+#bparticles-js {
+    display:none;
     position: fixed;
-    background-image: url("backg1.jpg");
-    background-size: cover;
-    left: 0;
-    right: 0;
+    width: 100%;
+    height: 100%;
     top: 0;
-    height: 100vh;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    left: 0;
+}
+#credit{
+    color:#bc96e6; 
+    cursor: pointer;
 }
 
 @media (min-width: 1024px) {
@@ -179,17 +196,21 @@ a:hover {
 h1,h2,h3,h4,h5,h6 {
     font-family: "Raleway", sans-serif;
 }
+.button4{
+    background-color:#bc96e6;
+     color: #ffffff;
+}
 /* HEADER SECTION */
 #header{
     transition: 0.3s ease-in-out;
     position: relative;
-    
     align-items: center;
     height: 98vh;
     z-index: 997;
     overflow-y: auto;
     
 }
+
 #header * {
     transition: ease-in-out 0.3s;
 }
@@ -216,6 +237,10 @@ h1,h2,h3,h4,h5,h6 {
     padding:10px 30px;
     color: #fff;
     text-align: center;
+}
+.header-top #greetings{
+    font-size: 200%; 
+    color: #bc96e6;
 }
 #header .typeh2{
     font-size: 30px;
@@ -1073,3 +1098,283 @@ a.button4:hover {
         width: auto;
     }
 }
+/* light mode-----------------------------start------------------------------------------  */
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+.circle {
+  margin: auto;
+  position: absolute;
+  top: 60px;  right: 20px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 0.1em solid #adadad;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  background: #eeeeee;
+}
+.push-btn-container {
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  top: .1em;
+  left: .1em;
+  border-radius: 50%;
+  border: .1em solid #f5f5f5;
+  box-shadow: inset 0 0 2px #191919;
+  overflow: hidden;
+  background: #dfdfdf;
+}
+.centering {
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+}
+.push-toggle {
+  border-radius: 70%;
+  background: #500075;
+  height: 30px;
+  width: 35px;
+}
+.push-toggle:before {
+  box-shadow: 0 0 8px 4px rgba(255, 255, 255, 0.99);
+  border-radius: 50%;
+  background: rgba(248, 173, 255, 0.99);
+  position: absolute;
+  margin-left: -1em;
+  margin-top: -1em;
+  opacity: 0.2;
+  content: "";
+  height: 10px;
+  width: 10px;
+  left: 20%;
+  top: 20%;
+}
+.push-toggle .push-button {
+  -webkit-filter: blur(1px);
+  -moz-filter: blur(1px);
+  filter: blur(1px);
+  transition: all 300ms cubic-bezier(0.12, 1, 0.15, 1);
+  box-shadow: 
+    0 2px 2px -2px #d781ff, 
+    inset 0 -2px 2px -1px #c851ff, 
+    0 -2px 2px -1px #c13cff, 
+    inset 0 2px 2px -1px #ae00ff, 
+    inset 0 0 2px 1px #8a00ca, 
+    inset 0 2px 2px 0 #500075;
+  border-radius: 50%;
+  position: absolute;
+  background: #d16dff;
+  margin-left: -0.1em;
+  margin-top: -0.1em;
+  display: block;
+ height: 40px;
+  width: 40px;
+  left: 100%;
+  top: 100%;
+}
+.push-toggle .push-btn-label {
+  transition: color 300ms ease-out;
+  top: 0;
+  left: 8px;
+  text-align: center;
+  position: absolute;
+  font-size: 20px;
+  display: block;
+  height: 50%;
+  width: 50%;
+  color: hsl(123, 100%, 68%);
+ 
+}
+.push-toggle input {
+  opacity: 0;
+  position: absolute;
+  cursor: pointer;
+  z-index: 10;
+  height: 100%;
+  width: 100%;
+  right: .2em;
+}
+.push-toggle input:active ~ .push-button {
+  box-shadow: 
+    0 5px 5px -2px rgba(0, 0, 0, 0.2), 
+    inset 0 -4px 5px 1px rgba(255, 255, 255, 0.5), 
+    0 -5px 8px -1px rgba(255, 255, 255, 0.3), 
+    inset 0 4px 4px 0 rgba(0, 0, 0, 0.2), 
+    inset 0 0 5px 1px rgba(255, 255, 255, 0.3);
+}
+.push-toggle input:active ~ .push-btn-label {
+  font-size: 30px;
+  color: rgba(141, 1, 141, 0.99);
+}
+.push-toggle input:checked ~ .push-button {
+  box-shadow: 
+    0 7px 5px -2px rgba(0, 0, 0, 0.2), 
+    inset 0 -4px 5px -1px rgba(255, 255, 255, 0.4), 
+    0 -5px 5px -1px rgba(255, 255, 255, 0.3), 
+    inset 0 4px 10px 0 rgba(0, 0, 0, 0.1), 
+    inset 0 0 3px 1px rgba(255, 255, 255, 0.3);
+}
+.push-toggle input:checked ~ .push-btn-label {
+  top: 0;
+  color: hsl(0, 100%, 70%);
+}
+.light-mode {
+  color:black;
+  background-image: none;
+}
+.light-mode::before {
+    background: #ffffff;
+    color:black;
+    background-image:url('../css/light_bg.jpg');
+    content: "";
+    position: fixed;
+    background-size: cover;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 100vh;
+  }
+.light-mode #particles-js {
+    display: none;
+}
+.light-mode #bparticles-js{
+    display:inline;
+  }
+.light-mode #header .typeh2{
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 20px;
+    padding:10px 30px;
+    color: rgb(0, 0, 0);
+}
+.light-mode #header h2 span,.light-mode .header-top #greetings{
+    color :#55286F;
+}
+.light-mode section .container {
+    background: rgba(221, 221, 221, 0.95);
+}
+.light-mode .section-title h2{
+    color:black;
+}
+.light-mode .section-title h2::after {
+    content: "";
+    width: 100%;
+    height: 2px;
+    display: block;
+    background: #55286F;
+    margin: 10px auto;
+    margin-bottom: 30px;
+}
+ .light-mode .section-title h2::before {
+    content: "";
+    width: 100%;
+    height: 2px;
+    display: block;
+    background: #55286F;
+    margin: 10px auto;
+}
+.light-mode .content h3 {
+    font-weight: 700;
+    font-size: 26px;
+    color: #55286F;
+    padding-bottom: 0;
+}
+.light-mode .about-me .content ul li ,.light-mode .education .education-title{
+    color: #000000;
+}
+.light-mode .education .education-item h4 {
+    color: #55286F;
+}
+.light-mode a.button4{
+    background-color:#55286F ;
+}
+.light-mode .education .education-item::before {
+   background: #55286F;
+    border: 2px solid #55286F;
+}
+.light-mode .education .education-item h5 {
+    background: rgba(255, 255, 255, 0.587);
+}
+.light-mode .skills .progress .skill ,.light-mode .counts .count-box span{
+    color: #000000;
+}
+.light-mode .skills .progress-bar {
+    background-color: #55286F;
+}
+.light-mode .progress-bar-wrap{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.light-mode .counts .count-box {
+    border: 1px solid #55286F;
+    background: rgb(255, 255, 255,0.5);
+}
+.light-mode .counts .count-box i {
+    background: rgb(255, 255, 255,0.5);
+    color: #55286F;
+    border: 0.5px solid #55286F;
+}
+.light-mode .section-title p {
+    color: rgba(0, 0, 0, 0.7);
+}
+.light-mode .experience .experience-title {
+    color: rgb(0, 0, 0);
+}
+.light-mode .experience .experience-item h4 {
+    color: #55286F;
+}
+.light-mode .experience .experience-item::before {
+    background: #55286F;
+    border: 2px solid #55286F;
+}
+.light-mode .experience-item p{
+    color: black;
+}
+.light-mode .projects #portfolio-filters li.filter-active {
+    background: #55286F;
+    color: white;
+}
+.light-mode .projects #portfolio-filters li {
+    color: rgb(0, 0, 0);
+    background: rgba(255, 255, 255, 0.5);
+}
+.light-mode .projects .portfolio-wrap {
+    background: rgba(255, 255, 255, 0);
+}
+.light-mode .contact .info-box h3 {
+    color: #000000;
+    text-shadow: black;
+}
+.light-mode .contact .info-box i.fas,.light-mode #credit{
+    color: #55286F;
+} 
+.light-mode .contact .info-box p {
+    color: rgb(0, 0, 0);
+}
+.light-mode .contact .php-email-form button[type="submit"] {
+    background: #55286F;
+    color: #fff;
+}
+.light-mode .contact .info-box .social-links i {
+    color: black;
+}
+.light-mode .contact .php-email-form {
+    background: rgba(255, 255, 255, 0.8);
+}
+.light-mode .contact .php-email-form input, .light-mode .contact .php-email-form textarea {
+    background: rgba(204, 204, 204, 0.8);
+    color: #000000;
+}
+.light-mode .contact .php-email-form input::placeholder,.light-mode .contact .php-email-form textarea::placeholder{
+    color: black;
+}
+.light-mode li.nav-item a.nav-link::after{
+	height: 4px;
+	background-color: #bc96e6;
+}
+
+
+
+    
+
