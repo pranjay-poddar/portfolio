@@ -253,6 +253,7 @@ h1,h2,h3,h4,h5,h6 {
     color :#bc96e6;
     border-bottom: 2px solid #55286F;
     padding-bottom: 6px;
+    line-height: 55px;
 }
 #header .social{
     display: inline-block;
@@ -1220,6 +1221,8 @@ a.button4:hover {
   top: 0;
   color: hsl(0, 100%, 70%);
 }
+
+/* light mode -----------------------------------  */
 .light-mode {
   color:black;
   background-image: none;
@@ -1340,7 +1343,7 @@ a.button4:hover {
     background: rgba(255, 255, 255, 0.5);
 }
 .light-mode .projects .portfolio-wrap {
-    background: rgba(255, 255, 255, 0);
+    background: rgba(204, 204, 204, 0);
 }
 .light-mode .contact .info-box h3 {
     color: #000000;
@@ -1373,7 +1376,20 @@ a.button4:hover {
 	height: 4px;
 	background-color: #bc96e6;
 }
-
+@media (max-width: 568px){
+    .light-mode::before {
+        background: #ffffff;
+        color:black;
+        background-image:url('../css/light_bg.jpg');
+        content: "";
+        position: fixed;
+        background-size:contain;
+        left: 0;
+        right: 0;
+        top: 0;
+        height: 100vh;
+      }
+}
 
 
     
