@@ -13,7 +13,7 @@ particlesJS('bparticles-js', {
         line_linked: { enable: true, distance: 150, color: '#000000', opacity: 0.4, width: 1 },
         move: {
             enable: true,
-            speed: 5,
+            speed: 3,
             direction: 'none',
             random: false,
             straight: false,
