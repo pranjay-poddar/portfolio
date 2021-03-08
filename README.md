@@ -10,7 +10,7 @@
   ![forthebadge](https://forthebadge.com/images/badges/check-it-out.svg)
   ![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)
  <br><br>
- <p>A dark and light mode based portfolio which contains animation and supports all screen sizes</p>
+ <p>A dark and light mode based portfolio which contains animation and supports all screen sizes.</p>
  <br>
  <h2>Technologies Used</h2>
  <li>HTML5</li>
