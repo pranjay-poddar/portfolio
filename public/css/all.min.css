@@ -1,0 +1,1324 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+  <link rel="dns-prefetch" href="https://github.githubassets.com">
+  <link rel="dns-prefetch" href="https://avatars0.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars1.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars2.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars3.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://github-cloud.s3.amazonaws.com">
+  <link rel="dns-prefetch" href="https://user-images.githubusercontent.com/">
+
+
+
+  <link crossorigin="anonymous" media="all" integrity="sha512-M+rOrrqF1JSfReuJe+z3tZLbJ2S9Blt6dzIAQp0s5n6ps4eFL01D/bei2Qf9Qo0RLw7Dh8zVze9A1ozNHu2k2Q==" rel="stylesheet" href="https://github.githubassets.com/assets/frameworks-next-33eaceaeba85d4949f45eb897becf7b5.css" />
+  
+    <link crossorigin="anonymous" media="all" integrity="sha512-qP/wSs83gQ2Jsrm94mfqU27K5YQ4xKUtKbbl+eMuqODXJdZ/C/K5YajXR6yHDWZ7O4E0Z3FMG8OAOvIJHKvtGA==" rel="stylesheet" href="https://github.githubassets.com/assets/github-next-a8fff04acf37810d89b2b9bde267ea53.css" />
+    
+    
+    
+    
+
+
+  <meta name="viewport" content="width=device-width">
+  
+  <title>Font-Awesome/all.min.css at master · FortAwesome/Font-Awesome</title>
+    <meta name="description" content="The iconic SVG, font, and CSS toolkit. Contribute to FortAwesome/Font-Awesome development by creating an account on GitHub.">
+    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
+  <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
+  <meta property="fb:app_id" content="1401488693436528">
+  <meta name="apple-itunes-app" content="app-id=1477376905">
+
+    <meta name="twitter:image:src" content="https://avatars3.githubusercontent.com/u/1505683?s=400&amp;v=4" /><meta name="twitter:site" content="@github" /><meta name="twitter:card" content="summary" /><meta name="twitter:title" content="FortAwesome/Font-Awesome" /><meta name="twitter:description" content="The iconic SVG, font, and CSS toolkit. Contribute to FortAwesome/Font-Awesome development by creating an account on GitHub." />
+    <meta property="og:image" content="https://avatars3.githubusercontent.com/u/1505683?s=400&amp;v=4" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="FortAwesome/Font-Awesome" /><meta property="og:url" content="https://github.com/FortAwesome/Font-Awesome" /><meta property="og:description" content="The iconic SVG, font, and CSS toolkit. Contribute to FortAwesome/Font-Awesome development by creating an account on GitHub." />
+
+  <link rel="assets" href="https://github.githubassets.com/">
+      <link rel="shared-web-socket" href="wss://live.github.com/_luau/eyJ2IjoiVjMiLCJ1Ijo1NjI1OTgxNCwicyI6NTQzNTkyNDEwLCJjIjoyODMyMTM5NDc0LCJ0IjoxNTkzMzIxODc2fQ==--b54db2ea3c10519b2a9a5f1329f3b950769c94568caa3213bc79456ec85b0170" data-refresh-url="/_ws">
+  <link rel="sudo-modal" href="/sessions/sudo_modal">
+
+  <meta name="request-id" content="FD24:5314:1D7DDA:27A748:5EF82991" data-pjax-transient="true" /><meta name="html-safe-nonce" content="4f492b196eaaf50ef03dbca6ce9df9e16300ba14" data-pjax-transient="true" /><meta name="visitor-payload" content="eyJyZWZlcnJlciI6Imh0dHBzOi8vZ2l0aHViLmNvbS9Gb3J0QXdlc29tZS9Gb250LUF3ZXNvbWUvdHJlZS9tYXN0ZXIvY3NzIiwicmVxdWVzdF9pZCI6IkZEMjQ6NTMxNDoxRDdEREE6MjdBNzQ4OjVFRjgyOTkxIiwidmlzaXRvcl9pZCI6IjU1MDk4MjY2MDcxNzgxNzc3NjMiLCJyZWdpb25fZWRnZSI6ImFwLXNvdXRoLTEiLCJyZWdpb25fcmVuZGVyIjoiaWFkIn0=" data-pjax-transient="true" /><meta name="visitor-hmac" content="d083882d1c4b902b4586238f55dce5441eab949ec65075a2dd2c2ec5ce06ceba" data-pjax-transient="true" />
+
+
+
+  <meta name="github-keyboard-shortcuts" content="repository,source-code" data-pjax-transient="true" />
+
+  
+
+  <meta name="selected-link" value="repo_source" data-pjax-transient>
+
+    <meta name="google-site-verification" content="c1kuD-K2HIVF635lypcsWPoD4kilo5-jA_wBFyT4uMY">
+  <meta name="google-site-verification" content="KT5gs8h0wvaagLKAVWq8bbeNwnZZK1r1XQysX3xurLU">
+  <meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
+  <meta name="google-site-verification" content="GXs5KoUUkNCoaAZn7wPN-t01Pywp9M3sEjnt_3_ZWPc">
+
+<meta name="octolytics-host" content="collector.githubapp.com" /><meta name="octolytics-app-id" content="github" /><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event" /><meta name="octolytics-dimension-ga_id" content="" class="js-octo-ga-id" /><meta name="octolytics-actor-id" content="56259814" /><meta name="octolytics-actor-login" content="harshgeek4coder" /><meta name="octolytics-actor-hash" content="ec5ca5ffa0a81330d477a6ad9871d24774184255b510791ef0cbf38227fbff7b" />
+<meta name="analytics-location" content="/&lt;user-name&gt;/&lt;repo-name&gt;/blob/show" data-pjax-transient="true" />
+
+
+
+    <meta name="google-analytics" content="UA-3769691-2">
+
+  <meta class="js-ga-set" name="userId" content="9cea1dbf55886cfa3ff509e5b600ecbf">
+
+<meta class="js-ga-set" name="dimension10" content="Responsive" data-pjax-transient>
+
+<meta class="js-ga-set" name="dimension1" content="Logged In">
+
+
+
+  
+
+      <meta name="hostname" content="github.com">
+    <meta name="user-login" content="harshgeek4coder">
+
+
+      <meta name="expected-hostname" content="github.com">
+
+      <meta name="js-proxy-site-detection-payload" content="OWY5OTAwNjYyY2MyOTZlMjdmZWQ3M2RjMmM2OTRiNmNmOTVhNGQ2MTNiNGZkZTU3MTgwMTYyZWVjNDAyNDY2MHx7InJlbW90ZV9hZGRyZXNzIjoiMjcuNjEuMjA4LjIyIiwicmVxdWVzdF9pZCI6IkZEMjQ6NTMxNDoxRDdEREE6MjdBNzQ4OjVFRjgyOTkxIiwidGltZXN0YW1wIjoxNTkzMzIxODc2LCJob3N0IjoiZ2l0aHViLmNvbSJ9">
+
+    <meta name="enabled-features" content="MARKETPLACE_PENDING_INSTALLATIONS,PAGE_STALE_CHECK,PRIMER_NEXT">
+
+  <meta http-equiv="x-pjax-version" content="d20575307c438c43353de3782f8fe8f5">
+  
+
+      <link href="https://github.com/FortAwesome/Font-Awesome/commits/master.atom" rel="alternate" title="Recent Commits to Font-Awesome:master" type="application/atom+xml">
+
+  <meta name="go-import" content="github.com/FortAwesome/Font-Awesome git https://github.com/FortAwesome/Font-Awesome.git">
+
+  <meta name="octolytics-dimension-user_id" content="1505683" /><meta name="octolytics-dimension-user_login" content="FortAwesome" /><meta name="octolytics-dimension-repository_id" content="3470471" /><meta name="octolytics-dimension-repository_nwo" content="FortAwesome/Font-Awesome" /><meta name="octolytics-dimension-repository_public" content="true" /><meta name="octolytics-dimension-repository_is_fork" content="false" /><meta name="octolytics-dimension-repository_network_root_id" content="3470471" /><meta name="octolytics-dimension-repository_network_root_nwo" content="FortAwesome/Font-Awesome" /><meta name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown" content="false" />
+
+
+    <link rel="canonical" href="https://github.com/FortAwesome/Font-Awesome/blob/master/css/all.min.css" data-pjax-transient>
+
+
+  <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
+
+  <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
+
+  <link rel="mask-icon" href="https://github.githubassets.com/pinned-octocat.svg" color="#000000">
+  <link rel="alternate icon" class="js-site-favicon" type="image/png" href="https://github.githubassets.com/favicons/favicon.png">
+  <link rel="icon" class="js-site-favicon" type="image/svg+xml" href="https://github.githubassets.com/favicons/favicon.svg">
+
+<meta name="theme-color" content="#1e2327">
+
+
+  <link rel="manifest" href="/manifest.json" crossOrigin="use-credentials">
+
+  </head>
+
+  <body class="logged-in env-production page-responsive page-blob">
+    
+
+    <div class="position-relative js-header-wrapper ">
+      <a href="#start-of-content" class="p-3 bg-blue text-white show-on-focus js-skip-to-content">Skip to content</a>
+      <span class="Progress progress-pjax-loader position-fixed width-full js-pjax-loader-bar">
+        <span class="progress-pjax-loader-bar top-0 left-0" style="width: 0%;"></span>
+      </span>
+
+      
+      
+
+
+
+          <header class="Header py-lg-0 js-details-container Details flex-wrap flex-lg-nowrap px-3" role="banner">
+  <div class="Header-item d-none d-lg-flex">
+    <a class="Header-link" href="https://github.com/" data-hotkey="g d"
+  aria-label="Homepage " data-ga-click="Header, go to dashboard, icon:logo">
+  <svg class="octicon octicon-mark-github v-align-middle" height="32" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg>
+</a>
+
+  </div>
+
+  <div class="Header-item d-lg-none">
+    <button class="Header-link btn-link js-details-target" type="button" aria-label="Toggle navigation" aria-expanded="false">
+      <svg height="24" class="octicon octicon-three-bars" viewBox="0 0 16 16" version="1.1" width="24" aria-hidden="true"><path fill-rule="evenodd" d="M1 2.75A.75.75 0 011.75 2h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 2.75zm0 5A.75.75 0 011.75 7h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 7.75zM1.75 12a.75.75 0 100 1.5h12.5a.75.75 0 100-1.5H1.75z"></path></svg>
+    </button>
+  </div>
+
+  <div class="Header-item Header-item--full flex-column flex-lg-row width-full flex-order-2 flex-lg-order-none mr-0 mr-lg-3 mt-3 mt-lg-0 Details-content--hidden">
+        <div class="header-search header-search-current js-header-search-current  flex-self-stretch flex-lg-self-auto mr-0 mr-lg-3 mb-3 mb-lg-0 scoped-search site-scoped-search js-site-search position-relative js-jump-to js-header-search-current-jump-to"
+  role="combobox"
+  aria-owns="jump-to-results"
+  aria-label="Search or jump to"
+  aria-haspopup="listbox"
+  aria-expanded="false"
+>
+  <div class="position-relative">
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-site-search-form" role="search" aria-label="Site" data-scope-type="Repository" data-scope-id="3470471" data-scoped-search-url="/FortAwesome/Font-Awesome/search" data-unscoped-search-url="/search" action="/FortAwesome/Font-Awesome/search" accept-charset="UTF-8" method="get">
+      <label class="form-control input-sm header-search-wrapper p-0 header-search-wrapper-jump-to position-relative d-flex flex-justify-between flex-items-center js-chromeless-input-container">
+        <input type="text"
+          class="form-control input-sm header-search-input jump-to-field js-jump-to-field js-site-search-focus js-site-search-field is-clearable"
+          data-hotkey="s,/"
+          name="q"
+          value=""
+          placeholder="Search or jump to…"
+          data-unscoped-placeholder="Search or jump to…"
+          data-scoped-placeholder="Search or jump to…"
+          autocapitalize="off"
+          aria-autocomplete="list"
+          aria-controls="jump-to-results"
+          aria-label="Search or jump to…"
+          data-jump-to-suggestions-path="/_graphql/GetSuggestedNavigationDestinations"
+          spellcheck="false"
+          autocomplete="off"
+          >
+          <input type="hidden" value="qSmBRTQQi3vQPKIcG4sVVX1cwCdm49M4NrifTmbpRKJwka4x6Wx94/SxIL17k9BUJViHpnUDKNDnmkejJlaPiw==" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" />
+          <input type="hidden" class="js-site-search-type-field" name="type" >
+            <img src="https://github.githubassets.com/images/search-key-slash.svg" alt="" class="mr-2 header-search-key-slash">
+
+            <div class="Box position-absolute overflow-hidden d-none jump-to-suggestions js-jump-to-suggestions-container">
+              
+<ul class="d-none js-jump-to-suggestions-template-container">
+  
+
+<li class="d-flex flex-justify-start flex-items-center p-0 f5 navigation-item js-navigation-item js-jump-to-suggestion" role="option">
+  <a tabindex="-1" class="no-underline d-flex flex-auto flex-items-center jump-to-suggestions-path js-jump-to-suggestion-path js-navigation-open p-2" href="">
+    <div class="jump-to-octicon js-jump-to-octicon flex-shrink-0 mr-2 text-center d-none">
+      <svg height="16" width="16" class="octicon octicon-repo flex-shrink-0 js-jump-to-octicon-repo d-none" title="Repository" aria-label="Repository" viewBox="0 0 16 16" version="1.1" role="img"><path fill-rule="evenodd" d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8zM5 12.25v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z"></path></svg>
+      <svg height="16" width="16" class="octicon octicon-project flex-shrink-0 js-jump-to-octicon-project d-none" title="Project" aria-label="Project" viewBox="0 0 16 16" version="1.1" role="img"><path fill-rule="evenodd" d="M1.75 0A1.75 1.75 0 000 1.75v12.5C0 15.216.784 16 1.75 16h12.5A1.75 1.75 0 0016 14.25V1.75A1.75 1.75 0 0014.25 0H1.75zM1.5 1.75a.25.25 0 01.25-.25h12.5a.25.25 0 01.25.25v12.5a.25.25 0 01-.25.25H1.75a.25.25 0 01-.25-.25V1.75zM11.75 3a.75.75 0 00-.75.75v7.5a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75zm-8.25.75a.75.75 0 011.5 0v5.5a.75.75 0 01-1.5 0v-5.5zM8 3a.75.75 0 00-.75.75v3.5a.75.75 0 001.5 0v-3.5A.75.75 0 008 3z"></path></svg>
+      <svg height="16" width="16" class="octicon octicon-search flex-shrink-0 js-jump-to-octicon-search d-none" title="Search" aria-label="Search" viewBox="0 0 16 16" version="1.1" role="img"><path fill-rule="evenodd" d="M11.5 7a4.499 4.499 0 11-8.998 0A4.499 4.499 0 0111.5 7zm-.82 4.74a6 6 0 111.06-1.06l3.04 3.04a.75.75 0 11-1.06 1.06l-3.04-3.04z"></path></svg>
+    </div>
+
+    <img class="avatar mr-2 flex-shrink-0 js-jump-to-suggestion-avatar d-none" alt="" aria-label="Team" src="" width="28" height="28">
+
+    <div class="jump-to-suggestion-name js-jump-to-suggestion-name flex-auto overflow-hidden text-left no-wrap css-truncate css-truncate-target">
+    </div>
+
+    <div class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none js-jump-to-badge-search">
+      <span class="js-jump-to-badge-search-text-default d-none" aria-label="in this repository">
+        In this repository
+      </span>
+      <span class="js-jump-to-badge-search-text-global d-none" aria-label="in all of GitHub">
+        All GitHub
+      </span>
+      <span aria-hidden="true" class="d-inline-block ml-1 v-align-middle">↵</span>
+    </div>
+
+    <div aria-hidden="true" class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none d-on-nav-focus js-jump-to-badge-jump">
+      Jump to
+      <span class="d-inline-block ml-1 v-align-middle">↵</span>
+    </div>
+  </a>
+</li>
+
+</ul>
+
+<ul class="d-none js-jump-to-no-results-template-container">
+  <li class="d-flex flex-justify-center flex-items-center f5 d-none js-jump-to-suggestion p-2">
+    <span class="text-gray">No suggested jump to results</span>
+  </li>
+</ul>
+
+<ul id="jump-to-results" role="listbox" class="p-0 m-0 js-navigation-container jump-to-suggestions-results-container js-jump-to-suggestions-results-container">
+  
+
+<li class="d-flex flex-justify-start flex-items-center p-0 f5 navigation-item js-navigation-item js-jump-to-scoped-search d-none" role="option">
+  <a tabindex="-1" class="no-underline d-flex flex-auto flex-items-center jump-to-suggestions-path js-jump-to-suggestion-path js-navigation-open p-2" href="">
+    <div class="jump-to-octicon js-jump-to-octicon flex-shrink-0 mr-2 text-center d-none">
+      <svg height="16" width="16" class="octicon octicon-repo flex-shrink-0 js-jump-to-octicon-repo d-none" title="Repository" aria-label="Repository" viewBox="0 0 16 16" version="1.1" role="img"><path fill-rule="evenodd" d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8zM5 12.25v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z"></path></svg>
+      <svg height="16" width="16" class="octicon octicon-project flex-shrink-0 js-jump-to-octicon-project d-none" title="Project" aria-label="Project" viewBox="0 0 16 16" version="1.1" role="img"><path fill-rule="evenodd" d="M1.75 0A1.75 1.75 0 000 1.75v12.5C0 15.216.784 16 1.75 16h12.5A1.75 1.75 0 0016 14.25V1.75A1.75 1.75 0 0014.25 0H1.75zM1.5 1.75a.25.25 0 01.25-.25h12.5a.25.25 0 01.25.25v12.5a.25.25 0 01-.25.25H1.75a.25.25 0 01-.25-.25V1.75zM11.75 3a.75.75 0 00-.75.75v7.5a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75zm-8.25.75a.75.75 0 011.5 0v5.5a.75.75 0 01-1.5 0v-5.5zM8 3a.75.75 0 00-.75.75v3.5a.75.75 0 001.5 0v-3.5A.75.75 0 008 3z"></path></svg>
+      <svg height="16" width="16" class="octicon octicon-search flex-shrink-0 js-jump-to-octicon-search d-none" title="Search" aria-label="Search" viewBox="0 0 16 16" version="1.1" role="img"><path fill-rule="evenodd" d="M11.5 7a4.499 4.499 0 11-8.998 0A4.499 4.499 0 0111.5 7zm-.82 4.74a6 6 0 111.06-1.06l3.04 3.04a.75.75 0 11-1.06 1.06l-3.04-3.04z"></path></svg>
+    </div>
+
+    <img class="avatar mr-2 flex-shrink-0 js-jump-to-suggestion-avatar d-none" alt="" aria-label="Team" src="" width="28" height="28">
+
+    <div class="jump-to-suggestion-name js-jump-to-suggestion-name flex-auto overflow-hidden text-left no-wrap css-truncate css-truncate-target">
+    </div>
+
+    <div class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none js-jump-to-badge-search">
+      <span class="js-jump-to-badge-search-text-default d-none" aria-label="in this repository">
+        In this repository
+      </span>
+      <span class="js-jump-to-badge-search-text-global d-none" aria-label="in all of GitHub">
+        All GitHub
+      </span>
+      <span aria-hidden="true" class="d-inline-block ml-1 v-align-middle">↵</span>
+    </div>
+
+    <div aria-hidden="true" class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none d-on-nav-focus js-jump-to-badge-jump">
+      Jump to
+      <span class="d-inline-block ml-1 v-align-middle">↵</span>
+    </div>
+  </a>
+</li>
+
+  
+
+<li class="d-flex flex-justify-start flex-items-center p-0 f5 navigation-item js-navigation-item js-jump-to-global-search d-none" role="option">
+  <a tabindex="-1" class="no-underline d-flex flex-auto flex-items-center jump-to-suggestions-path js-jump-to-suggestion-path js-navigation-open p-2" href="">
+    <div class="jump-to-octicon js-jump-to-octicon flex-shrink-0 mr-2 text-center d-none">
+      <svg height="16" width="16" class="octicon octicon-repo flex-shrink-0 js-jump-to-octicon-repo d-none" title="Repository" aria-label="Repository" viewBox="0 0 16 16" version="1.1" role="img"><path fill-rule="evenodd" d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8zM5 12.25v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z"></path></svg>
+      <svg height="16" width="16" class="octicon octicon-project flex-shrink-0 js-jump-to-octicon-project d-none" title="Project" aria-label="Project" viewBox="0 0 16 16" version="1.1" role="img"><path fill-rule="evenodd" d="M1.75 0A1.75 1.75 0 000 1.75v12.5C0 15.216.784 16 1.75 16h12.5A1.75 1.75 0 0016 14.25V1.75A1.75 1.75 0 0014.25 0H1.75zM1.5 1.75a.25.25 0 01.25-.25h12.5a.25.25 0 01.25.25v12.5a.25.25 0 01-.25.25H1.75a.25.25 0 01-.25-.25V1.75zM11.75 3a.75.75 0 00-.75.75v7.5a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75zm-8.25.75a.75.75 0 011.5 0v5.5a.75.75 0 01-1.5 0v-5.5zM8 3a.75.75 0 00-.75.75v3.5a.75.75 0 001.5 0v-3.5A.75.75 0 008 3z"></path></svg>
+      <svg height="16" width="16" class="octicon octicon-search flex-shrink-0 js-jump-to-octicon-search d-none" title="Search" aria-label="Search" viewBox="0 0 16 16" version="1.1" role="img"><path fill-rule="evenodd" d="M11.5 7a4.499 4.499 0 11-8.998 0A4.499 4.499 0 0111.5 7zm-.82 4.74a6 6 0 111.06-1.06l3.04 3.04a.75.75 0 11-1.06 1.06l-3.04-3.04z"></path></svg>
+    </div>
+
+    <img class="avatar mr-2 flex-shrink-0 js-jump-to-suggestion-avatar d-none" alt="" aria-label="Team" src="" width="28" height="28">
+
+    <div class="jump-to-suggestion-name js-jump-to-suggestion-name flex-auto overflow-hidden text-left no-wrap css-truncate css-truncate-target">
+    </div>
+
+    <div class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none js-jump-to-badge-search">
+      <span class="js-jump-to-badge-search-text-default d-none" aria-label="in this repository">
+        In this repository
+      </span>
+      <span class="js-jump-to-badge-search-text-global d-none" aria-label="in all of GitHub">
+        All GitHub
+      </span>
+      <span aria-hidden="true" class="d-inline-block ml-1 v-align-middle">↵</span>
+    </div>
+
+    <div aria-hidden="true" class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none d-on-nav-focus js-jump-to-badge-jump">
+      Jump to
+      <span class="d-inline-block ml-1 v-align-middle">↵</span>
+    </div>
+  </a>
+</li>
+
+
+    <li class="d-flex flex-justify-center flex-items-center p-0 f5 js-jump-to-suggestion">
+      <img src="https://github.githubassets.com/images/spinners/octocat-spinner-128.gif" alt="Octocat Spinner Icon" class="m-2" width="28">
+    </li>
+</ul>
+
+            </div>
+      </label>
+</form>  </div>
+</div>
+
+
+    <nav class="d-flex flex-column flex-lg-row flex-self-stretch flex-lg-self-auto" aria-label="Global">
+    <a class="Header-link py-lg-3 d-block d-lg-none py-2 border-top border-lg-top-0 border-white-fade-15" data-ga-click="Header, click, Nav menu - item:dashboard:user" aria-label="Dashboard" href="/dashboard">
+      Dashboard
+</a>
+  <a class="js-selected-navigation-item Header-link py-lg-3  mr-0 mr-lg-3 py-2 border-top border-lg-top-0 border-white-fade-15" data-hotkey="g p" data-ga-click="Header, click, Nav menu - item:pulls context:user" aria-label="Pull requests you created" data-selected-links="/pulls /pulls/assigned /pulls/mentioned /pulls" href="/pulls">
+    Pull requests
+</a>
+  <a class="js-selected-navigation-item Header-link py-lg-3  mr-0 mr-lg-3 py-2 border-top border-lg-top-0 border-white-fade-15" data-hotkey="g i" data-ga-click="Header, click, Nav menu - item:issues context:user" aria-label="Issues you created" data-selected-links="/issues /issues/assigned /issues/mentioned /issues" href="/issues">
+    Issues
+</a>
+
+    <div class="mr-0 mr-lg-3 py-2 py-lg-0 border-top border-lg-top-0 border-white-fade-15">
+      <a class="js-selected-navigation-item Header-link py-lg-3 d-inline-block" data-ga-click="Header, click, Nav menu - item:marketplace context:user" data-octo-click="marketplace_click" data-octo-dimensions="location:nav_bar" data-selected-links=" /marketplace" href="/marketplace">
+        Marketplace
+</a>      
+
+    </div>
+
+  <a class="js-selected-navigation-item Header-link py-lg-3  mr-0 mr-lg-3 py-2 border-top border-lg-top-0 border-white-fade-15" data-ga-click="Header, click, Nav menu - item:explore" data-selected-links="/explore /trending /trending/developers /integrations /integrations/feature/code /integrations/feature/collaborate /integrations/feature/ship showcases showcases_search showcases_landing /explore" href="/explore">
+    Explore
+</a>
+
+
+    <a class="Header-link d-block d-lg-none mr-0 mr-lg-3 py-2 py-lg-3 border-top border-lg-top-0 border-white-fade-15" href="/harshgeek4coder">
+      <img class="avatar avatar-user" src="https://avatars1.githubusercontent.com/u/56259814?s=40&amp;v=4" width="20" height="20" alt="@harshgeek4coder" />
+      harshgeek4coder
+</a>
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/logout" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="eYUrenire9sAjghNKKRVtk3nHLeGSkd7SDAduN3pdJ1T+ZHwcUpLpjPoCkHqknHWlrzkhKrusDx+LdUzlflnmg==" />
+      <button type="submit" class="Header-link mr-0 mr-lg-3 py-2 py-lg-3 border-top border-lg-top-0 border-white-fade-15 d-lg-none btn-link d-block width-full text-left" data-ga-click="Header, sign out, icon:logout" style="padding-left: 2px;">
+        <svg class="octicon octicon-sign-out v-align-middle" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M2 2.75C2 1.784 2.784 1 3.75 1h2.5a.75.75 0 010 1.5h-2.5a.25.25 0 00-.25.25v10.5c0 .138.112.25.25.25h2.5a.75.75 0 010 1.5h-2.5A1.75 1.75 0 012 13.25V2.75zm10.44 4.5H6.75a.75.75 0 000 1.5h5.69l-1.97 1.97a.75.75 0 101.06 1.06l3.25-3.25a.75.75 0 000-1.06l-3.25-3.25a.75.75 0 10-1.06 1.06l1.97 1.97z"></path></svg>
+        Sign out
+      </button>
+</form></nav>
+
+  </div>
+
+  <div class="Header-item Header-item--full flex-justify-center d-lg-none position-relative">
+    <a class="Header-link" href="https://github.com/" data-hotkey="g d"
+  aria-label="Homepage " data-ga-click="Header, go to dashboard, icon:logo">
+  <svg class="octicon octicon-mark-github v-align-middle" height="32" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg>
+</a>
+
+  </div>
+
+  <div class="Header-item mr-0 mr-lg-3 flex-order-1 flex-lg-order-none">
+    
+    <a aria-label="You have no unread notifications" class="Header-link notification-indicator position-relative tooltipped tooltipped-sw js-socket-channel js-notification-indicator" data-hotkey="g n" data-ga-click="Header, go to notifications, icon:read" data-channel="eyJjIjoibm90aWZpY2F0aW9uLWNoYW5nZWQ6NTYyNTk4MTQiLCJ0IjoxNTkzMzIxODc2fQ==--5fb3a6f5182ae52f7246a5413ada1214b817fc42267e9f0f98091db0367f0b3e" href="/notifications">
+        <span class="js-indicator-modifier mail-status "></span>
+        <svg class="octicon octicon-bell" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M8 16a2 2 0 001.985-1.75c.017-.137-.097-.25-.235-.25h-3.5c-.138 0-.252.113-.235.25A2 2 0 008 16z"></path><path fill-rule="evenodd" d="M8 1.5A3.5 3.5 0 004.5 5v2.947c0 .346-.102.683-.294.97l-1.703 2.556a.018.018 0 00-.003.01l.001.006c0 .002.002.004.004.006a.017.017 0 00.006.004l.007.001h10.964l.007-.001a.016.016 0 00.006-.004.016.016 0 00.004-.006l.001-.007a.017.017 0 00-.003-.01l-1.703-2.554a1.75 1.75 0 01-.294-.97V5A3.5 3.5 0 008 1.5zM3 5a5 5 0 0110 0v2.947c0 .05.015.098.042.139l1.703 2.555A1.518 1.518 0 0113.482 13H2.518a1.518 1.518 0 01-1.263-2.36l1.703-2.554A.25.25 0 003 7.947V5z"></path></svg>
+</a>
+  </div>
+
+
+  <div class="Header-item position-relative d-none d-lg-flex">
+    <details class="details-overlay details-reset">
+  <summary class="Header-link"
+      aria-label="Create new…"
+      data-ga-click="Header, create new, icon:add">
+    <svg class="octicon octicon-plus" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 2a.75.75 0 01.75.75v4.5h4.5a.75.75 0 010 1.5h-4.5v4.5a.75.75 0 01-1.5 0v-4.5h-4.5a.75.75 0 010-1.5h4.5v-4.5A.75.75 0 018 2z"></path></svg> <span class="dropdown-caret"></span>
+  </summary>
+  <details-menu class="dropdown-menu dropdown-menu-sw mt-n2">
+    
+<a role="menuitem" class="dropdown-item" href="/new" data-ga-click="Header, create new repository">
+  New repository
+</a>
+
+  <a role="menuitem" class="dropdown-item" href="/new/import" data-ga-click="Header, import a repository">
+    Import repository
+  </a>
+
+<a role="menuitem" class="dropdown-item" href="https://gist.github.com/" data-ga-click="Header, create new gist">
+  New gist
+</a>
+
+  <a role="menuitem" class="dropdown-item" href="/organizations/new" data-ga-click="Header, create new organization">
+    New organization
+  </a>
+
+
+  <div role="none" class="dropdown-divider"></div>
+  <div class="dropdown-header">
+    <span title="FortAwesome/Font-Awesome">This repository</span>
+  </div>
+    <a role="menuitem" class="dropdown-item" href="/FortAwesome/Font-Awesome/issues/new/choose" data-ga-click="Header, create new issue" data-skip-pjax>
+      New issue
+    </a>
+
+
+  </details-menu>
+</details>
+
+  </div>
+
+  <div class="Header-item position-relative mr-0 d-none d-lg-flex">
+    
+  <details class="details-overlay details-reset js-feature-preview-indicator-container" data-feature-preview-indicator-src="/users/harshgeek4coder/feature_preview/indicator_check">
+
+  <summary class="Header-link"
+    aria-label="View profile and more"
+    data-ga-click="Header, show menu, icon:avatar">
+    <img
+  alt="@harshgeek4coder"
+  width="20"
+  height="20"
+  src="https://avatars2.githubusercontent.com/u/56259814?s=60&amp;v=4"
+  class="avatar avatar-user " />
+
+      <span class="feature-preview-indicator js-feature-preview-indicator" style="top: 10px;" hidden></span>
+    <span class="dropdown-caret"></span>
+  </summary>
+  <details-menu class="dropdown-menu dropdown-menu-sw mt-n2" style="width: 180px" >
+    <div class="header-nav-current-user css-truncate"><a role="menuitem" class="no-underline user-profile-link px-3 pt-2 pb-2 mb-n2 mt-n1 d-block" href="/harshgeek4coder" data-ga-click="Header, go to profile, text:Signed in as">Signed in as <strong class="css-truncate-target">harshgeek4coder</strong></a></div>
+    <div role="none" class="dropdown-divider"></div>
+
+      <div class="pl-3 pr-3 f6 user-status-container js-user-status-context lh-condensed" data-url="/users/status?compact=1&amp;link_mentions=0&amp;truncate=1">
+        
+<div class="js-user-status-container rounded-1 px-2 py-1 mt-2 border"
+  data-team-hovercards-enabled>
+  <details class="js-user-status-details details-reset details-overlay details-overlay-dark">
+    <summary class="btn-link btn-block link-gray no-underline js-toggle-user-status-edit toggle-user-status-edit "
+      role="menuitem" data-hydro-click="{&quot;event_type&quot;:&quot;user_profile.click&quot;,&quot;payload&quot;:{&quot;profile_user_id&quot;:1505683,&quot;target&quot;:&quot;EDIT_USER_STATUS&quot;,&quot;user_id&quot;:56259814,&quot;originating_url&quot;:&quot;https://github.com/FortAwesome/Font-Awesome/blob/master/css/all.min.css&quot;}}" data-hydro-click-hmac="ae0128e267763f92229ca1922db8b68b6c6d3ae9e5ca0d7e2bdb203c7fe98820">
+      <div class="d-flex flex-items-center flex-items-stretch">
+        <div class="f6 lh-condensed user-status-header d-flex user-status-emoji-only-header circle">
+          <div class="user-status-emoji-container flex-shrink-0 mr-2 d-flex flex-items-center flex-justify-center lh-condensed-ultra v-align-bottom">
+            <g-emoji alias="thought_balloon" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f4ad.png">💭</g-emoji>
+          </div>
+        </div>
+        <div class="
+          
+           user-status-message-wrapper f6 min-width-0"
+           style="line-height: 20px;" >
+          <div class="css-truncate css-truncate-target width-fit text-gray-dark text-left">
+                <span>Always ready to Collab and code!!!</span>
+          </div>
+        </div>
+      </div>
+    </summary>
+    <details-dialog class="details-dialog rounded-1 anim-fade-in fast Box Box--overlay" role="dialog" tabindex="-1">
+      <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="position-relative flex-auto js-user-status-form" action="/users/status?circle=0&amp;compact=1&amp;link_mentions=0&amp;truncate=1" accept-charset="UTF-8" method="post"><input type="hidden" name="_method" value="put" /><input type="hidden" name="authenticity_token" value="ebrjzyJ07eqzMDmOaDjRsN1XdCKuMCU5nSHl6QFG7X5dYjTyDGn6ygHyWzYWt1LjV8q1G7gnr17ABS34Zv84SQ==" />
+        <div class="Box-header bg-gray border-bottom p-3">
+          <button class="Box-btn-octicon js-toggle-user-status-edit btn-octicon float-right" type="reset" aria-label="Close dialog" data-close-dialog>
+            <svg class="octicon octicon-x" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M3.72 3.72a.75.75 0 011.06 0L8 6.94l3.22-3.22a.75.75 0 111.06 1.06L9.06 8l3.22 3.22a.75.75 0 11-1.06 1.06L8 9.06l-3.22 3.22a.75.75 0 01-1.06-1.06L6.94 8 3.72 4.78a.75.75 0 010-1.06z"></path></svg>
+          </button>
+          <h3 class="Box-title f5 text-bold text-gray-dark">Edit status</h3>
+        </div>
+        <input type="hidden" name="emoji" class="js-user-status-emoji-field" value="">
+        <input type="hidden" name="organization_id" class="js-user-status-org-id-field" value="">
+        <div class="px-3 py-2 text-gray-dark">
+          <div class="js-characters-remaining-container position-relative mt-2">
+            <div class="input-group d-table form-group my-0 js-user-status-form-group">
+              <span class="input-group-button d-table-cell v-align-middle" style="width: 1%">
+                <button type="button" aria-label="Choose an emoji" class="btn-outline btn js-toggle-user-status-emoji-picker btn-open-emoji-picker p-0">
+                  <span class="js-user-status-original-emoji" hidden></span>
+                  <span class="js-user-status-custom-emoji"></span>
+                  <span class="js-user-status-no-emoji-icon" >
+                    <svg class="octicon octicon-smiley" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0zM8 0a8 8 0 100 16A8 8 0 008 0zM5 8a1 1 0 100-2 1 1 0 000 2zm7-1a1 1 0 11-2 0 1 1 0 012 0zM5.32 9.636a.75.75 0 011.038.175l.007.009c.103.118.22.222.35.31.264.178.683.37 1.285.37.602 0 1.02-.192 1.285-.371.13-.088.247-.192.35-.31l.007-.008a.75.75 0 111.222.87l-.614-.431c.614.43.614.431.613.431v.001l-.001.002-.002.003-.005.007-.014.019a1.984 1.984 0 01-.184.213c-.16.166-.338.316-.53.445-.63.418-1.37.638-2.127.629-.946 0-1.652-.308-2.126-.63a3.32 3.32 0 01-.715-.657l-.014-.02-.005-.006-.002-.003v-.002h-.001l.613-.432-.614.43a.75.75 0 01.183-1.044h.001z"></path></svg>
+                  </span>
+                </button>
+              </span>
+              <text-expander keys=": @" data-mention-url="/autocomplete/user-suggestions" data-emoji-url="/autocomplete/emoji">
+                <input
+                  type="text"
+                  autocomplete="off"
+                  data-no-org-url="/autocomplete/user-suggestions"
+                  data-org-url="/suggestions?mention_suggester=1"
+                  data-maxlength="80"
+                  class="d-table-cell width-full form-control js-user-status-message-field js-characters-remaining-field"
+                  placeholder="What's happening?"
+                  name="message"
+                  value="Always ready to Collab and code!!!"
+                  aria-label="What is your current status?">
+              </text-expander>
+              <div class="error">Could not update your status, please try again.</div>
+            </div>
+            <div style="margin-left: 53px" class="my-1 text-small label-characters-remaining js-characters-remaining" data-suffix="remaining" hidden>
+              80 remaining
+            </div>
+          </div>
+          <include-fragment class="js-user-status-emoji-picker" data-url="/users/status/emoji"></include-fragment>
+          <div class="overflow-auto ml-n3 mr-n3 px-3 border-bottom" style="max-height: 33vh">
+            <div class="user-status-suggestions js-user-status-suggestions collapsed overflow-hidden">
+              <h4 class="f6 text-normal my-3">Suggestions:</h4>
+              <div class="mx-3 mt-2 clearfix">
+                  <div class="float-left col-6">
+                      <button type="button" value=":palm_tree:" class="d-flex flex-items-baseline flex-items-stretch lh-condensed f6 btn-link link-gray no-underline js-predefined-user-status mb-1">
+                        <div class="emoji-status-width mr-2 v-align-middle js-predefined-user-status-emoji">
+                          <g-emoji alias="palm_tree" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f334.png">🌴</g-emoji>
+                        </div>
+                        <div class="d-flex flex-items-center no-underline js-predefined-user-status-message ws-normal text-left" style="border-left: 1px solid transparent">
+                          On vacation
+                        </div>
+                      </button>
+                      <button type="button" value=":face_with_thermometer:" class="d-flex flex-items-baseline flex-items-stretch lh-condensed f6 btn-link link-gray no-underline js-predefined-user-status mb-1">
+                        <div class="emoji-status-width mr-2 v-align-middle js-predefined-user-status-emoji">
+                          <g-emoji alias="face_with_thermometer" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f912.png">🤒</g-emoji>
+                        </div>
+                        <div class="d-flex flex-items-center no-underline js-predefined-user-status-message ws-normal text-left" style="border-left: 1px solid transparent">
+                          Out sick
+                        </div>
+                      </button>
+                  </div>
+                  <div class="float-left col-6">
+                      <button type="button" value=":house:" class="d-flex flex-items-baseline flex-items-stretch lh-condensed f6 btn-link link-gray no-underline js-predefined-user-status mb-1">
+                        <div class="emoji-status-width mr-2 v-align-middle js-predefined-user-status-emoji">
+                          <g-emoji alias="house" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f3e0.png">🏠</g-emoji>
+                        </div>
+                        <div class="d-flex flex-items-center no-underline js-predefined-user-status-message ws-normal text-left" style="border-left: 1px solid transparent">
+                          Working from home
+                        </div>
+                      </button>
+                      <button type="button" value=":dart:" class="d-flex flex-items-baseline flex-items-stretch lh-condensed f6 btn-link link-gray no-underline js-predefined-user-status mb-1">
+                        <div class="emoji-status-width mr-2 v-align-middle js-predefined-user-status-emoji">
+                          <g-emoji alias="dart" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f3af.png">🎯</g-emoji>
+                        </div>
+                        <div class="d-flex flex-items-center no-underline js-predefined-user-status-message ws-normal text-left" style="border-left: 1px solid transparent">
+                          Focusing
+                        </div>
+                      </button>
+                  </div>
+              </div>
+            </div>
+            <div class="user-status-limited-availability-container">
+              <div class="form-checkbox my-0">
+                <input type="checkbox" name="limited_availability" value="1" class="js-user-status-limited-availability-checkbox" data-default-message="I may be slow to respond." aria-describedby="limited-availability-help-text-truncate-true-compact-true" id="limited-availability-truncate-true-compact-true">
+                <label class="d-block f5 text-gray-dark mb-1" for="limited-availability-truncate-true-compact-true">
+                  Busy
+                </label>
+                <p class="note" id="limited-availability-help-text-truncate-true-compact-true">
+                  When others mention you, assign you, or request your review,
+                  GitHub will let them know that you have limited availability.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="d-inline-block f5 mr-2 pt-3 pb-2" >
+  <div class="d-inline-block mr-1">
+    Clear status
+  </div>
+
+  <details class="js-user-status-expire-drop-down f6 dropdown details-reset details-overlay d-inline-block mr-2">
+    <summary class="f5 btn-link link-gray-dark border px-2 py-1 rounded-1" aria-haspopup="true">
+      <div class="js-user-status-expiration-interval-selected d-inline-block v-align-baseline">
+        Never
+      </div>
+      <div class="dropdown-caret"></div>
+    </summary>
+
+    <ul class="dropdown-menu dropdown-menu-se pl-0 overflow-auto" style="width: 220px; max-height: 15.5em">
+      <li>
+        <button type="button" class="btn-link dropdown-item js-user-status-expire-button ws-normal" title="Never">
+          <span class="d-inline-block text-bold mb-1">Never</span>
+          <div class="f6 lh-condensed">Keep this status until you clear your status or edit your status.</div>
+        </button>
+      </li>
+      <li class="dropdown-divider" role="none"></li>
+        <li>
+          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 30 minutes" value="2020-06-28T11:24:36+05:30">
+            in 30 minutes
+          </button>
+        </li>
+        <li>
+          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 1 hour" value="2020-06-28T11:54:36+05:30">
+            in 1 hour
+          </button>
+        </li>
+        <li>
+          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 4 hours" value="2020-06-28T14:54:36+05:30">
+            in 4 hours
+          </button>
+        </li>
+        <li>
+          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="today" value="2020-06-28T23:59:59+05:30">
+            today
+          </button>
+        </li>
+        <li>
+          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="this week" value="2020-06-28T23:59:59+05:30">
+            this week
+          </button>
+        </li>
+    </ul>
+  </details>
+  <input class="js-user-status-expiration-date-input" type="hidden" name="expires_at" value="">
+</div>
+
+          <include-fragment class="js-user-status-org-picker" data-url="/users/status/organizations"></include-fragment>
+        </div>
+        <div class="d-flex flex-items-center flex-justify-between p-3 border-top">
+          <button type="submit"  class="width-full btn btn-primary mr-2 js-user-status-submit">
+            Set status
+          </button>
+          <button type="button"  class="width-full js-clear-user-status-button btn ml-2 js-user-status-exists">
+            Clear status
+          </button>
+        </div>
+</form>    </details-dialog>
+  </details>
+</div>
+
+      </div>
+      <div role="none" class="dropdown-divider"></div>
+
+    <a role="menuitem" class="dropdown-item" href="/harshgeek4coder" data-ga-click="Header, go to profile, text:your profile" data-hydro-click="{&quot;event_type&quot;:&quot;global_header.user_menu_dropdown.click&quot;,&quot;payload&quot;:{&quot;request_url&quot;:&quot;https://github.com/FortAwesome/Font-Awesome/blob/master/css/all.min.css&quot;,&quot;target&quot;:&quot;YOUR_PROFILE&quot;,&quot;originating_url&quot;:&quot;https://github.com/FortAwesome/Font-Awesome/blob/master/css/all.min.css&quot;,&quot;user_id&quot;:56259814}}" data-hydro-click-hmac="d1a967b5d8163a9339b71f7146422a0c6183df6f39f8147277fcdd1a59a6cbe0" >Your profile</a>
+
+    <a role="menuitem" class="dropdown-item" href="/harshgeek4coder?tab=repositories" data-ga-click="Header, go to repositories, text:your repositories" data-hydro-click="{&quot;event_type&quot;:&quot;global_header.user_menu_dropdown.click&quot;,&quot;payload&quot;:{&quot;request_url&quot;:&quot;https://github.com/FortAwesome/Font-Awesome/blob/master/css/all.min.css&quot;,&quot;target&quot;:&quot;YOUR_REPOSITORIES&quot;,&quot;originating_url&quot;:&quot;https://github.com/FortAwesome/Font-Awesome/blob/master/css/all.min.css&quot;,&quot;user_id&quot;:56259814}}" data-hydro-click-hmac="1f2e5e714add669a0b10baadb53847a7d888d2e7593f227a98a620cf02a66697" >Your repositories</a>
+
+
+    <a role="menuitem" class="dropdown-item" href="/harshgeek4coder?tab=projects" data-ga-click="Header, go to projects, text:your projects" data-hydro-click="{&quot;event_type&quot;:&quot;global_header.user_menu_dropdown.click&quot;,&quot;payload&quot;:{&quot;request_url&quot;:&quot;https://github.com/FortAwesome/Font-Awesome/blob/master/css/all.min.css&quot;,&quot;target&quot;:&quot;YOUR_PROJECTS&quot;,&quot;originating_url&quot;:&quot;https://github.com/FortAwesome/Font-Awesome/blob/master/css/all.min.css&quot;,&quot;user_id&quot;:56259814}}" data-hydro-click-hmac="a998d2494428a630636ec899f7013395f2300656a7da784102a808083e4b93dc" >Your projects</a>
+
+    <a role="menuitem" class="dropdown-item" href="/harshgeek4coder?tab=stars" data-ga-click="Header, go to starred repos, text:your stars" data-hydro-click="{&quot;event_type&quot;:&quot;global_header.user_menu_dropdown.click&quot;,&quot;payload&quot;:{&quot;request_url&quot;:&quot;https://github.com/FortAwesome/Font-Awesome/blob/master/css/all.min.css&quot;,&quot;target&quot;:&quot;YOUR_STARS&quot;,&quot;originating_url&quot;:&quot;https://github.com/FortAwesome/Font-Awesome/blob/master/css/all.min.css&quot;,&quot;user_id&quot;:56259814}}" data-hydro-click-hmac="43f1297d97a7fb4a13928007b8dac17bb54e7a65b2c7e4e3bee511244267fb3c" >Your stars</a>
+      <a role="menuitem" class="dropdown-item" href="https://gist.github.com/mine" data-ga-click="Header, your gists, text:your gists" data-hydro-click="{&quot;event_type&quot;:&quot;global_header.user_menu_dropdown.click&quot;,&quot;payload&quot;:{&quot;request_url&quot;:&quot;https://github.com/FortAwesome/Font-Awesome/blob/master/css/all.min.css&quot;,&quot;target&quot;:&quot;YOUR_GISTS&quot;,&quot;originating_url&quot;:&quot;https://github.com/FortAwesome/Font-Awesome/blob/master/css/all.min.css&quot;,&quot;user_id&quot;:56259814}}" data-hydro-click-hmac="5d48d2215cb93650b8198d0a3995bd492edcd3867d83aca46da440812264fc91" >Your gists</a>
+
+
+
+
+
+    <div role="none" class="dropdown-divider"></div>
+      <a role="menuitem" class="dropdown-item" href="/settings/billing" data-ga-click="Header, go to billing, text:upgrade" data-hydro-click="{&quot;event_type&quot;:&quot;global_header.user_menu_dropdown.click&quot;,&quot;payload&quot;:{&quot;request_url&quot;:&quot;https://github.com/FortAwesome/Font-Awesome/blob/master/css/all.min.css&quot;,&quot;target&quot;:&quot;UPGRADE&quot;,&quot;originating_url&quot;:&quot;https://github.com/FortAwesome/Font-Awesome/blob/master/css/all.min.css&quot;,&quot;user_id&quot;:56259814}}" data-hydro-click-hmac="aa2589f7087da980d8d1a84e3a24981df5738a572af91e2dcb443677315fd5b1" >Upgrade</a>
+      
+<div id="feature-enrollment-toggle" class="hide-sm hide-md feature-preview-details position-relative">
+  <button
+    type="button"
+    class="dropdown-item btn-link"
+    role="menuitem"
+    data-feature-preview-trigger-url="/users/harshgeek4coder/feature_previews"
+    data-feature-preview-close-details="{&quot;event_type&quot;:&quot;feature_preview.clicks.close_modal&quot;,&quot;payload&quot;:{&quot;originating_url&quot;:&quot;https://github.com/FortAwesome/Font-Awesome/blob/master/css/all.min.css&quot;,&quot;user_id&quot;:56259814}}"
+    data-feature-preview-close-hmac="6719c4899340071d37cd0d89fd9b5a3126a59adecabb29f8c3751ccef4b11380"
+    data-hydro-click="{&quot;event_type&quot;:&quot;feature_preview.clicks.open_modal&quot;,&quot;payload&quot;:{&quot;link_location&quot;:&quot;user_dropdown&quot;,&quot;originating_url&quot;:&quot;https://github.com/FortAwesome/Font-Awesome/blob/master/css/all.min.css&quot;,&quot;user_id&quot;:56259814}}"
+    data-hydro-click-hmac="cc57e0b6e1bc64a5baa9b94c965709f27a737114695bf6264ec9705a3364c92a"
+  >
+    Feature preview
+  </button>
+    <span class="feature-preview-indicator js-feature-preview-indicator" hidden></span>
+</div>
+
+    <a role="menuitem" class="dropdown-item" href="https://help.github.com" data-ga-click="Header, go to help, text:help" data-hydro-click="{&quot;event_type&quot;:&quot;global_header.user_menu_dropdown.click&quot;,&quot;payload&quot;:{&quot;request_url&quot;:&quot;https://github.com/FortAwesome/Font-Awesome/blob/master/css/all.min.css&quot;,&quot;target&quot;:&quot;HELP&quot;,&quot;originating_url&quot;:&quot;https://github.com/FortAwesome/Font-Awesome/blob/master/css/all.min.css&quot;,&quot;user_id&quot;:56259814}}" data-hydro-click-hmac="b512f044bf8f791479f2f811a0dc1d0b8b9eb921bc09c13feeb41349be499d0f" >Help</a>
+    <a role="menuitem" class="dropdown-item" href="/settings/profile" data-ga-click="Header, go to settings, icon:settings" data-hydro-click="{&quot;event_type&quot;:&quot;global_header.user_menu_dropdown.click&quot;,&quot;payload&quot;:{&quot;request_url&quot;:&quot;https://github.com/FortAwesome/Font-Awesome/blob/master/css/all.min.css&quot;,&quot;target&quot;:&quot;SETTINGS&quot;,&quot;originating_url&quot;:&quot;https://github.com/FortAwesome/Font-Awesome/blob/master/css/all.min.css&quot;,&quot;user_id&quot;:56259814}}" data-hydro-click-hmac="6d585fa23e47555013b46206da3a15df71ce258ebf8973101bcdb1428ef1349b" >Settings</a>
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="logout-form" action="/logout" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="CE0nyWe3ERalMKPU2Cu6q2PEC3JNYVZXfaoQ22nzt1wiMZ1DblYha5ZWodgaHZ7LuJ/zQWHFoRBLt9hQIeOkWw==" />
+      
+      <button type="submit" class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout" data-hydro-click="{&quot;event_type&quot;:&quot;global_header.user_menu_dropdown.click&quot;,&quot;payload&quot;:{&quot;request_url&quot;:&quot;https://github.com/FortAwesome/Font-Awesome/blob/master/css/all.min.css&quot;,&quot;target&quot;:&quot;SIGN_OUT&quot;,&quot;originating_url&quot;:&quot;https://github.com/FortAwesome/Font-Awesome/blob/master/css/all.min.css&quot;,&quot;user_id&quot;:56259814}}" data-hydro-click-hmac="05de2bb91bd2b183ace2f8ec3956d925e3ae52ddaef67fa6ce7b30fec2db252b"  role="menuitem">
+        Sign out
+      </button>
+      <input type="text" name="required_field_7b34" hidden="hidden" class="form-control" /><input type="hidden" name="timestamp" value="1593321876069" class="form-control" /><input type="hidden" name="timestamp_secret" value="5c67c2aecb8f8e28c205736f0753f08d5cb0629a40578c3003f6cb2a1fc00739" class="form-control" />
+</form>  </details-menu>
+</details>
+
+  </div>
+
+</header>
+
+        
+
+    </div>
+
+  <div id="start-of-content" class="show-on-focus"></div>
+
+
+
+
+    <div id="js-flash-container">
+
+
+  <template class="js-flash-template">
+    <div class="flash flash-full  js-flash-template-container">
+  <div class=" px-2" >
+    <button class="flash-close js-flash-close" type="button" aria-label="Dismiss this message">
+      <svg class="octicon octicon-x" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M3.72 3.72a.75.75 0 011.06 0L8 6.94l3.22-3.22a.75.75 0 111.06 1.06L9.06 8l3.22 3.22a.75.75 0 11-1.06 1.06L8 9.06l-3.22 3.22a.75.75 0 01-1.06-1.06L6.94 8 3.72 4.78a.75.75 0 010-1.06z"></path></svg>
+    </button>
+    
+      <div class="js-flash-template-message"></div>
+
+  </div>
+</div>
+  </template>
+</div>
+
+
+      
+
+  <include-fragment class="js-notification-shelf-include-fragment" data-base-src="https://github.com/notifications/beta/shelf"></include-fragment>
+
+
+
+
+  <div
+    class="application-main "
+    data-commit-hovercards-enabled
+    data-discussion-hovercards-enabled
+    data-issue-and-pr-hovercards-enabled
+  >
+        <div itemscope itemtype="http://schema.org/SoftwareSourceCode" class="">
+    <main  >
+      
+
+  
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+  <div class="pagehead repohead hx_repohead readability-menu bg-gray-light pb-0 pt-3 border-0 mb-5">
+
+    <div class="d-flex mb-3 px-3 px-md-4 px-lg-5">
+
+      <div class="flex-auto min-width-0 width-fit mr-3">
+        <h1 class="public  d-flex flex-wrap flex-items-center break-word float-none f3">
+  
+      <svg class="octicon octicon-repo" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8zM5 12.25v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z"></path></svg>
+  
+  <span class="author ml-2 flex-self-stretch" itemprop="author">
+    <a class="url fn" rel="author" data-hovercard-type="organization" data-hovercard-url="/orgs/FortAwesome/hovercard" href="/FortAwesome">FortAwesome</a>
+  </span>
+  <span class="path-divider flex-self-stretch">/</span>
+  <strong itemprop="name" class="mr-2 flex-self-stretch">
+    <a data-pjax="#js-repo-pjax-container" href="/FortAwesome/Font-Awesome">Font-Awesome</a>
+  </strong>
+  
+</h1>
+
+
+      </div>
+
+      <ul class="pagehead-actions flex-shrink-0 d-none d-md-inline" style="padding: 2px 0;">
+
+  <li>
+        <form data-remote="true" class="d-flex js-social-form js-social-container" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="Ip/McJS9UZ8ycYIj3hs1QDMGqW8dEC9adMv4i74Or5m68GWtPW6pnudDi5nrm+ZuH31qxj1oD8IOCrox47tqMA==" />      <input type="hidden" name="repository_id" value="3470471">
+
+      <details class="details-reset details-overlay select-menu hx_rsm">
+        <summary class="btn btn-sm btn-with-count" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;WATCH_BUTTON&quot;,&quot;repository_id&quot;:3470471,&quot;originating_url&quot;:&quot;https://github.com/FortAwesome/Font-Awesome/blob/master/css/all.min.css&quot;,&quot;user_id&quot;:56259814}}" data-hydro-click-hmac="fb803787fd397889cdb0118a398cc23de8dbb36a96f8f270f26f0d38332db7dc" data-ga-click="Repository, click Watch settings, action:blob#show">          <span data-menu-button>
+              <svg height="16" class="octicon octicon-eye" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M1.679 7.932c.412-.621 1.242-1.75 2.366-2.717C5.175 4.242 6.527 3.5 8 3.5c1.473 0 2.824.742 3.955 1.715 1.124.967 1.954 2.096 2.366 2.717a.119.119 0 010 .136c-.412.621-1.242 1.75-2.366 2.717C10.825 11.758 9.473 12.5 8 12.5c-1.473 0-2.824-.742-3.955-1.715C2.92 9.818 2.09 8.69 1.679 8.068a.119.119 0 010-.136zM8 2c-1.981 0-3.67.992-4.933 2.078C1.797 5.169.88 6.423.43 7.1a1.619 1.619 0 000 1.798c.45.678 1.367 1.932 2.637 3.024C4.329 13.008 6.019 14 8 14c1.981 0 3.67-.992 4.933-2.078 1.27-1.091 2.187-2.345 2.637-3.023a1.619 1.619 0 000-1.798c-.45-.678-1.367-1.932-2.637-3.023C11.671 2.992 9.981 2 8 2zm0 8a2 2 0 100-4 2 2 0 000 4z"></path></svg>
+
+              Watch
+          </span>
+          <span class="dropdown-caret d-inline-block d-md-none"></span>
+</summary>        <details-menu
+          class="select-menu-modal position-absolute mt-5"
+          style="z-index: 99;">
+          <div class="select-menu-header">
+            <span class="select-menu-title">Notifications</span>
+          </div>
+          <div class="select-menu-list">
+            <button type="submit" name="do" value="included" class="select-menu-item width-full" aria-checked="true" role="menuitemradio">
+              <svg height="16" class="octicon octicon-check select-menu-item-icon" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg>
+
+              <div class="select-menu-item-text">
+                <span class="select-menu-item-heading">Not watching</span>
+                <span class="description">Be notified only when participating or @mentioned.</span>
+                <span class="hidden-select-button-text" data-menu-button-contents>
+                  <svg height="16" class="octicon octicon-eye" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M1.679 7.932c.412-.621 1.242-1.75 2.366-2.717C5.175 4.242 6.527 3.5 8 3.5c1.473 0 2.824.742 3.955 1.715 1.124.967 1.954 2.096 2.366 2.717a.119.119 0 010 .136c-.412.621-1.242 1.75-2.366 2.717C10.825 11.758 9.473 12.5 8 12.5c-1.473 0-2.824-.742-3.955-1.715C2.92 9.818 2.09 8.69 1.679 8.068a.119.119 0 010-.136zM8 2c-1.981 0-3.67.992-4.933 2.078C1.797 5.169.88 6.423.43 7.1a1.619 1.619 0 000 1.798c.45.678 1.367 1.932 2.637 3.024C4.329 13.008 6.019 14 8 14c1.981 0 3.67-.992 4.933-2.078 1.27-1.091 2.187-2.345 2.637-3.023a1.619 1.619 0 000-1.798c-.45-.678-1.367-1.932-2.637-3.023C11.671 2.992 9.981 2 8 2zm0 8a2 2 0 100-4 2 2 0 000 4z"></path></svg>
+
+                  Watch
+                </span>
+              </div>
+            </button>
+
+            <button type="submit" name="do" value="release_only" class="select-menu-item width-full" aria-checked="false" role="menuitemradio">
+              <svg height="16" class="octicon octicon-check select-menu-item-icon" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg>
+
+              <div class="select-menu-item-text">
+                <span class="select-menu-item-heading">Releases only</span>
+                <span class="description">Be notified of new releases, and when participating or @mentioned.</span>
+                <span class="hidden-select-button-text" data-menu-button-contents>
+                  <svg height="16" class="octicon octicon-eye" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M1.679 7.932c.412-.621 1.242-1.75 2.366-2.717C5.175 4.242 6.527 3.5 8 3.5c1.473 0 2.824.742 3.955 1.715 1.124.967 1.954 2.096 2.366 2.717a.119.119 0 010 .136c-.412.621-1.242 1.75-2.366 2.717C10.825 11.758 9.473 12.5 8 12.5c-1.473 0-2.824-.742-3.955-1.715C2.92 9.818 2.09 8.69 1.679 8.068a.119.119 0 010-.136zM8 2c-1.981 0-3.67.992-4.933 2.078C1.797 5.169.88 6.423.43 7.1a1.619 1.619 0 000 1.798c.45.678 1.367 1.932 2.637 3.024C4.329 13.008 6.019 14 8 14c1.981 0 3.67-.992 4.933-2.078 1.27-1.091 2.187-2.345 2.637-3.023a1.619 1.619 0 000-1.798c-.45-.678-1.367-1.932-2.637-3.023C11.671 2.992 9.981 2 8 2zm0 8a2 2 0 100-4 2 2 0 000 4z"></path></svg>
+
+                  Unwatch releases
+                </span>
+              </div>
+            </button>
+
+            <button type="submit" name="do" value="subscribed" class="select-menu-item width-full" aria-checked="false" role="menuitemradio">
+              <svg height="16" class="octicon octicon-check select-menu-item-icon" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg>
+
+              <div class="select-menu-item-text">
+                <span class="select-menu-item-heading">Watching</span>
+                <span class="description">Be notified of all conversations.</span>
+                <span class="hidden-select-button-text" data-menu-button-contents>
+                  <svg height="16" class="octicon octicon-eye v-align-text-bottom" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M1.679 7.932c.412-.621 1.242-1.75 2.366-2.717C5.175 4.242 6.527 3.5 8 3.5c1.473 0 2.824.742 3.955 1.715 1.124.967 1.954 2.096 2.366 2.717a.119.119 0 010 .136c-.412.621-1.242 1.75-2.366 2.717C10.825 11.758 9.473 12.5 8 12.5c-1.473 0-2.824-.742-3.955-1.715C2.92 9.818 2.09 8.69 1.679 8.068a.119.119 0 010-.136zM8 2c-1.981 0-3.67.992-4.933 2.078C1.797 5.169.88 6.423.43 7.1a1.619 1.619 0 000 1.798c.45.678 1.367 1.932 2.637 3.024C4.329 13.008 6.019 14 8 14c1.981 0 3.67-.992 4.933-2.078 1.27-1.091 2.187-2.345 2.637-3.023a1.619 1.619 0 000-1.798c-.45-.678-1.367-1.932-2.637-3.023C11.671 2.992 9.981 2 8 2zm0 8a2 2 0 100-4 2 2 0 000 4z"></path></svg>
+
+                  Unwatch
+                </span>
+              </div>
+            </button>
+
+            <button type="submit" name="do" value="ignore" class="select-menu-item width-full" aria-checked="false" role="menuitemradio">
+              <svg height="16" class="octicon octicon-check select-menu-item-icon" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg>
+
+              <div class="select-menu-item-text">
+                <span class="select-menu-item-heading">Ignoring</span>
+                <span class="description">Never be notified.</span>
+                <span class="hidden-select-button-text" data-menu-button-contents>
+                  <svg height="16" class="octicon octicon-mute" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 2.75a.75.75 0 00-1.238-.57L3.472 5H1.75A1.75 1.75 0 000 6.75v2.5C0 10.216.784 11 1.75 11h1.723l3.289 2.82A.75.75 0 008 13.25V2.75zM4.238 6.32L6.5 4.38v7.24L4.238 9.68a.75.75 0 00-.488-.18h-2a.25.25 0 01-.25-.25v-2.5a.25.25 0 01.25-.25h2a.75.75 0 00.488-.18zm7.042-1.1a.75.75 0 10-1.06 1.06L11.94 8l-1.72 1.72a.75.75 0 101.06 1.06L13 9.06l1.72 1.72a.75.75 0 101.06-1.06L14.06 8l1.72-1.72a.75.75 0 00-1.06-1.06L13 6.94l-1.72-1.72z"></path></svg>
+
+                  Stop ignoring
+                </span>
+              </div>
+            </button>
+          </div>
+        </details-menu>
+      </details>
+        <a class="social-count js-social-count"
+          href="/FortAwesome/Font-Awesome/watchers"
+          aria-label="1418 users are watching this repository">
+          1.4k
+        </a>
+</form>
+  </li>
+
+  <li>
+      <div class="js-toggler-container js-social-container starring-container ">
+    <form class="starred js-social-form" action="/FortAwesome/Font-Awesome/unstar" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="y+6QOaKzD8w72JXOz+ES6hkI/ac9qkdEcjw6TXzGSiDOoOTVdLbhIIHr3l7TuGvA+yh2naMfOMGpfSFeH9HpdQ==" />
+      <input type="hidden" name="context" value="repository"></input>
+      <button type="submit" class="btn btn-sm btn-with-count  js-toggler-target" aria-label="Unstar this repository" title="Unstar FortAwesome/Font-Awesome" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;UNSTAR_BUTTON&quot;,&quot;repository_id&quot;:3470471,&quot;originating_url&quot;:&quot;https://github.com/FortAwesome/Font-Awesome/blob/master/css/all.min.css&quot;,&quot;user_id&quot;:56259814}}" data-hydro-click-hmac="f37dfc777591f704aa8829528b36d7344f3fdbf39bea5bea5507dd52ae365c8f" data-ga-click="Repository, click unstar button, action:blob#show; text:Unstar">        <svg height="16" class="octicon octicon-star-fill" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25z"></path></svg>
+
+        Unstar
+</button>        <a class="social-count js-social-count" href="/FortAwesome/Font-Awesome/stargazers"
+           aria-label="63291 users starred this repository">
+           63.3k
+        </a>
+</form>
+    <form class="unstarred js-social-form" action="/FortAwesome/Font-Awesome/star" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="9YhmgrT3zbR5c3BHPR8Tc04Aoaxj6fwCteOfFp/UIJwVSnw9hDHu7Sdk8L+VDrmJIFm6bjdFfP5ISZ5vvhyX1A==" />
+      <input type="hidden" name="context" value="repository"></input>
+      <button type="submit" class="btn btn-sm btn-with-count  js-toggler-target" aria-label="Unstar this repository" title="Star FortAwesome/Font-Awesome" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;STAR_BUTTON&quot;,&quot;repository_id&quot;:3470471,&quot;originating_url&quot;:&quot;https://github.com/FortAwesome/Font-Awesome/blob/master/css/all.min.css&quot;,&quot;user_id&quot;:56259814}}" data-hydro-click-hmac="5259852c53bb082bb651d1cdc92b6af41fa95199ab9ee3fdd3a5923db9fe7eeb" data-ga-click="Repository, click star button, action:blob#show; text:Star">        <svg height="16" class="octicon octicon-star" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"></path></svg>
+
+        Star
+</button>        <a class="social-count js-social-count" href="/FortAwesome/Font-Awesome/stargazers"
+           aria-label="63291 users starred this repository">
+          63.3k
+        </a>
+</form>  </div>
+
+  </li>
+
+  <li>
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="btn-with-count" action="/FortAwesome/Font-Awesome/fork" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="+9jM+kn4R4rRZXIIFuXQ2TBQcc5IILqCBb85Du54TlEbdJne98z3q98pOP/Y4xV/XpyFNf/pwvswYtq3cjTmTQ==" />
+            <button class="btn btn-sm btn-with-count" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FORK_BUTTON&quot;,&quot;repository_id&quot;:3470471,&quot;originating_url&quot;:&quot;https://github.com/FortAwesome/Font-Awesome/blob/master/css/all.min.css&quot;,&quot;user_id&quot;:56259814}}" data-hydro-click-hmac="d4da95f0b8312c62304449c86844768596d9a883b999ee83bfba64cd2dc555fd" data-ga-click="Repository, show fork modal, action:blob#show; text:Fork" type="submit" title="Fork your own copy of FortAwesome/Font-Awesome to your account" aria-label="Fork your own copy of FortAwesome/Font-Awesome to your account">              <svg class="octicon octicon-repo-forked" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M5 3.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm0 2.122a2.25 2.25 0 10-1.5 0v.878A2.25 2.25 0 005.75 8.5h1.5v2.128a2.251 2.251 0 101.5 0V8.5h1.5a2.25 2.25 0 002.25-2.25v-.878a2.25 2.25 0 10-1.5 0v.878a.75.75 0 01-.75.75h-4.5A.75.75 0 015 6.25v-.878zm3.75 7.378a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm3-8.75a.75.75 0 100-1.5.75.75 0 000 1.5z"></path></svg>
+              Fork
+</button></form>
+    <a href="/FortAwesome/Font-Awesome/network/members" class="social-count"
+       aria-label="10808 users forked this repository">
+      10.8k
+    </a>
+  </li>
+</ul>
+
+    </div>
+    
+<nav class="UnderlineNav js-repo-nav js-sidenav-container-pjax js-responsive-underlinenav overflow-hidden px-3 px-md-4 px-lg-5 bg-gray-light" aria-label="Repository" data-pjax="#js-repo-pjax-container">
+  <ul class="UnderlineNav-body list-style-none ">
+          <li class="d-flex">
+        <a class="js-selected-navigation-item selected UnderlineNav-item hx_underlinenav-item no-wrap js-responsive-underlinenav-item" data-tab-item="code-tab" data-hotkey="g c" data-ga-click="Repository, Navigation click, Code tab" aria-current="page" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages repo_deployments /FortAwesome/Font-Awesome" href="/FortAwesome/Font-Awesome">
+              <svg height="16" class="octicon octicon-code UnderlineNav-octicon d-none d-sm-inline" class_names="UnderlineNav-octicon" display="none inline" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M4.72 3.22a.75.75 0 011.06 1.06L2.06 8l3.72 3.72a.75.75 0 11-1.06 1.06L.47 8.53a.75.75 0 010-1.06l4.25-4.25zm6.56 0a.75.75 0 10-1.06 1.06L13.94 8l-3.72 3.72a.75.75 0 101.06 1.06l4.25-4.25a.75.75 0 000-1.06l-4.25-4.25z"></path></svg>
+
+            <span data-content="Code">Code</span>
+              
+</a>      </li>
+      <li class="d-flex">
+        <a class="js-selected-navigation-item UnderlineNav-item hx_underlinenav-item no-wrap js-responsive-underlinenav-item" data-tab-item="issues-tab" data-hotkey="g i" data-ga-click="Repository, Navigation click, Issues tab" data-selected-links="repo_issues repo_labels repo_milestones /FortAwesome/Font-Awesome/issues" href="/FortAwesome/Font-Awesome/issues">
+              <svg height="16" class="octicon octicon-issue-opened UnderlineNav-octicon d-none d-sm-inline" class_names="UnderlineNav-octicon" display="none inline" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm9 3a1 1 0 11-2 0 1 1 0 012 0zm-.25-6.25a.75.75 0 00-1.5 0v3.5a.75.75 0 001.5 0v-3.5z"></path></svg>
+
+            <span data-content="Issues">Issues</span>
+              <span class="Counter ">5,000+</span>
+
+
+</a>      </li>
+      <li class="d-flex">
+        <a class="js-selected-navigation-item UnderlineNav-item hx_underlinenav-item no-wrap js-responsive-underlinenav-item" data-tab-item="pull-requests-tab" data-hotkey="g p" data-ga-click="Repository, Navigation click, Pull requests tab" data-selected-links="repo_pulls checks /FortAwesome/Font-Awesome/pulls" href="/FortAwesome/Font-Awesome/pulls">
+              <svg height="16" class="octicon octicon-git-pull-request UnderlineNav-octicon d-none d-sm-inline" class_names="UnderlineNav-octicon" display="none inline" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.177 3.073L9.573.677A.25.25 0 0110 .854v4.792a.25.25 0 01-.427.177L7.177 3.427a.25.25 0 010-.354zM3.75 2.5a.75.75 0 100 1.5.75.75 0 000-1.5zm-2.25.75a2.25 2.25 0 113 2.122v5.256a2.251 2.251 0 11-1.5 0V5.372A2.25 2.25 0 011.5 3.25zM11 2.5h-1V4h1a1 1 0 011 1v5.628a2.251 2.251 0 101.5 0V5A2.5 2.5 0 0011 2.5zm1 10.25a.75.75 0 111.5 0 .75.75 0 01-1.5 0zM3.75 12a.75.75 0 100 1.5.75.75 0 000-1.5z"></path></svg>
+
+            <span data-content="Pull requests">Pull requests</span>
+              <span class="Counter ">18</span>
+
+
+</a>      </li>
+      <li class="d-flex">
+        <a class="js-selected-navigation-item UnderlineNav-item hx_underlinenav-item no-wrap js-responsive-underlinenav-item" data-tab-item="actions-tab" data-hotkey="g w" data-ga-click="Repository, Navigation click, Actions tab" data-selected-links="repo_actions /FortAwesome/Font-Awesome/actions" href="/FortAwesome/Font-Awesome/actions">
+              <svg height="16" class="octicon octicon-play UnderlineNav-octicon d-none d-sm-inline" class_names="UnderlineNav-octicon" display="none inline" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0zM8 0a8 8 0 100 16A8 8 0 008 0zM6.379 5.227A.25.25 0 006 5.442v5.117a.25.25 0 00.379.214l4.264-2.559a.25.25 0 000-.428L6.379 5.227z"></path></svg>
+
+            <span data-content="Actions">Actions</span>
+              
+</a>      </li>
+      <li class="d-flex">
+        <a class="js-selected-navigation-item UnderlineNav-item hx_underlinenav-item no-wrap js-responsive-underlinenav-item" data-tab-item="projects-tab" data-hotkey="g b" data-ga-click="Repository, Navigation click, Projects tab" data-selected-links="repo_projects new_repo_project repo_project /FortAwesome/Font-Awesome/projects" href="/FortAwesome/Font-Awesome/projects">
+              <svg height="16" class="octicon octicon-project UnderlineNav-octicon d-none d-sm-inline" class_names="UnderlineNav-octicon" display="none inline" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M1.75 0A1.75 1.75 0 000 1.75v12.5C0 15.216.784 16 1.75 16h12.5A1.75 1.75 0 0016 14.25V1.75A1.75 1.75 0 0014.25 0H1.75zM1.5 1.75a.25.25 0 01.25-.25h12.5a.25.25 0 01.25.25v12.5a.25.25 0 01-.25.25H1.75a.25.25 0 01-.25-.25V1.75zM11.75 3a.75.75 0 00-.75.75v7.5a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75zm-8.25.75a.75.75 0 011.5 0v5.5a.75.75 0 01-1.5 0v-5.5zM8 3a.75.75 0 00-.75.75v3.5a.75.75 0 001.5 0v-3.5A.75.75 0 008 3z"></path></svg>
+
+            <span data-content="Projects">Projects</span>
+              
+</a>      </li>
+      <li class="d-flex">
+        <a class="js-selected-navigation-item UnderlineNav-item hx_underlinenav-item no-wrap js-responsive-underlinenav-item" data-tab-item="wiki-tab" data-ga-click="Repository, Navigation click, Wikis tab" data-selected-links="repo_wiki /FortAwesome/Font-Awesome/wiki" href="/FortAwesome/Font-Awesome/wiki">
+              <svg height="16" class="octicon octicon-book UnderlineNav-octicon d-none d-sm-inline" class_names="UnderlineNav-octicon" display="none inline" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M0 1.75A.75.75 0 01.75 1h4.253c1.227 0 2.317.59 3 1.501A3.744 3.744 0 0111.006 1h4.245a.75.75 0 01.75.75v10.5a.75.75 0 01-.75.75h-4.507a2.25 2.25 0 00-1.591.659l-.622.621a.75.75 0 01-1.06 0l-.622-.621A2.25 2.25 0 005.258 13H.75a.75.75 0 01-.75-.75V1.75zm8.755 3a2.25 2.25 0 012.25-2.25H14.5v9h-3.757c-.71 0-1.4.201-1.992.572l.004-7.322zm-1.504 7.324l.004-5.073-.002-2.253A2.25 2.25 0 005.003 2.5H1.5v9h3.757a3.75 3.75 0 011.994.574z"></path></svg>
+
+            <span data-content="Wiki">Wiki</span>
+              
+</a>      </li>
+      <li class="d-flex">
+        <a class="js-selected-navigation-item UnderlineNav-item hx_underlinenav-item no-wrap js-responsive-underlinenav-item" data-tab-item="security-tab" data-hotkey="g s" data-ga-click="Repository, Navigation click, Security tab" data-selected-links="security overview alerts policy token_scanning code_scanning /FortAwesome/Font-Awesome/security" href="/FortAwesome/Font-Awesome/security">
+              <svg height="16" class="octicon octicon-shield UnderlineNav-octicon d-none d-sm-inline" class_names="UnderlineNav-octicon" display="none inline" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.467.133a1.75 1.75 0 011.066 0l5.25 1.68A1.75 1.75 0 0115 3.48V7c0 1.566-.32 3.182-1.303 4.682-.983 1.498-2.585 2.813-5.032 3.855a1.7 1.7 0 01-1.33 0c-2.447-1.042-4.049-2.357-5.032-3.855C1.32 10.182 1 8.566 1 7V3.48a1.75 1.75 0 011.217-1.667l5.25-1.68zm.61 1.429a.25.25 0 00-.153 0l-5.25 1.68a.25.25 0 00-.174.238V7c0 1.358.275 2.666 1.057 3.86.784 1.194 2.121 2.34 4.366 3.297a.2.2 0 00.154 0c2.245-.956 3.582-2.104 4.366-3.298C13.225 9.666 13.5 8.36 13.5 7V3.48a.25.25 0 00-.174-.237l-5.25-1.68zM9 10.5a1 1 0 11-2 0 1 1 0 012 0zm-.25-5.75a.75.75 0 10-1.5 0v3a.75.75 0 001.5 0v-3z"></path></svg>
+
+            <span data-content="Security">Security</span>
+              <span class="Counter js-security-tab-count " data-url="/FortAwesome/Font-Awesome/security/overall-count" hidden="hidden">1</span>
+
+
+</a>      </li>
+      <li class="d-flex">
+        <a class="js-selected-navigation-item UnderlineNav-item hx_underlinenav-item no-wrap js-responsive-underlinenav-item" data-tab-item="insights-tab" data-ga-click="Repository, Navigation click, Insights tab" data-selected-links="repo_graphs repo_contributors dependency_graph dependabot_updates pulse people /FortAwesome/Font-Awesome/pulse" href="/FortAwesome/Font-Awesome/pulse">
+              <svg height="16" class="octicon octicon-graph UnderlineNav-octicon d-none d-sm-inline" class_names="UnderlineNav-octicon" display="none inline" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M1.5 1.75a.75.75 0 00-1.5 0v12.5c0 .414.336.75.75.75h14.5a.75.75 0 000-1.5H1.5V1.75zm14.28 2.53a.75.75 0 00-1.06-1.06L10 7.94 7.53 5.47a.75.75 0 00-1.06 0L3.22 8.72a.75.75 0 001.06 1.06L7 7.06l2.47 2.47a.75.75 0 001.06 0l5.25-5.25z"></path></svg>
+
+            <span data-content="Insights">Insights</span>
+              
+</a>      </li>
+
+</ul>
+        <div class="position-absolute right-0 pr-3 pr-md-4 pr-lg-5 js-responsive-underlinenav-overflow" style="visibility:hidden;">
+      <details class="details-overlay details-reset position-relative">
+  <summary role="button">
+              <div class="UnderlineNav-item mr-0 border-0">
+            <svg class="octicon octicon-kebab-horizontal" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M8 9a1.5 1.5 0 100-3 1.5 1.5 0 000 3zM1.5 9a1.5 1.5 0 100-3 1.5 1.5 0 000 3zm13 0a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"></path></svg>
+            <span class="sr-only">More</span>
+          </div>
+
+</summary>
+            <details-menu class="dropdown-menu dropdown-menu-sw " role="menu">
+  
+            <ul>
+                <li data-menu-item="code-tab" hidden>
+                  <a role="menuitem" class="js-selected-navigation-item dropdown-item" data-selected-links=" /FortAwesome/Font-Awesome" href="/FortAwesome/Font-Awesome">
+                    Code
+</a>                </li>
+                <li data-menu-item="issues-tab" hidden>
+                  <a role="menuitem" class="js-selected-navigation-item dropdown-item" data-selected-links=" /FortAwesome/Font-Awesome/issues" href="/FortAwesome/Font-Awesome/issues">
+                    Issues
+</a>                </li>
+                <li data-menu-item="pull-requests-tab" hidden>
+                  <a role="menuitem" class="js-selected-navigation-item dropdown-item" data-selected-links=" /FortAwesome/Font-Awesome/pulls" href="/FortAwesome/Font-Awesome/pulls">
+                    Pull requests
+</a>                </li>
+                <li data-menu-item="actions-tab" hidden>
+                  <a role="menuitem" class="js-selected-navigation-item dropdown-item" data-selected-links=" /FortAwesome/Font-Awesome/actions" href="/FortAwesome/Font-Awesome/actions">
+                    Actions
+</a>                </li>
+                <li data-menu-item="projects-tab" hidden>
+                  <a role="menuitem" class="js-selected-navigation-item dropdown-item" data-selected-links=" /FortAwesome/Font-Awesome/projects" href="/FortAwesome/Font-Awesome/projects">
+                    Projects
+</a>                </li>
+                <li data-menu-item="wiki-tab" hidden>
+                  <a role="menuitem" class="js-selected-navigation-item dropdown-item" data-selected-links=" /FortAwesome/Font-Awesome/wiki" href="/FortAwesome/Font-Awesome/wiki">
+                    Wiki
+</a>                </li>
+                <li data-menu-item="security-tab" hidden>
+                  <a role="menuitem" class="js-selected-navigation-item dropdown-item" data-selected-links=" /FortAwesome/Font-Awesome/security" href="/FortAwesome/Font-Awesome/security">
+                    Security
+</a>                </li>
+                <li data-menu-item="insights-tab" hidden>
+                  <a role="menuitem" class="js-selected-navigation-item dropdown-item" data-selected-links=" /FortAwesome/Font-Awesome/pulse" href="/FortAwesome/Font-Awesome/pulse">
+                    Insights
+</a>                </li>
+            </ul>
+
+</details-menu>
+
+</details>
+    </div>
+
+</nav>
+
+  </div>
+
+<div class="container-xl clearfix new-discussion-timeline  px-3 px-md-4 px-lg-5">
+  <div class="repository-content ">
+
+    
+    
+
+  
+
+
+    <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/FortAwesome/Font-Awesome/blob/1147d199a35293b391152ee85e2d30988439157f/css/all.min.css">Permalink</a>
+
+    <!-- blob contrib key: blob_contributors:v22:35a7611331ef9cf443fbbffff8f2df1d -->
+    
+
+    <div class="d-flex flex-items-center flex-shrink-0 pb-3 flex-wrap flex-justify-between flex-md-justify-start">
+      
+<details class="details-reset details-overlay mr-0 mb-0 " id="branch-select-menu">
+  <summary class="btn css-truncate"
+           data-hotkey="w"
+           title="Switch branches or tags">
+      <svg height="16" class="octicon octicon-git-branch text-gray" text="gray" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M11.75 2.5a.75.75 0 100 1.5.75.75 0 000-1.5zm-2.25.75a2.25 2.25 0 113 2.122V6A2.5 2.5 0 0110 8.5H6a1 1 0 00-1 1v1.128a2.251 2.251 0 11-1.5 0V5.372a2.25 2.25 0 111.5 0v1.836A2.492 2.492 0 016 7h4a1 1 0 001-1v-.628A2.25 2.25 0 019.5 3.25zM4.25 12a.75.75 0 100 1.5.75.75 0 000-1.5zM3.5 3.25a.75.75 0 111.5 0 .75.75 0 01-1.5 0z"></path></svg>
+
+    <i class="d-none d-lg-inline">Branch:</i>
+    <span class="css-truncate-target" data-menu-button>master</span>
+    <span class="dropdown-caret"></span>
+  </summary>
+
+  <details-menu class="SelectMenu SelectMenu--hasFilter" src="/FortAwesome/Font-Awesome/refs/master/css/all.min.css?source_action=show&amp;source_controller=blob" preload>
+    <div class="SelectMenu-modal">
+      <include-fragment class="SelectMenu-loading" aria-label="Menu is loading">
+        <svg class="octicon octicon-octoface anim-pulse" height="32" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true"><path fill-rule="evenodd" d="M14.7 5.34c.13-.32.55-1.59-.13-3.31 0 0-1.05-.33-3.44 1.3-1-.28-2.07-.32-3.13-.32s-2.13.04-3.13.32c-2.39-1.64-3.44-1.3-3.44-1.3-.68 1.72-.26 2.99-.13 3.31C.49 6.21 0 7.33 0 8.69 0 13.84 3.33 15 7.98 15S16 13.84 16 8.69c0-1.36-.49-2.48-1.3-3.35zM8 14.02c-3.3 0-5.98-.15-5.98-3.35 0-.76.38-1.48 1.02-2.07 1.07-.98 2.9-.46 4.96-.46 2.07 0 3.88-.52 4.96.46.65.59 1.02 1.3 1.02 2.07 0 3.19-2.68 3.35-5.98 3.35zM5.49 9.01c-.66 0-1.2.8-1.2 1.78s.54 1.79 1.2 1.79c.66 0 1.2-.8 1.2-1.79s-.54-1.78-1.2-1.78zm5.02 0c-.66 0-1.2.79-1.2 1.78s.54 1.79 1.2 1.79c.66 0 1.2-.8 1.2-1.79s-.53-1.78-1.2-1.78z"></path></svg>
+      </include-fragment>
+    </div>
+  </details-menu>
+</details>
+
+      <h2 id="blob-path" class="breadcrumb flex-auto min-width-0 text-normal mx-0 mx-md-3 width-full width-md-auto flex-order-1 flex-md-order-none mt-3 mt-md-0">
+        <span class="js-repo-root text-bold"><span class="js-path-segment d-inline-block wb-break-all"><a data-pjax="true" href="/FortAwesome/Font-Awesome"><span>Font-Awesome</span></a></span></span><span class="separator">/</span><span class="js-path-segment d-inline-block wb-break-all"><a data-pjax="true" href="/FortAwesome/Font-Awesome/tree/master/css"><span>css</span></a></span><span class="separator">/</span><strong class="final-path">all.min.css</strong>
+      </h2>
+        <a href="/FortAwesome/Font-Awesome/find/master"
+              class="js-pjax-capture-input btn mr-2 d-none d-md-block"
+              data-pjax
+              data-hotkey="t">
+          Go to file
+        </a>
+
+        <details class="flex-self-end details-overlay details-reset position-relative" id="blob-more-options-details">
+  <summary role="button">
+                <span class="btn">
+              <svg height="16" class="octicon octicon-kebab-horizontal" aria-label="More options" viewBox="0 0 16 16" version="1.1" width="16" role="img"><path d="M8 9a1.5 1.5 0 100-3 1.5 1.5 0 000 3zM1.5 9a1.5 1.5 0 100-3 1.5 1.5 0 000 3zm13 0a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"></path></svg>
+
+            </span>
+
+</summary>
+              <ul class="dropdown-menu dropdown-menu-sw">
+              <li class="d-block d-md-none">
+                <a class="dropdown-item d-flex flex-items-baseline" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FIND_FILE_BUTTON&quot;,&quot;repository_id&quot;:3470471,&quot;originating_url&quot;:&quot;https://github.com/FortAwesome/Font-Awesome/blob/master/css/all.min.css&quot;,&quot;user_id&quot;:56259814}}" data-hydro-click-hmac="30568a7ce11b255ebe2796cf63aed0e1a4c827344ca122e2d915ebcd4f116df8" data-ga-click="Repository, find file, location:repo overview" data-hotkey="t" data-pjax="true" href="/FortAwesome/Font-Awesome/find/master">
+                  <span class="flex-auto">Go to file</span>
+                  <span class="text-small text-gray" aria-hidden="true">T</span>
+</a>              </li>
+              <li data-toggle-for="blob-more-options-details">
+                <button type="button" data-toggle-for="jumpto-line-details-dialog" class="btn-link dropdown-item">
+                  <span class="d-flex flex-items-baseline">
+                    <span class="flex-auto">Go to line</span>
+                    <span class="text-small text-gray" aria-hidden="true">L</span>
+                  </span>
+                </button>
+              </li>
+              <li class="dropdown-divider" role="none"></li>
+              <li>
+                <clipboard-copy value="css/all.min.css" class="dropdown-item cursor-pointer" data-toggle-for="blob-more-options-details">
+                  Copy path
+                </clipboard-copy>
+              </li>
+            </ul>
+
+</details>
+    </div>
+
+
+
+    <div class="Box d-flex flex-column flex-shrink-0 mb-3">
+      
+  <div class="Box-header Box-header--blue Details js-details-container">
+        <div class="d-flex flex-items-center">
+          <span class="flex-shrink-0 ml-n1 mr-n1 mt-n1 mb-n1">
+            <a rel="contributor" data-skip-pjax="true" data-hovercard-type="user" data-hovercard-url="/users/robmadole/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/robmadole"><img class="avatar avatar-user" src="https://avatars1.githubusercontent.com/u/132895?s=48&amp;v=4" width="24" height="24" alt="@robmadole" /></a>
+          </span>
+          <div class="flex-1 d-flex flex-items-center ml-3 min-width-0">
+            <div class="css-truncate css-truncate-overflow">
+              <a class="text-bold link-gray-dark" rel="contributor" data-hovercard-type="user" data-hovercard-url="/users/robmadole/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/robmadole">robmadole</a>
+
+                <span>
+                  <a data-pjax="true" title="Release 5.13.1 (#16810)" class="link-gray" href="/FortAwesome/Font-Awesome/commit/1147d199a35293b391152ee85e2d30988439157f">Release 5.13.1 (</a><a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="641523536" data-permission-text="Title is private" data-url="https://github.com/FortAwesome/Font-Awesome/issues/16810" data-hovercard-type="pull_request" data-hovercard-url="/FortAwesome/Font-Awesome/pull/16810/hovercard" href="https://github.com/FortAwesome/Font-Awesome/pull/16810">#16810</a><a data-pjax="true" title="Release 5.13.1 (#16810)" class="link-gray" href="/FortAwesome/Font-Awesome/commit/1147d199a35293b391152ee85e2d30988439157f">)</a>
+                </span>
+            </div>
+
+
+            <span class="ml-2">
+              <include-fragment accept="text/fragment+html" src="/FortAwesome/Font-Awesome/commit/1147d199a35293b391152ee85e2d30988439157f/rollup?direction=e" class="d-inline"></include-fragment>
+            </span>
+          </div>
+          <div class="ml-3 d-flex flex-shrink-0 flex-items-center flex-justify-end text-gray no-wrap">
+            <span class="d-none d-md-inline">
+              <span>Latest commit</span>
+              <a class="text-small text-mono link-gray" href="/FortAwesome/Font-Awesome/commit/1147d199a35293b391152ee85e2d30988439157f" data-pjax>1147d19</a>
+              <span itemprop="dateModified"><relative-time datetime="2020-06-18T20:53:17Z" class="no-wrap">Jun 18, 2020</relative-time></span>
+            </span>
+
+            <a data-pjax href="/FortAwesome/Font-Awesome/commits/master/css/all.min.css" class="ml-3 no-wrap link-gray-dark no-underline">
+              <svg height="16" class="octicon octicon-history text-gray" text="gray" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M1.643 3.143L.427 1.927A.25.25 0 000 2.104V5.75c0 .138.112.25.25.25h3.646a.25.25 0 00.177-.427L2.715 4.215a6.5 6.5 0 11-1.18 4.458.75.75 0 10-1.493.154 8.001 8.001 0 101.6-5.684zM7.75 4a.75.75 0 01.75.75v2.992l2.028.812a.75.75 0 01-.557 1.392l-2.5-1A.75.75 0 017 8.25v-3.5A.75.75 0 017.75 4z"></path></svg>
+
+              <span class="d-none d-sm-inline">
+                <strong>History</strong>
+              </span>
+            </a>
+          </div>
+        </div>
+  </div>
+
+  <div class="Box-body d-flex flex-items-center flex-auto border-bottom-0 flex-wrap" >
+    <details class="details-reset details-overlay details-overlay-dark lh-default text-gray-dark float-left mr-3" id="blob_contributors_box">
+      <summary class="link-gray-dark">
+          <svg height="16" class="octicon octicon-people text-gray" text="gray" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M5.5 3.5a2 2 0 100 4 2 2 0 000-4zM2 5.5a3.5 3.5 0 115.898 2.549 5.507 5.507 0 013.034 4.084.75.75 0 11-1.482.235 4.001 4.001 0 00-7.9 0 .75.75 0 01-1.482-.236A5.507 5.507 0 013.102 8.05 3.49 3.49 0 012 5.5zM11 4a.75.75 0 100 1.5 1.5 1.5 0 01.666 2.844.75.75 0 00-.416.672v.352a.75.75 0 00.574.73c1.2.289 2.162 1.2 2.522 2.372a.75.75 0 101.434-.44 5.01 5.01 0 00-2.56-3.012A3 3 0 0011 4z"></path></svg>
+
+          <strong>1</strong>
+          
+          contributor
+      </summary>
+      <details-dialog
+        class="Box Box--overlay d-flex flex-column anim-fade-in fast"
+        aria-label="Users who have contributed to this file"
+        src="/FortAwesome/Font-Awesome/contributors-list/master/css/all.min.css" preload>
+        <div class="Box-header">
+          <button class="Box-btn-octicon btn-octicon float-right" type="button" aria-label="Close dialog" data-close-dialog>
+            <svg class="octicon octicon-x" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M3.72 3.72a.75.75 0 011.06 0L8 6.94l3.22-3.22a.75.75 0 111.06 1.06L9.06 8l3.22 3.22a.75.75 0 11-1.06 1.06L8 9.06l-3.22 3.22a.75.75 0 01-1.06-1.06L6.94 8 3.72 4.78a.75.75 0 010-1.06z"></path></svg>
+          </button>
+          <h3 class="Box-title">
+            Users who have contributed to this file
+          </h3>
+        </div>
+        <include-fragment class="octocat-spinner my-3" aria-label="Loading..."></include-fragment>
+      </details-dialog>
+    </details>
+  </div>
+    </div>
+
+
+
+
+
+
+    <div class="Box mt-3 position-relative
+      ">
+      
+<div class="Box-header py-2 d-flex flex-column flex-shrink-0 flex-md-row flex-md-items-center">
+  <div class="text-mono f6 flex-auto pr-3 flex-order-2 flex-md-order-1 mt-2 mt-md-0">
+
+      5 lines (5 sloc)
+      <span class="file-info-divider"></span>
+    57.6 KB
+  </div>
+
+  <div class="d-flex py-1 py-md-0 flex-auto flex-order-1 flex-md-order-2 flex-sm-grow-0 flex-justify-between">
+
+    <div class="BtnGroup">
+      <a id="raw-url" class="btn btn-sm BtnGroup-item" href="/FortAwesome/Font-Awesome/raw/master/css/all.min.css">Raw</a>
+        <a class="btn btn-sm js-update-url-with-hash BtnGroup-item" data-hotkey="b" href="/FortAwesome/Font-Awesome/blame/master/css/all.min.css">Blame</a>
+    </div>
+
+
+    <div>
+          <a class="btn-octicon tooltipped tooltipped-nw js-remove-unless-platform"
+             data-platforms="windows,mac"
+             href="x-github-client://openRepo/https://github.com/FortAwesome/Font-Awesome?branch=master&amp;filepath=css%2Fall.min.css"
+             aria-label="Open this file in GitHub Desktop"
+             data-ga-click="Repository, open with desktop">
+              <svg class="octicon octicon-device-desktop" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M1.75 2.5h12.5a.25.25 0 01.25.25v7.5a.25.25 0 01-.25.25H1.75a.25.25 0 01-.25-.25v-7.5a.25.25 0 01.25-.25zM14.25 1H1.75A1.75 1.75 0 000 2.75v7.5C0 11.216.784 12 1.75 12h3.727c-.1 1.041-.52 1.872-1.292 2.757A.75.75 0 004.75 16h6.5a.75.75 0 00.565-1.243c-.772-.885-1.193-1.716-1.292-2.757h3.727A1.75 1.75 0 0016 10.25v-7.5A1.75 1.75 0 0014.25 1zM9.018 12H6.982a5.72 5.72 0 01-.765 2.5h3.566a5.72 5.72 0 01-.765-2.5z"></path></svg>
+          </a>
+
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form js-update-url-with-hash" action="/FortAwesome/Font-Awesome/edit/master/css/all.min.css" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="G7GwdMxxp9lyxMSq1XGeAwU8vLgnehC9Xkk9JLJnKdei8WkfPWWbuog9W+IWQZKkPPW2x6dtreWn5/ULNVp/ow==" />
+            <button class="btn-octicon tooltipped tooltipped-nw" type="submit"
+              aria-label="Fork this project and edit the file" data-hotkey="e" data-disable-with>
+              <svg class="octicon octicon-pencil" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11.013 1.427a1.75 1.75 0 012.474 0l1.086 1.086a1.75 1.75 0 010 2.474l-8.61 8.61c-.21.21-.47.364-.756.445l-3.251.93a.75.75 0 01-.927-.928l.929-3.25a1.75 1.75 0 01.445-.758l8.61-8.61zm1.414 1.06a.25.25 0 00-.354 0L10.811 3.75l1.439 1.44 1.263-1.263a.25.25 0 000-.354l-1.086-1.086zM11.189 6.25L9.75 4.81l-6.286 6.287a.25.25 0 00-.064.108l-.558 1.953 1.953-.558a.249.249 0 00.108-.064l6.286-6.286z"></path></svg>
+            </button>
+</form>
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form" action="/FortAwesome/Font-Awesome/delete/master/css/all.min.css" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="Dfvc29Sc+Nc/YH20ZOo7IlJs61PdsPR1o6pNCbUgmpQfPPVl88tsVmtyo/bngmpsRyGJqJ2nU553oYttJm1Y/w==" />
+            <button class="btn-octicon btn-octicon-danger tooltipped tooltipped-nw" type="submit"
+              aria-label="Fork this project and delete the file" data-disable-with>
+              <svg class="octicon octicon-trashcan" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6.5 1.75a.25.25 0 01.25-.25h2.5a.25.25 0 01.25.25V3h-3V1.75zm4.5 0V3h2.25a.75.75 0 010 1.5H2.75a.75.75 0 010-1.5H5V1.75C5 .784 5.784 0 6.75 0h2.5C10.216 0 11 .784 11 1.75zM4.496 6.675a.75.75 0 10-1.492.15l.66 6.6A1.75 1.75 0 005.405 15h5.19c.9 0 1.652-.681 1.741-1.576l.66-6.6a.75.75 0 00-1.492-.149l-.66 6.6a.25.25 0 01-.249.225h-5.19a.25.25 0 01-.249-.225l-.66-6.6z"></path></svg>
+            </button>
+</form>    </div>
+  </div>
+</div>
+
+
+
+      
+
+  <div itemprop="text" class="Box-body p-0 blob-wrapper data type-css ">
+      
+<table class="highlight tab-size js-file-line-container" data-tab-size="8" data-paste-markdown-skip>
+      <tr>
+        <td id="L1" class="blob-num js-line-number" data-line-number="1"></td>
+        <td id="LC1" class="blob-code blob-code-inner js-file-line">/*!</td>
+      </tr>
+      <tr>
+        <td id="L2" class="blob-num js-line-number" data-line-number="2"></td>
+        <td id="LC2" class="blob-code blob-code-inner js-file-line"> * Font Awesome Free 5.13.1 by @fontawesome - https://fontawesome.com</td>
+      </tr>
+      <tr>
+        <td id="L3" class="blob-num js-line-number" data-line-number="3"></td>
+        <td id="LC3" class="blob-code blob-code-inner js-file-line"> * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)</td>
+      </tr>
+      <tr>
+        <td id="L4" class="blob-num js-line-number" data-line-number="4"></td>
+        <td id="LC4" class="blob-code blob-code-inner js-file-line"> */</td>
+      </tr>
+      <tr>
+        <td id="L5" class="blob-num js-line-number" data-line-number="5"></td>
+        <td id="LC5" class="blob-code blob-code-inner js-file-line">.fa,.fab,.fad,.fal,.far,.fas{-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;display:inline-block;font-style:normal;font-variant:normal;text-rendering:auto;line-height:1}.fa-lg{font-size:1.33333em;line-height:.75em;vertical-align:-.0667em}.fa-xs{font-size:.75em}.fa-sm{font-size:.875em}.fa-1x{font-size:1em}.fa-2x{font-size:2em}.fa-3x{font-size:3em}.fa-4x{font-size:4em}.fa-5x{font-size:5em}.fa-6x{font-size:6em}.fa-7x{font-size:7em}.fa-8x{font-size:8em}.fa-9x{font-size:9em}.fa-10x{font-size:10em}.fa-fw{text-align:center;width:1.25em}.fa-ul{list-style-type:none;margin-left:2.5em;padding-left:0}.fa-ul&gt;li{position:relative}.fa-li{left:-2em;position:absolute;text-align:center;width:2em;line-height:inherit}.fa-border{border:.08em solid #eee;border-radius:.1em;padding:.2em .25em .15em}.fa-pull-left{float:left}.fa-pull-right{float:right}.fa.fa-pull-left,.fab.fa-pull-left,.fal.fa-pull-left,.far.fa-pull-left,.fas.fa-pull-left{margin-right:.3em}.fa.fa-pull-right,.fab.fa-pull-right,.fal.fa-pull-right,.far.fa-pull-right,.fas.fa-pull-right{margin-left:.3em}.fa-spin{-webkit-animation:fa-spin 2s linear infinite;animation:fa-spin 2s linear infinite}.fa-pulse{-webkit-animation:fa-spin 1s steps(8) infinite;animation:fa-spin 1s steps(8) infinite}@-webkit-keyframes fa-spin{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}to{-webkit-transform:rotate(1turn);transform:rotate(1turn)}}@keyframes fa-spin{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}to{-webkit-transform:rotate(1turn);transform:rotate(1turn)}}.fa-rotate-90{-ms-filter:&quot;progid:DXImageTransform.Microsoft.BasicImage(rotation=1)&quot;;-webkit-transform:rotate(90deg);transform:rotate(90deg)}.fa-rotate-180{-ms-filter:&quot;progid:DXImageTransform.Microsoft.BasicImage(rotation=2)&quot;;-webkit-transform:rotate(180deg);transform:rotate(180deg)}.fa-rotate-270{-ms-filter:&quot;progid:DXImageTransform.Microsoft.BasicImage(rotation=3)&quot;;-webkit-transform:rotate(270deg);transform:rotate(270deg)}.fa-flip-horizontal{-ms-filter:&quot;progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1)&quot;;-webkit-transform:scaleX(-1);transform:scaleX(-1)}.fa-flip-vertical{-webkit-transform:scaleY(-1);transform:scaleY(-1)}.fa-flip-both,.fa-flip-horizontal.fa-flip-vertical,.fa-flip-vertical{-ms-filter:&quot;progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)&quot;}.fa-flip-both,.fa-flip-horizontal.fa-flip-vertical{-webkit-transform:scale(-1);transform:scale(-1)}:root .fa-flip-both,:root .fa-flip-horizontal,:root .fa-flip-vertical,:root .fa-rotate-90,:root .fa-rotate-180,:root .fa-rotate-270{-webkit-filter:none;filter:none}.fa-stack{display:inline-block;height:2em;line-height:2em;position:relative;vertical-align:middle;width:2.5em}.fa-stack-1x,.fa-stack-2x{left:0;position:absolute;text-align:center;width:100%}.fa-stack-1x{line-height:inherit}.fa-stack-2x{font-size:2em}.fa-inverse{color:#fff}.fa-500px:before{content:&quot;\f26e&quot;}.fa-accessible-icon:before{content:&quot;\f368&quot;}.fa-accusoft:before{content:&quot;\f369&quot;}.fa-acquisitions-incorporated:before{content:&quot;\f6af&quot;}.fa-ad:before{content:&quot;\f641&quot;}.fa-address-book:before{content:&quot;\f2b9&quot;}.fa-address-card:before{content:&quot;\f2bb&quot;}.fa-adjust:before{content:&quot;\f042&quot;}.fa-adn:before{content:&quot;\f170&quot;}.fa-adobe:before{content:&quot;\f778&quot;}.fa-adversal:before{content:&quot;\f36a&quot;}.fa-affiliatetheme:before{content:&quot;\f36b&quot;}.fa-air-freshener:before{content:&quot;\f5d0&quot;}.fa-airbnb:before{content:&quot;\f834&quot;}.fa-algolia:before{content:&quot;\f36c&quot;}.fa-align-center:before{content:&quot;\f037&quot;}.fa-align-justify:before{content:&quot;\f039&quot;}.fa-align-left:before{content:&quot;\f036&quot;}.fa-align-right:before{content:&quot;\f038&quot;}.fa-alipay:before{content:&quot;\f642&quot;}.fa-allergies:before{content:&quot;\f461&quot;}.fa-amazon:before{content:&quot;\f270&quot;}.fa-amazon-pay:before{content:&quot;\f42c&quot;}.fa-ambulance:before{content:&quot;\f0f9&quot;}.fa-american-sign-language-interpreting:before{content:&quot;\f2a3&quot;}.fa-amilia:before{content:&quot;\f36d&quot;}.fa-anchor:before{content:&quot;\f13d&quot;}.fa-android:before{content:&quot;\f17b&quot;}.fa-angellist:before{content:&quot;\f209&quot;}.fa-angle-double-down:before{content:&quot;\f103&quot;}.fa-angle-double-left:before{content:&quot;\f100&quot;}.fa-angle-double-right:before{content:&quot;\f101&quot;}.fa-angle-double-up:before{content:&quot;\f102&quot;}.fa-angle-down:before{content:&quot;\f107&quot;}.fa-angle-left:before{content:&quot;\f104&quot;}.fa-angle-right:before{content:&quot;\f105&quot;}.fa-angle-up:before{content:&quot;\f106&quot;}.fa-angry:before{content:&quot;\f556&quot;}.fa-angrycreative:before{content:&quot;\f36e&quot;}.fa-angular:before{content:&quot;\f420&quot;}.fa-ankh:before{content:&quot;\f644&quot;}.fa-app-store:before{content:&quot;\f36f&quot;}.fa-app-store-ios:before{content:&quot;\f370&quot;}.fa-apper:before{content:&quot;\f371&quot;}.fa-apple:before{content:&quot;\f179&quot;}.fa-apple-alt:before{content:&quot;\f5d1&quot;}.fa-apple-pay:before{content:&quot;\f415&quot;}.fa-archive:before{content:&quot;\f187&quot;}.fa-archway:before{content:&quot;\f557&quot;}.fa-arrow-alt-circle-down:before{content:&quot;\f358&quot;}.fa-arrow-alt-circle-left:before{content:&quot;\f359&quot;}.fa-arrow-alt-circle-right:before{content:&quot;\f35a&quot;}.fa-arrow-alt-circle-up:before{content:&quot;\f35b&quot;}.fa-arrow-circle-down:before{content:&quot;\f0ab&quot;}.fa-arrow-circle-left:before{content:&quot;\f0a8&quot;}.fa-arrow-circle-right:before{content:&quot;\f0a9&quot;}.fa-arrow-circle-up:before{content:&quot;\f0aa&quot;}.fa-arrow-down:before{content:&quot;\f063&quot;}.fa-arrow-left:before{content:&quot;\f060&quot;}.fa-arrow-right:before{content:&quot;\f061&quot;}.fa-arrow-up:before{content:&quot;\f062&quot;}.fa-arrows-alt:before{content:&quot;\f0b2&quot;}.fa-arrows-alt-h:before{content:&quot;\f337&quot;}.fa-arrows-alt-v:before{content:&quot;\f338&quot;}.fa-artstation:before{content:&quot;\f77a&quot;}.fa-assistive-listening-systems:before{content:&quot;\f2a2&quot;}.fa-asterisk:before{content:&quot;\f069&quot;}.fa-asymmetrik:before{content:&quot;\f372&quot;}.fa-at:before{content:&quot;\f1fa&quot;}.fa-atlas:before{content:&quot;\f558&quot;}.fa-atlassian:before{content:&quot;\f77b&quot;}.fa-atom:before{content:&quot;\f5d2&quot;}.fa-audible:before{content:&quot;\f373&quot;}.fa-audio-description:before{content:&quot;\f29e&quot;}.fa-autoprefixer:before{content:&quot;\f41c&quot;}.fa-avianex:before{content:&quot;\f374&quot;}.fa-aviato:before{content:&quot;\f421&quot;}.fa-award:before{content:&quot;\f559&quot;}.fa-aws:before{content:&quot;\f375&quot;}.fa-baby:before{content:&quot;\f77c&quot;}.fa-baby-carriage:before{content:&quot;\f77d&quot;}.fa-backspace:before{content:&quot;\f55a&quot;}.fa-backward:before{content:&quot;\f04a&quot;}.fa-bacon:before{content:&quot;\f7e5&quot;}.fa-bacteria:before{content:&quot;\f959&quot;}.fa-bacterium:before{content:&quot;\f95a&quot;}.fa-bahai:before{content:&quot;\f666&quot;}.fa-balance-scale:before{content:&quot;\f24e&quot;}.fa-balance-scale-left:before{content:&quot;\f515&quot;}.fa-balance-scale-right:before{content:&quot;\f516&quot;}.fa-ban:before{content:&quot;\f05e&quot;}.fa-band-aid:before{content:&quot;\f462&quot;}.fa-bandcamp:before{content:&quot;\f2d5&quot;}.fa-barcode:before{content:&quot;\f02a&quot;}.fa-bars:before{content:&quot;\f0c9&quot;}.fa-baseball-ball:before{content:&quot;\f433&quot;}.fa-basketball-ball:before{content:&quot;\f434&quot;}.fa-bath:before{content:&quot;\f2cd&quot;}.fa-battery-empty:before{content:&quot;\f244&quot;}.fa-battery-full:before{content:&quot;\f240&quot;}.fa-battery-half:before{content:&quot;\f242&quot;}.fa-battery-quarter:before{content:&quot;\f243&quot;}.fa-battery-three-quarters:before{content:&quot;\f241&quot;}.fa-battle-net:before{content:&quot;\f835&quot;}.fa-bed:before{content:&quot;\f236&quot;}.fa-beer:before{content:&quot;\f0fc&quot;}.fa-behance:before{content:&quot;\f1b4&quot;}.fa-behance-square:before{content:&quot;\f1b5&quot;}.fa-bell:before{content:&quot;\f0f3&quot;}.fa-bell-slash:before{content:&quot;\f1f6&quot;}.fa-bezier-curve:before{content:&quot;\f55b&quot;}.fa-bible:before{content:&quot;\f647&quot;}.fa-bicycle:before{content:&quot;\f206&quot;}.fa-biking:before{content:&quot;\f84a&quot;}.fa-bimobject:before{content:&quot;\f378&quot;}.fa-binoculars:before{content:&quot;\f1e5&quot;}.fa-biohazard:before{content:&quot;\f780&quot;}.fa-birthday-cake:before{content:&quot;\f1fd&quot;}.fa-bitbucket:before{content:&quot;\f171&quot;}.fa-bitcoin:before{content:&quot;\f379&quot;}.fa-bity:before{content:&quot;\f37a&quot;}.fa-black-tie:before{content:&quot;\f27e&quot;}.fa-blackberry:before{content:&quot;\f37b&quot;}.fa-blender:before{content:&quot;\f517&quot;}.fa-blender-phone:before{content:&quot;\f6b6&quot;}.fa-blind:before{content:&quot;\f29d&quot;}.fa-blog:before{content:&quot;\f781&quot;}.fa-blogger:before{content:&quot;\f37c&quot;}.fa-blogger-b:before{content:&quot;\f37d&quot;}.fa-bluetooth:before{content:&quot;\f293&quot;}.fa-bluetooth-b:before{content:&quot;\f294&quot;}.fa-bold:before{content:&quot;\f032&quot;}.fa-bolt:before{content:&quot;\f0e7&quot;}.fa-bomb:before{content:&quot;\f1e2&quot;}.fa-bone:before{content:&quot;\f5d7&quot;}.fa-bong:before{content:&quot;\f55c&quot;}.fa-book:before{content:&quot;\f02d&quot;}.fa-book-dead:before{content:&quot;\f6b7&quot;}.fa-book-medical:before{content:&quot;\f7e6&quot;}.fa-book-open:before{content:&quot;\f518&quot;}.fa-book-reader:before{content:&quot;\f5da&quot;}.fa-bookmark:before{content:&quot;\f02e&quot;}.fa-bootstrap:before{content:&quot;\f836&quot;}.fa-border-all:before{content:&quot;\f84c&quot;}.fa-border-none:before{content:&quot;\f850&quot;}.fa-border-style:before{content:&quot;\f853&quot;}.fa-bowling-ball:before{content:&quot;\f436&quot;}.fa-box:before{content:&quot;\f466&quot;}.fa-box-open:before{content:&quot;\f49e&quot;}.fa-box-tissue:before{content:&quot;\f95b&quot;}.fa-boxes:before{content:&quot;\f468&quot;}.fa-braille:before{content:&quot;\f2a1&quot;}.fa-brain:before{content:&quot;\f5dc&quot;}.fa-bread-slice:before{content:&quot;\f7ec&quot;}.fa-briefcase:before{content:&quot;\f0b1&quot;}.fa-briefcase-medical:before{content:&quot;\f469&quot;}.fa-broadcast-tower:before{content:&quot;\f519&quot;}.fa-broom:before{content:&quot;\f51a&quot;}.fa-brush:before{content:&quot;\f55d&quot;}.fa-btc:before{content:&quot;\f15a&quot;}.fa-buffer:before{content:&quot;\f837&quot;}.fa-bug:before{content:&quot;\f188&quot;}.fa-building:before{content:&quot;\f1ad&quot;}.fa-bullhorn:before{content:&quot;\f0a1&quot;}.fa-bullseye:before{content:&quot;\f140&quot;}.fa-burn:before{content:&quot;\f46a&quot;}.fa-buromobelexperte:before{content:&quot;\f37f&quot;}.fa-bus:before{content:&quot;\f207&quot;}.fa-bus-alt:before{content:&quot;\f55e&quot;}.fa-business-time:before{content:&quot;\f64a&quot;}.fa-buy-n-large:before{content:&quot;\f8a6&quot;}.fa-buysellads:before{content:&quot;\f20d&quot;}.fa-calculator:before{content:&quot;\f1ec&quot;}.fa-calendar:before{content:&quot;\f133&quot;}.fa-calendar-alt:before{content:&quot;\f073&quot;}.fa-calendar-check:before{content:&quot;\f274&quot;}.fa-calendar-day:before{content:&quot;\f783&quot;}.fa-calendar-minus:before{content:&quot;\f272&quot;}.fa-calendar-plus:before{content:&quot;\f271&quot;}.fa-calendar-times:before{content:&quot;\f273&quot;}.fa-calendar-week:before{content:&quot;\f784&quot;}.fa-camera:before{content:&quot;\f030&quot;}.fa-camera-retro:before{content:&quot;\f083&quot;}.fa-campground:before{content:&quot;\f6bb&quot;}.fa-canadian-maple-leaf:before{content:&quot;\f785&quot;}.fa-candy-cane:before{content:&quot;\f786&quot;}.fa-cannabis:before{content:&quot;\f55f&quot;}.fa-capsules:before{content:&quot;\f46b&quot;}.fa-car:before{content:&quot;\f1b9&quot;}.fa-car-alt:before{content:&quot;\f5de&quot;}.fa-car-battery:before{content:&quot;\f5df&quot;}.fa-car-crash:before{content:&quot;\f5e1&quot;}.fa-car-side:before{content:&quot;\f5e4&quot;}.fa-caravan:before{content:&quot;\f8ff&quot;}.fa-caret-down:before{content:&quot;\f0d7&quot;}.fa-caret-left:before{content:&quot;\f0d9&quot;}.fa-caret-right:before{content:&quot;\f0da&quot;}.fa-caret-square-down:before{content:&quot;\f150&quot;}.fa-caret-square-left:before{content:&quot;\f191&quot;}.fa-caret-square-right:before{content:&quot;\f152&quot;}.fa-caret-square-up:before{content:&quot;\f151&quot;}.fa-caret-up:before{content:&quot;\f0d8&quot;}.fa-carrot:before{content:&quot;\f787&quot;}.fa-cart-arrow-down:before{content:&quot;\f218&quot;}.fa-cart-plus:before{content:&quot;\f217&quot;}.fa-cash-register:before{content:&quot;\f788&quot;}.fa-cat:before{content:&quot;\f6be&quot;}.fa-cc-amazon-pay:before{content:&quot;\f42d&quot;}.fa-cc-amex:before{content:&quot;\f1f3&quot;}.fa-cc-apple-pay:before{content:&quot;\f416&quot;}.fa-cc-diners-club:before{content:&quot;\f24c&quot;}.fa-cc-discover:before{content:&quot;\f1f2&quot;}.fa-cc-jcb:before{content:&quot;\f24b&quot;}.fa-cc-mastercard:before{content:&quot;\f1f1&quot;}.fa-cc-paypal:before{content:&quot;\f1f4&quot;}.fa-cc-stripe:before{content:&quot;\f1f5&quot;}.fa-cc-visa:before{content:&quot;\f1f0&quot;}.fa-centercode:before{content:&quot;\f380&quot;}.fa-centos:before{content:&quot;\f789&quot;}.fa-certificate:before{content:&quot;\f0a3&quot;}.fa-chair:before{content:&quot;\f6c0&quot;}.fa-chalkboard:before{content:&quot;\f51b&quot;}.fa-chalkboard-teacher:before{content:&quot;\f51c&quot;}.fa-charging-station:before{content:&quot;\f5e7&quot;}.fa-chart-area:before{content:&quot;\f1fe&quot;}.fa-chart-bar:before{content:&quot;\f080&quot;}.fa-chart-line:before{content:&quot;\f201&quot;}.fa-chart-pie:before{content:&quot;\f200&quot;}.fa-check:before{content:&quot;\f00c&quot;}.fa-check-circle:before{content:&quot;\f058&quot;}.fa-check-double:before{content:&quot;\f560&quot;}.fa-check-square:before{content:&quot;\f14a&quot;}.fa-cheese:before{content:&quot;\f7ef&quot;}.fa-chess:before{content:&quot;\f439&quot;}.fa-chess-bishop:before{content:&quot;\f43a&quot;}.fa-chess-board:before{content:&quot;\f43c&quot;}.fa-chess-king:before{content:&quot;\f43f&quot;}.fa-chess-knight:before{content:&quot;\f441&quot;}.fa-chess-pawn:before{content:&quot;\f443&quot;}.fa-chess-queen:before{content:&quot;\f445&quot;}.fa-chess-rook:before{content:&quot;\f447&quot;}.fa-chevron-circle-down:before{content:&quot;\f13a&quot;}.fa-chevron-circle-left:before{content:&quot;\f137&quot;}.fa-chevron-circle-right:before{content:&quot;\f138&quot;}.fa-chevron-circle-up:before{content:&quot;\f139&quot;}.fa-chevron-down:before{content:&quot;\f078&quot;}.fa-chevron-left:before{content:&quot;\f053&quot;}.fa-chevron-right:before{content:&quot;\f054&quot;}.fa-chevron-up:before{content:&quot;\f077&quot;}.fa-child:before{content:&quot;\f1ae&quot;}.fa-chrome:before{content:&quot;\f268&quot;}.fa-chromecast:before{content:&quot;\f838&quot;}.fa-church:before{content:&quot;\f51d&quot;}.fa-circle:before{content:&quot;\f111&quot;}.fa-circle-notch:before{content:&quot;\f1ce&quot;}.fa-city:before{content:&quot;\f64f&quot;}.fa-clinic-medical:before{content:&quot;\f7f2&quot;}.fa-clipboard:before{content:&quot;\f328&quot;}.fa-clipboard-check:before{content:&quot;\f46c&quot;}.fa-clipboard-list:before{content:&quot;\f46d&quot;}.fa-clock:before{content:&quot;\f017&quot;}.fa-clone:before{content:&quot;\f24d&quot;}.fa-closed-captioning:before{content:&quot;\f20a&quot;}.fa-cloud:before{content:&quot;\f0c2&quot;}.fa-cloud-download-alt:before{content:&quot;\f381&quot;}.fa-cloud-meatball:before{content:&quot;\f73b&quot;}.fa-cloud-moon:before{content:&quot;\f6c3&quot;}.fa-cloud-moon-rain:before{content:&quot;\f73c&quot;}.fa-cloud-rain:before{content:&quot;\f73d&quot;}.fa-cloud-showers-heavy:before{content:&quot;\f740&quot;}.fa-cloud-sun:before{content:&quot;\f6c4&quot;}.fa-cloud-sun-rain:before{content:&quot;\f743&quot;}.fa-cloud-upload-alt:before{content:&quot;\f382&quot;}.fa-cloudscale:before{content:&quot;\f383&quot;}.fa-cloudsmith:before{content:&quot;\f384&quot;}.fa-cloudversify:before{content:&quot;\f385&quot;}.fa-cocktail:before{content:&quot;\f561&quot;}.fa-code:before{content:&quot;\f121&quot;}.fa-code-branch:before{content:&quot;\f126&quot;}.fa-codepen:before{content:&quot;\f1cb&quot;}.fa-codiepie:before{content:&quot;\f284&quot;}.fa-coffee:before{content:&quot;\f0f4&quot;}.fa-cog:before{content:&quot;\f013&quot;}.fa-cogs:before{content:&quot;\f085&quot;}.fa-coins:before{content:&quot;\f51e&quot;}.fa-columns:before{content:&quot;\f0db&quot;}.fa-comment:before{content:&quot;\f075&quot;}.fa-comment-alt:before{content:&quot;\f27a&quot;}.fa-comment-dollar:before{content:&quot;\f651&quot;}.fa-comment-dots:before{content:&quot;\f4ad&quot;}.fa-comment-medical:before{content:&quot;\f7f5&quot;}.fa-comment-slash:before{content:&quot;\f4b3&quot;}.fa-comments:before{content:&quot;\f086&quot;}.fa-comments-dollar:before{content:&quot;\f653&quot;}.fa-compact-disc:before{content:&quot;\f51f&quot;}.fa-compass:before{content:&quot;\f14e&quot;}.fa-compress:before{content:&quot;\f066&quot;}.fa-compress-alt:before{content:&quot;\f422&quot;}.fa-compress-arrows-alt:before{content:&quot;\f78c&quot;}.fa-concierge-bell:before{content:&quot;\f562&quot;}.fa-confluence:before{content:&quot;\f78d&quot;}.fa-connectdevelop:before{content:&quot;\f20e&quot;}.fa-contao:before{content:&quot;\f26d&quot;}.fa-cookie:before{content:&quot;\f563&quot;}.fa-cookie-bite:before{content:&quot;\f564&quot;}.fa-copy:before{content:&quot;\f0c5&quot;}.fa-copyright:before{content:&quot;\f1f9&quot;}.fa-cotton-bureau:before{content:&quot;\f89e&quot;}.fa-couch:before{content:&quot;\f4b8&quot;}.fa-cpanel:before{content:&quot;\f388&quot;}.fa-creative-commons:before{content:&quot;\f25e&quot;}.fa-creative-commons-by:before{content:&quot;\f4e7&quot;}.fa-creative-commons-nc:before{content:&quot;\f4e8&quot;}.fa-creative-commons-nc-eu:before{content:&quot;\f4e9&quot;}.fa-creative-commons-nc-jp:before{content:&quot;\f4ea&quot;}.fa-creative-commons-nd:before{content:&quot;\f4eb&quot;}.fa-creative-commons-pd:before{content:&quot;\f4ec&quot;}.fa-creative-commons-pd-alt:before{content:&quot;\f4ed&quot;}.fa-creative-commons-remix:before{content:&quot;\f4ee&quot;}.fa-creative-commons-sa:before{content:&quot;\f4ef&quot;}.fa-creative-commons-sampling:before{content:&quot;\f4f0&quot;}.fa-creative-commons-sampling-plus:before{content:&quot;\f4f1&quot;}.fa-creative-commons-share:before{content:&quot;\f4f2&quot;}.fa-creative-commons-zero:before{content:&quot;\f4f3&quot;}.fa-credit-card:before{content:&quot;\f09d&quot;}.fa-critical-role:before{content:&quot;\f6c9&quot;}.fa-crop:before{content:&quot;\f125&quot;}.fa-crop-alt:before{content:&quot;\f565&quot;}.fa-cross:before{content:&quot;\f654&quot;}.fa-crosshairs:before{content:&quot;\f05b&quot;}.fa-crow:before{content:&quot;\f520&quot;}.fa-crown:before{content:&quot;\f521&quot;}.fa-crutch:before{content:&quot;\f7f7&quot;}.fa-css3:before{content:&quot;\f13c&quot;}.fa-css3-alt:before{content:&quot;\f38b&quot;}.fa-cube:before{content:&quot;\f1b2&quot;}.fa-cubes:before{content:&quot;\f1b3&quot;}.fa-cut:before{content:&quot;\f0c4&quot;}.fa-cuttlefish:before{content:&quot;\f38c&quot;}.fa-d-and-d:before{content:&quot;\f38d&quot;}.fa-d-and-d-beyond:before{content:&quot;\f6ca&quot;}.fa-dailymotion:before{content:&quot;\f952&quot;}.fa-dashcube:before{content:&quot;\f210&quot;}.fa-database:before{content:&quot;\f1c0&quot;}.fa-deaf:before{content:&quot;\f2a4&quot;}.fa-deezer:before{content:&quot;\f977&quot;}.fa-delicious:before{content:&quot;\f1a5&quot;}.fa-democrat:before{content:&quot;\f747&quot;}.fa-deploydog:before{content:&quot;\f38e&quot;}.fa-deskpro:before{content:&quot;\f38f&quot;}.fa-desktop:before{content:&quot;\f108&quot;}.fa-dev:before{content:&quot;\f6cc&quot;}.fa-deviantart:before{content:&quot;\f1bd&quot;}.fa-dharmachakra:before{content:&quot;\f655&quot;}.fa-dhl:before{content:&quot;\f790&quot;}.fa-diagnoses:before{content:&quot;\f470&quot;}.fa-diaspora:before{content:&quot;\f791&quot;}.fa-dice:before{content:&quot;\f522&quot;}.fa-dice-d20:before{content:&quot;\f6cf&quot;}.fa-dice-d6:before{content:&quot;\f6d1&quot;}.fa-dice-five:before{content:&quot;\f523&quot;}.fa-dice-four:before{content:&quot;\f524&quot;}.fa-dice-one:before{content:&quot;\f525&quot;}.fa-dice-six:before{content:&quot;\f526&quot;}.fa-dice-three:before{content:&quot;\f527&quot;}.fa-dice-two:before{content:&quot;\f528&quot;}.fa-digg:before{content:&quot;\f1a6&quot;}.fa-digital-ocean:before{content:&quot;\f391&quot;}.fa-digital-tachograph:before{content:&quot;\f566&quot;}.fa-directions:before{content:&quot;\f5eb&quot;}.fa-discord:before{content:&quot;\f392&quot;}.fa-discourse:before{content:&quot;\f393&quot;}.fa-disease:before{content:&quot;\f7fa&quot;}.fa-divide:before{content:&quot;\f529&quot;}.fa-dizzy:before{content:&quot;\f567&quot;}.fa-dna:before{content:&quot;\f471&quot;}.fa-dochub:before{content:&quot;\f394&quot;}.fa-docker:before{content:&quot;\f395&quot;}.fa-dog:before{content:&quot;\f6d3&quot;}.fa-dollar-sign:before{content:&quot;\f155&quot;}.fa-dolly:before{content:&quot;\f472&quot;}.fa-dolly-flatbed:before{content:&quot;\f474&quot;}.fa-donate:before{content:&quot;\f4b9&quot;}.fa-door-closed:before{content:&quot;\f52a&quot;}.fa-door-open:before{content:&quot;\f52b&quot;}.fa-dot-circle:before{content:&quot;\f192&quot;}.fa-dove:before{content:&quot;\f4ba&quot;}.fa-download:before{content:&quot;\f019&quot;}.fa-draft2digital:before{content:&quot;\f396&quot;}.fa-drafting-compass:before{content:&quot;\f568&quot;}.fa-dragon:before{content:&quot;\f6d5&quot;}.fa-draw-polygon:before{content:&quot;\f5ee&quot;}.fa-dribbble:before{content:&quot;\f17d&quot;}.fa-dribbble-square:before{content:&quot;\f397&quot;}.fa-dropbox:before{content:&quot;\f16b&quot;}.fa-drum:before{content:&quot;\f569&quot;}.fa-drum-steelpan:before{content:&quot;\f56a&quot;}.fa-drumstick-bite:before{content:&quot;\f6d7&quot;}.fa-drupal:before{content:&quot;\f1a9&quot;}.fa-dumbbell:before{content:&quot;\f44b&quot;}.fa-dumpster:before{content:&quot;\f793&quot;}.fa-dumpster-fire:before{content:&quot;\f794&quot;}.fa-dungeon:before{content:&quot;\f6d9&quot;}.fa-dyalog:before{content:&quot;\f399&quot;}.fa-earlybirds:before{content:&quot;\f39a&quot;}.fa-ebay:before{content:&quot;\f4f4&quot;}.fa-edge:before{content:&quot;\f282&quot;}.fa-edge-legacy:before{content:&quot;\f978&quot;}.fa-edit:before{content:&quot;\f044&quot;}.fa-egg:before{content:&quot;\f7fb&quot;}.fa-eject:before{content:&quot;\f052&quot;}.fa-elementor:before{content:&quot;\f430&quot;}.fa-ellipsis-h:before{content:&quot;\f141&quot;}.fa-ellipsis-v:before{content:&quot;\f142&quot;}.fa-ello:before{content:&quot;\f5f1&quot;}.fa-ember:before{content:&quot;\f423&quot;}.fa-empire:before{content:&quot;\f1d1&quot;}.fa-envelope:before{content:&quot;\f0e0&quot;}.fa-envelope-open:before{content:&quot;\f2b6&quot;}.fa-envelope-open-text:before{content:&quot;\f658&quot;}.fa-envelope-square:before{content:&quot;\f199&quot;}.fa-envira:before{content:&quot;\f299&quot;}.fa-equals:before{content:&quot;\f52c&quot;}.fa-eraser:before{content:&quot;\f12d&quot;}.fa-erlang:before{content:&quot;\f39d&quot;}.fa-ethereum:before{content:&quot;\f42e&quot;}.fa-ethernet:before{content:&quot;\f796&quot;}.fa-etsy:before{content:&quot;\f2d7&quot;}.fa-euro-sign:before{content:&quot;\f153&quot;}.fa-evernote:before{content:&quot;\f839&quot;}.fa-exchange-alt:before{content:&quot;\f362&quot;}.fa-exclamation:before{content:&quot;\f12a&quot;}.fa-exclamation-circle:before{content:&quot;\f06a&quot;}.fa-exclamation-triangle:before{content:&quot;\f071&quot;}.fa-expand:before{content:&quot;\f065&quot;}.fa-expand-alt:before{content:&quot;\f424&quot;}.fa-expand-arrows-alt:before{content:&quot;\f31e&quot;}.fa-expeditedssl:before{content:&quot;\f23e&quot;}.fa-external-link-alt:before{content:&quot;\f35d&quot;}.fa-external-link-square-alt:before{content:&quot;\f360&quot;}.fa-eye:before{content:&quot;\f06e&quot;}.fa-eye-dropper:before{content:&quot;\f1fb&quot;}.fa-eye-slash:before{content:&quot;\f070&quot;}.fa-facebook:before{content:&quot;\f09a&quot;}.fa-facebook-f:before{content:&quot;\f39e&quot;}.fa-facebook-messenger:before{content:&quot;\f39f&quot;}.fa-facebook-square:before{content:&quot;\f082&quot;}.fa-fan:before{content:&quot;\f863&quot;}.fa-fantasy-flight-games:before{content:&quot;\f6dc&quot;}.fa-fast-backward:before{content:&quot;\f049&quot;}.fa-fast-forward:before{content:&quot;\f050&quot;}.fa-faucet:before{content:&quot;\f905&quot;}.fa-fax:before{content:&quot;\f1ac&quot;}.fa-feather:before{content:&quot;\f52d&quot;}.fa-feather-alt:before{content:&quot;\f56b&quot;}.fa-fedex:before{content:&quot;\f797&quot;}.fa-fedora:before{content:&quot;\f798&quot;}.fa-female:before{content:&quot;\f182&quot;}.fa-fighter-jet:before{content:&quot;\f0fb&quot;}.fa-figma:before{content:&quot;\f799&quot;}.fa-file:before{content:&quot;\f15b&quot;}.fa-file-alt:before{content:&quot;\f15c&quot;}.fa-file-archive:before{content:&quot;\f1c6&quot;}.fa-file-audio:before{content:&quot;\f1c7&quot;}.fa-file-code:before{content:&quot;\f1c9&quot;}.fa-file-contract:before{content:&quot;\f56c&quot;}.fa-file-csv:before{content:&quot;\f6dd&quot;}.fa-file-download:before{content:&quot;\f56d&quot;}.fa-file-excel:before{content:&quot;\f1c3&quot;}.fa-file-export:before{content:&quot;\f56e&quot;}.fa-file-image:before{content:&quot;\f1c5&quot;}.fa-file-import:before{content:&quot;\f56f&quot;}.fa-file-invoice:before{content:&quot;\f570&quot;}.fa-file-invoice-dollar:before{content:&quot;\f571&quot;}.fa-file-medical:before{content:&quot;\f477&quot;}.fa-file-medical-alt:before{content:&quot;\f478&quot;}.fa-file-pdf:before{content:&quot;\f1c1&quot;}.fa-file-powerpoint:before{content:&quot;\f1c4&quot;}.fa-file-prescription:before{content:&quot;\f572&quot;}.fa-file-signature:before{content:&quot;\f573&quot;}.fa-file-upload:before{content:&quot;\f574&quot;}.fa-file-video:before{content:&quot;\f1c8&quot;}.fa-file-word:before{content:&quot;\f1c2&quot;}.fa-fill:before{content:&quot;\f575&quot;}.fa-fill-drip:before{content:&quot;\f576&quot;}.fa-film:before{content:&quot;\f008&quot;}.fa-filter:before{content:&quot;\f0b0&quot;}.fa-fingerprint:before{content:&quot;\f577&quot;}.fa-fire:before{content:&quot;\f06d&quot;}.fa-fire-alt:before{content:&quot;\f7e4&quot;}.fa-fire-extinguisher:before{content:&quot;\f134&quot;}.fa-firefox:before{content:&quot;\f269&quot;}.fa-firefox-browser:before{content:&quot;\f907&quot;}.fa-first-aid:before{content:&quot;\f479&quot;}.fa-first-order:before{content:&quot;\f2b0&quot;}.fa-first-order-alt:before{content:&quot;\f50a&quot;}.fa-firstdraft:before{content:&quot;\f3a1&quot;}.fa-fish:before{content:&quot;\f578&quot;}.fa-fist-raised:before{content:&quot;\f6de&quot;}.fa-flag:before{content:&quot;\f024&quot;}.fa-flag-checkered:before{content:&quot;\f11e&quot;}.fa-flag-usa:before{content:&quot;\f74d&quot;}.fa-flask:before{content:&quot;\f0c3&quot;}.fa-flickr:before{content:&quot;\f16e&quot;}.fa-flipboard:before{content:&quot;\f44d&quot;}.fa-flushed:before{content:&quot;\f579&quot;}.fa-fly:before{content:&quot;\f417&quot;}.fa-folder:before{content:&quot;\f07b&quot;}.fa-folder-minus:before{content:&quot;\f65d&quot;}.fa-folder-open:before{content:&quot;\f07c&quot;}.fa-folder-plus:before{content:&quot;\f65e&quot;}.fa-font:before{content:&quot;\f031&quot;}.fa-font-awesome:before{content:&quot;\f2b4&quot;}.fa-font-awesome-alt:before{content:&quot;\f35c&quot;}.fa-font-awesome-flag:before{content:&quot;\f425&quot;}.fa-font-awesome-logo-full:before{content:&quot;\f4e6&quot;}.fa-fonticons:before{content:&quot;\f280&quot;}.fa-fonticons-fi:before{content:&quot;\f3a2&quot;}.fa-football-ball:before{content:&quot;\f44e&quot;}.fa-fort-awesome:before{content:&quot;\f286&quot;}.fa-fort-awesome-alt:before{content:&quot;\f3a3&quot;}.fa-forumbee:before{content:&quot;\f211&quot;}.fa-forward:before{content:&quot;\f04e&quot;}.fa-foursquare:before{content:&quot;\f180&quot;}.fa-free-code-camp:before{content:&quot;\f2c5&quot;}.fa-freebsd:before{content:&quot;\f3a4&quot;}.fa-frog:before{content:&quot;\f52e&quot;}.fa-frown:before{content:&quot;\f119&quot;}.fa-frown-open:before{content:&quot;\f57a&quot;}.fa-fulcrum:before{content:&quot;\f50b&quot;}.fa-funnel-dollar:before{content:&quot;\f662&quot;}.fa-futbol:before{content:&quot;\f1e3&quot;}.fa-galactic-republic:before{content:&quot;\f50c&quot;}.fa-galactic-senate:before{content:&quot;\f50d&quot;}.fa-gamepad:before{content:&quot;\f11b&quot;}.fa-gas-pump:before{content:&quot;\f52f&quot;}.fa-gavel:before{content:&quot;\f0e3&quot;}.fa-gem:before{content:&quot;\f3a5&quot;}.fa-genderless:before{content:&quot;\f22d&quot;}.fa-get-pocket:before{content:&quot;\f265&quot;}.fa-gg:before{content:&quot;\f260&quot;}.fa-gg-circle:before{content:&quot;\f261&quot;}.fa-ghost:before{content:&quot;\f6e2&quot;}.fa-gift:before{content:&quot;\f06b&quot;}.fa-gifts:before{content:&quot;\f79c&quot;}.fa-git:before{content:&quot;\f1d3&quot;}.fa-git-alt:before{content:&quot;\f841&quot;}.fa-git-square:before{content:&quot;\f1d2&quot;}.fa-github:before{content:&quot;\f09b&quot;}.fa-github-alt:before{content:&quot;\f113&quot;}.fa-github-square:before{content:&quot;\f092&quot;}.fa-gitkraken:before{content:&quot;\f3a6&quot;}.fa-gitlab:before{content:&quot;\f296&quot;}.fa-gitter:before{content:&quot;\f426&quot;}.fa-glass-cheers:before{content:&quot;\f79f&quot;}.fa-glass-martini:before{content:&quot;\f000&quot;}.fa-glass-martini-alt:before{content:&quot;\f57b&quot;}.fa-glass-whiskey:before{content:&quot;\f7a0&quot;}.fa-glasses:before{content:&quot;\f530&quot;}.fa-glide:before{content:&quot;\f2a5&quot;}.fa-glide-g:before{content:&quot;\f2a6&quot;}.fa-globe:before{content:&quot;\f0ac&quot;}.fa-globe-africa:before{content:&quot;\f57c&quot;}.fa-globe-americas:before{content:&quot;\f57d&quot;}.fa-globe-asia:before{content:&quot;\f57e&quot;}.fa-globe-europe:before{content:&quot;\f7a2&quot;}.fa-gofore:before{content:&quot;\f3a7&quot;}.fa-golf-ball:before{content:&quot;\f450&quot;}.fa-goodreads:before{content:&quot;\f3a8&quot;}.fa-goodreads-g:before{content:&quot;\f3a9&quot;}.fa-google:before{content:&quot;\f1a0&quot;}.fa-google-drive:before{content:&quot;\f3aa&quot;}.fa-google-pay:before{content:&quot;\f979&quot;}.fa-google-play:before{content:&quot;\f3ab&quot;}.fa-google-plus:before{content:&quot;\f2b3&quot;}.fa-google-plus-g:before{content:&quot;\f0d5&quot;}.fa-google-plus-square:before{content:&quot;\f0d4&quot;}.fa-google-wallet:before{content:&quot;\f1ee&quot;}.fa-gopuram:before{content:&quot;\f664&quot;}.fa-graduation-cap:before{content:&quot;\f19d&quot;}.fa-gratipay:before{content:&quot;\f184&quot;}.fa-grav:before{content:&quot;\f2d6&quot;}.fa-greater-than:before{content:&quot;\f531&quot;}.fa-greater-than-equal:before{content:&quot;\f532&quot;}.fa-grimace:before{content:&quot;\f57f&quot;}.fa-grin:before{content:&quot;\f580&quot;}.fa-grin-alt:before{content:&quot;\f581&quot;}.fa-grin-beam:before{content:&quot;\f582&quot;}.fa-grin-beam-sweat:before{content:&quot;\f583&quot;}.fa-grin-hearts:before{content:&quot;\f584&quot;}.fa-grin-squint:before{content:&quot;\f585&quot;}.fa-grin-squint-tears:before{content:&quot;\f586&quot;}.fa-grin-stars:before{content:&quot;\f587&quot;}.fa-grin-tears:before{content:&quot;\f588&quot;}.fa-grin-tongue:before{content:&quot;\f589&quot;}.fa-grin-tongue-squint:before{content:&quot;\f58a&quot;}.fa-grin-tongue-wink:before{content:&quot;\f58b&quot;}.fa-grin-wink:before{content:&quot;\f58c&quot;}.fa-grip-horizontal:before{content:&quot;\f58d&quot;}.fa-grip-lines:before{content:&quot;\f7a4&quot;}.fa-grip-lines-vertical:before{content:&quot;\f7a5&quot;}.fa-grip-vertical:before{content:&quot;\f58e&quot;}.fa-gripfire:before{content:&quot;\f3ac&quot;}.fa-grunt:before{content:&quot;\f3ad&quot;}.fa-guitar:before{content:&quot;\f7a6&quot;}.fa-gulp:before{content:&quot;\f3ae&quot;}.fa-h-square:before{content:&quot;\f0fd&quot;}.fa-hacker-news:before{content:&quot;\f1d4&quot;}.fa-hacker-news-square:before{content:&quot;\f3af&quot;}.fa-hackerrank:before{content:&quot;\f5f7&quot;}.fa-hamburger:before{content:&quot;\f805&quot;}.fa-hammer:before{content:&quot;\f6e3&quot;}.fa-hamsa:before{content:&quot;\f665&quot;}.fa-hand-holding:before{content:&quot;\f4bd&quot;}.fa-hand-holding-heart:before{content:&quot;\f4be&quot;}.fa-hand-holding-medical:before{content:&quot;\f95c&quot;}.fa-hand-holding-usd:before{content:&quot;\f4c0&quot;}.fa-hand-holding-water:before{content:&quot;\f4c1&quot;}.fa-hand-lizard:before{content:&quot;\f258&quot;}.fa-hand-middle-finger:before{content:&quot;\f806&quot;}.fa-hand-paper:before{content:&quot;\f256&quot;}.fa-hand-peace:before{content:&quot;\f25b&quot;}.fa-hand-point-down:before{content:&quot;\f0a7&quot;}.fa-hand-point-left:before{content:&quot;\f0a5&quot;}.fa-hand-point-right:before{content:&quot;\f0a4&quot;}.fa-hand-point-up:before{content:&quot;\f0a6&quot;}.fa-hand-pointer:before{content:&quot;\f25a&quot;}.fa-hand-rock:before{content:&quot;\f255&quot;}.fa-hand-scissors:before{content:&quot;\f257&quot;}.fa-hand-sparkles:before{content:&quot;\f95d&quot;}.fa-hand-spock:before{content:&quot;\f259&quot;}.fa-hands:before{content:&quot;\f4c2&quot;}.fa-hands-helping:before{content:&quot;\f4c4&quot;}.fa-hands-wash:before{content:&quot;\f95e&quot;}.fa-handshake:before{content:&quot;\f2b5&quot;}.fa-handshake-alt-slash:before{content:&quot;\f95f&quot;}.fa-handshake-slash:before{content:&quot;\f960&quot;}.fa-hanukiah:before{content:&quot;\f6e6&quot;}.fa-hard-hat:before{content:&quot;\f807&quot;}.fa-hashtag:before{content:&quot;\f292&quot;}.fa-hat-cowboy:before{content:&quot;\f8c0&quot;}.fa-hat-cowboy-side:before{content:&quot;\f8c1&quot;}.fa-hat-wizard:before{content:&quot;\f6e8&quot;}.fa-hdd:before{content:&quot;\f0a0&quot;}.fa-head-side-cough:before{content:&quot;\f961&quot;}.fa-head-side-cough-slash:before{content:&quot;\f962&quot;}.fa-head-side-mask:before{content:&quot;\f963&quot;}.fa-head-side-virus:before{content:&quot;\f964&quot;}.fa-heading:before{content:&quot;\f1dc&quot;}.fa-headphones:before{content:&quot;\f025&quot;}.fa-headphones-alt:before{content:&quot;\f58f&quot;}.fa-headset:before{content:&quot;\f590&quot;}.fa-heart:before{content:&quot;\f004&quot;}.fa-heart-broken:before{content:&quot;\f7a9&quot;}.fa-heartbeat:before{content:&quot;\f21e&quot;}.fa-helicopter:before{content:&quot;\f533&quot;}.fa-highlighter:before{content:&quot;\f591&quot;}.fa-hiking:before{content:&quot;\f6ec&quot;}.fa-hippo:before{content:&quot;\f6ed&quot;}.fa-hips:before{content:&quot;\f452&quot;}.fa-hire-a-helper:before{content:&quot;\f3b0&quot;}.fa-history:before{content:&quot;\f1da&quot;}.fa-hockey-puck:before{content:&quot;\f453&quot;}.fa-holly-berry:before{content:&quot;\f7aa&quot;}.fa-home:before{content:&quot;\f015&quot;}.fa-hooli:before{content:&quot;\f427&quot;}.fa-hornbill:before{content:&quot;\f592&quot;}.fa-horse:before{content:&quot;\f6f0&quot;}.fa-horse-head:before{content:&quot;\f7ab&quot;}.fa-hospital:before{content:&quot;\f0f8&quot;}.fa-hospital-alt:before{content:&quot;\f47d&quot;}.fa-hospital-symbol:before{content:&quot;\f47e&quot;}.fa-hospital-user:before{content:&quot;\f80d&quot;}.fa-hot-tub:before{content:&quot;\f593&quot;}.fa-hotdog:before{content:&quot;\f80f&quot;}.fa-hotel:before{content:&quot;\f594&quot;}.fa-hotjar:before{content:&quot;\f3b1&quot;}.fa-hourglass:before{content:&quot;\f254&quot;}.fa-hourglass-end:before{content:&quot;\f253&quot;}.fa-hourglass-half:before{content:&quot;\f252&quot;}.fa-hourglass-start:before{content:&quot;\f251&quot;}.fa-house-damage:before{content:&quot;\f6f1&quot;}.fa-house-user:before{content:&quot;\f965&quot;}.fa-houzz:before{content:&quot;\f27c&quot;}.fa-hryvnia:before{content:&quot;\f6f2&quot;}.fa-html5:before{content:&quot;\f13b&quot;}.fa-hubspot:before{content:&quot;\f3b2&quot;}.fa-i-cursor:before{content:&quot;\f246&quot;}.fa-ice-cream:before{content:&quot;\f810&quot;}.fa-icicles:before{content:&quot;\f7ad&quot;}.fa-icons:before{content:&quot;\f86d&quot;}.fa-id-badge:before{content:&quot;\f2c1&quot;}.fa-id-card:before{content:&quot;\f2c2&quot;}.fa-id-card-alt:before{content:&quot;\f47f&quot;}.fa-ideal:before{content:&quot;\f913&quot;}.fa-igloo:before{content:&quot;\f7ae&quot;}.fa-image:before{content:&quot;\f03e&quot;}.fa-images:before{content:&quot;\f302&quot;}.fa-imdb:before{content:&quot;\f2d8&quot;}.fa-inbox:before{content:&quot;\f01c&quot;}.fa-indent:before{content:&quot;\f03c&quot;}.fa-industry:before{content:&quot;\f275&quot;}.fa-infinity:before{content:&quot;\f534&quot;}.fa-info:before{content:&quot;\f129&quot;}.fa-info-circle:before{content:&quot;\f05a&quot;}.fa-instagram:before{content:&quot;\f16d&quot;}.fa-instagram-square:before{content:&quot;\f955&quot;}.fa-intercom:before{content:&quot;\f7af&quot;}.fa-internet-explorer:before{content:&quot;\f26b&quot;}.fa-invision:before{content:&quot;\f7b0&quot;}.fa-ioxhost:before{content:&quot;\f208&quot;}.fa-italic:before{content:&quot;\f033&quot;}.fa-itch-io:before{content:&quot;\f83a&quot;}.fa-itunes:before{content:&quot;\f3b4&quot;}.fa-itunes-note:before{content:&quot;\f3b5&quot;}.fa-java:before{content:&quot;\f4e4&quot;}.fa-jedi:before{content:&quot;\f669&quot;}.fa-jedi-order:before{content:&quot;\f50e&quot;}.fa-jenkins:before{content:&quot;\f3b6&quot;}.fa-jira:before{content:&quot;\f7b1&quot;}.fa-joget:before{content:&quot;\f3b7&quot;}.fa-joint:before{content:&quot;\f595&quot;}.fa-joomla:before{content:&quot;\f1aa&quot;}.fa-journal-whills:before{content:&quot;\f66a&quot;}.fa-js:before{content:&quot;\f3b8&quot;}.fa-js-square:before{content:&quot;\f3b9&quot;}.fa-jsfiddle:before{content:&quot;\f1cc&quot;}.fa-kaaba:before{content:&quot;\f66b&quot;}.fa-kaggle:before{content:&quot;\f5fa&quot;}.fa-key:before{content:&quot;\f084&quot;}.fa-keybase:before{content:&quot;\f4f5&quot;}.fa-keyboard:before{content:&quot;\f11c&quot;}.fa-keycdn:before{content:&quot;\f3ba&quot;}.fa-khanda:before{content:&quot;\f66d&quot;}.fa-kickstarter:before{content:&quot;\f3bb&quot;}.fa-kickstarter-k:before{content:&quot;\f3bc&quot;}.fa-kiss:before{content:&quot;\f596&quot;}.fa-kiss-beam:before{content:&quot;\f597&quot;}.fa-kiss-wink-heart:before{content:&quot;\f598&quot;}.fa-kiwi-bird:before{content:&quot;\f535&quot;}.fa-korvue:before{content:&quot;\f42f&quot;}.fa-landmark:before{content:&quot;\f66f&quot;}.fa-language:before{content:&quot;\f1ab&quot;}.fa-laptop:before{content:&quot;\f109&quot;}.fa-laptop-code:before{content:&quot;\f5fc&quot;}.fa-laptop-house:before{content:&quot;\f966&quot;}.fa-laptop-medical:before{content:&quot;\f812&quot;}.fa-laravel:before{content:&quot;\f3bd&quot;}.fa-lastfm:before{content:&quot;\f202&quot;}.fa-lastfm-square:before{content:&quot;\f203&quot;}.fa-laugh:before{content:&quot;\f599&quot;}.fa-laugh-beam:before{content:&quot;\f59a&quot;}.fa-laugh-squint:before{content:&quot;\f59b&quot;}.fa-laugh-wink:before{content:&quot;\f59c&quot;}.fa-layer-group:before{content:&quot;\f5fd&quot;}.fa-leaf:before{content:&quot;\f06c&quot;}.fa-leanpub:before{content:&quot;\f212&quot;}.fa-lemon:before{content:&quot;\f094&quot;}.fa-less:before{content:&quot;\f41d&quot;}.fa-less-than:before{content:&quot;\f536&quot;}.fa-less-than-equal:before{content:&quot;\f537&quot;}.fa-level-down-alt:before{content:&quot;\f3be&quot;}.fa-level-up-alt:before{content:&quot;\f3bf&quot;}.fa-life-ring:before{content:&quot;\f1cd&quot;}.fa-lightbulb:before{content:&quot;\f0eb&quot;}.fa-line:before{content:&quot;\f3c0&quot;}.fa-link:before{content:&quot;\f0c1&quot;}.fa-linkedin:before{content:&quot;\f08c&quot;}.fa-linkedin-in:before{content:&quot;\f0e1&quot;}.fa-linode:before{content:&quot;\f2b8&quot;}.fa-linux:before{content:&quot;\f17c&quot;}.fa-lira-sign:before{content:&quot;\f195&quot;}.fa-list:before{content:&quot;\f03a&quot;}.fa-list-alt:before{content:&quot;\f022&quot;}.fa-list-ol:before{content:&quot;\f0cb&quot;}.fa-list-ul:before{content:&quot;\f0ca&quot;}.fa-location-arrow:before{content:&quot;\f124&quot;}.fa-lock:before{content:&quot;\f023&quot;}.fa-lock-open:before{content:&quot;\f3c1&quot;}.fa-long-arrow-alt-down:before{content:&quot;\f309&quot;}.fa-long-arrow-alt-left:before{content:&quot;\f30a&quot;}.fa-long-arrow-alt-right:before{content:&quot;\f30b&quot;}.fa-long-arrow-alt-up:before{content:&quot;\f30c&quot;}.fa-low-vision:before{content:&quot;\f2a8&quot;}.fa-luggage-cart:before{content:&quot;\f59d&quot;}.fa-lungs:before{content:&quot;\f604&quot;}.fa-lungs-virus:before{content:&quot;\f967&quot;}.fa-lyft:before{content:&quot;\f3c3&quot;}.fa-magento:before{content:&quot;\f3c4&quot;}.fa-magic:before{content:&quot;\f0d0&quot;}.fa-magnet:before{content:&quot;\f076&quot;}.fa-mail-bulk:before{content:&quot;\f674&quot;}.fa-mailchimp:before{content:&quot;\f59e&quot;}.fa-male:before{content:&quot;\f183&quot;}.fa-mandalorian:before{content:&quot;\f50f&quot;}.fa-map:before{content:&quot;\f279&quot;}.fa-map-marked:before{content:&quot;\f59f&quot;}.fa-map-marked-alt:before{content:&quot;\f5a0&quot;}.fa-map-marker:before{content:&quot;\f041&quot;}.fa-map-marker-alt:before{content:&quot;\f3c5&quot;}.fa-map-pin:before{content:&quot;\f276&quot;}.fa-map-signs:before{content:&quot;\f277&quot;}.fa-markdown:before{content:&quot;\f60f&quot;}.fa-marker:before{content:&quot;\f5a1&quot;}.fa-mars:before{content:&quot;\f222&quot;}.fa-mars-double:before{content:&quot;\f227&quot;}.fa-mars-stroke:before{content:&quot;\f229&quot;}.fa-mars-stroke-h:before{content:&quot;\f22b&quot;}.fa-mars-stroke-v:before{content:&quot;\f22a&quot;}.fa-mask:before{content:&quot;\f6fa&quot;}.fa-mastodon:before{content:&quot;\f4f6&quot;}.fa-maxcdn:before{content:&quot;\f136&quot;}.fa-mdb:before{content:&quot;\f8ca&quot;}.fa-medal:before{content:&quot;\f5a2&quot;}.fa-medapps:before{content:&quot;\f3c6&quot;}.fa-medium:before{content:&quot;\f23a&quot;}.fa-medium-m:before{content:&quot;\f3c7&quot;}.fa-medkit:before{content:&quot;\f0fa&quot;}.fa-medrt:before{content:&quot;\f3c8&quot;}.fa-meetup:before{content:&quot;\f2e0&quot;}.fa-megaport:before{content:&quot;\f5a3&quot;}.fa-meh:before{content:&quot;\f11a&quot;}.fa-meh-blank:before{content:&quot;\f5a4&quot;}.fa-meh-rolling-eyes:before{content:&quot;\f5a5&quot;}.fa-memory:before{content:&quot;\f538&quot;}.fa-mendeley:before{content:&quot;\f7b3&quot;}.fa-menorah:before{content:&quot;\f676&quot;}.fa-mercury:before{content:&quot;\f223&quot;}.fa-meteor:before{content:&quot;\f753&quot;}.fa-microblog:before{content:&quot;\f91a&quot;}.fa-microchip:before{content:&quot;\f2db&quot;}.fa-microphone:before{content:&quot;\f130&quot;}.fa-microphone-alt:before{content:&quot;\f3c9&quot;}.fa-microphone-alt-slash:before{content:&quot;\f539&quot;}.fa-microphone-slash:before{content:&quot;\f131&quot;}.fa-microscope:before{content:&quot;\f610&quot;}.fa-microsoft:before{content:&quot;\f3ca&quot;}.fa-minus:before{content:&quot;\f068&quot;}.fa-minus-circle:before{content:&quot;\f056&quot;}.fa-minus-square:before{content:&quot;\f146&quot;}.fa-mitten:before{content:&quot;\f7b5&quot;}.fa-mix:before{content:&quot;\f3cb&quot;}.fa-mixcloud:before{content:&quot;\f289&quot;}.fa-mixer:before{content:&quot;\f956&quot;}.fa-mizuni:before{content:&quot;\f3cc&quot;}.fa-mobile:before{content:&quot;\f10b&quot;}.fa-mobile-alt:before{content:&quot;\f3cd&quot;}.fa-modx:before{content:&quot;\f285&quot;}.fa-monero:before{content:&quot;\f3d0&quot;}.fa-money-bill:before{content:&quot;\f0d6&quot;}.fa-money-bill-alt:before{content:&quot;\f3d1&quot;}.fa-money-bill-wave:before{content:&quot;\f53a&quot;}.fa-money-bill-wave-alt:before{content:&quot;\f53b&quot;}.fa-money-check:before{content:&quot;\f53c&quot;}.fa-money-check-alt:before{content:&quot;\f53d&quot;}.fa-monument:before{content:&quot;\f5a6&quot;}.fa-moon:before{content:&quot;\f186&quot;}.fa-mortar-pestle:before{content:&quot;\f5a7&quot;}.fa-mosque:before{content:&quot;\f678&quot;}.fa-motorcycle:before{content:&quot;\f21c&quot;}.fa-mountain:before{content:&quot;\f6fc&quot;}.fa-mouse:before{content:&quot;\f8cc&quot;}.fa-mouse-pointer:before{content:&quot;\f245&quot;}.fa-mug-hot:before{content:&quot;\f7b6&quot;}.fa-music:before{content:&quot;\f001&quot;}.fa-napster:before{content:&quot;\f3d2&quot;}.fa-neos:before{content:&quot;\f612&quot;}.fa-network-wired:before{content:&quot;\f6ff&quot;}.fa-neuter:before{content:&quot;\f22c&quot;}.fa-newspaper:before{content:&quot;\f1ea&quot;}.fa-nimblr:before{content:&quot;\f5a8&quot;}.fa-node:before{content:&quot;\f419&quot;}.fa-node-js:before{content:&quot;\f3d3&quot;}.fa-not-equal:before{content:&quot;\f53e&quot;}.fa-notes-medical:before{content:&quot;\f481&quot;}.fa-npm:before{content:&quot;\f3d4&quot;}.fa-ns8:before{content:&quot;\f3d5&quot;}.fa-nutritionix:before{content:&quot;\f3d6&quot;}.fa-object-group:before{content:&quot;\f247&quot;}.fa-object-ungroup:before{content:&quot;\f248&quot;}.fa-odnoklassniki:before{content:&quot;\f263&quot;}.fa-odnoklassniki-square:before{content:&quot;\f264&quot;}.fa-oil-can:before{content:&quot;\f613&quot;}.fa-old-republic:before{content:&quot;\f510&quot;}.fa-om:before{content:&quot;\f679&quot;}.fa-opencart:before{content:&quot;\f23d&quot;}.fa-openid:before{content:&quot;\f19b&quot;}.fa-opera:before{content:&quot;\f26a&quot;}.fa-optin-monster:before{content:&quot;\f23c&quot;}.fa-orcid:before{content:&quot;\f8d2&quot;}.fa-osi:before{content:&quot;\f41a&quot;}.fa-otter:before{content:&quot;\f700&quot;}.fa-outdent:before{content:&quot;\f03b&quot;}.fa-page4:before{content:&quot;\f3d7&quot;}.fa-pagelines:before{content:&quot;\f18c&quot;}.fa-pager:before{content:&quot;\f815&quot;}.fa-paint-brush:before{content:&quot;\f1fc&quot;}.fa-paint-roller:before{content:&quot;\f5aa&quot;}.fa-palette:before{content:&quot;\f53f&quot;}.fa-palfed:before{content:&quot;\f3d8&quot;}.fa-pallet:before{content:&quot;\f482&quot;}.fa-paper-plane:before{content:&quot;\f1d8&quot;}.fa-paperclip:before{content:&quot;\f0c6&quot;}.fa-parachute-box:before{content:&quot;\f4cd&quot;}.fa-paragraph:before{content:&quot;\f1dd&quot;}.fa-parking:before{content:&quot;\f540&quot;}.fa-passport:before{content:&quot;\f5ab&quot;}.fa-pastafarianism:before{content:&quot;\f67b&quot;}.fa-paste:before{content:&quot;\f0ea&quot;}.fa-patreon:before{content:&quot;\f3d9&quot;}.fa-pause:before{content:&quot;\f04c&quot;}.fa-pause-circle:before{content:&quot;\f28b&quot;}.fa-paw:before{content:&quot;\f1b0&quot;}.fa-paypal:before{content:&quot;\f1ed&quot;}.fa-peace:before{content:&quot;\f67c&quot;}.fa-pen:before{content:&quot;\f304&quot;}.fa-pen-alt:before{content:&quot;\f305&quot;}.fa-pen-fancy:before{content:&quot;\f5ac&quot;}.fa-pen-nib:before{content:&quot;\f5ad&quot;}.fa-pen-square:before{content:&quot;\f14b&quot;}.fa-pencil-alt:before{content:&quot;\f303&quot;}.fa-pencil-ruler:before{content:&quot;\f5ae&quot;}.fa-penny-arcade:before{content:&quot;\f704&quot;}.fa-people-arrows:before{content:&quot;\f968&quot;}.fa-people-carry:before{content:&quot;\f4ce&quot;}.fa-pepper-hot:before{content:&quot;\f816&quot;}.fa-percent:before{content:&quot;\f295&quot;}.fa-percentage:before{content:&quot;\f541&quot;}.fa-periscope:before{content:&quot;\f3da&quot;}.fa-person-booth:before{content:&quot;\f756&quot;}.fa-phabricator:before{content:&quot;\f3db&quot;}.fa-phoenix-framework:before{content:&quot;\f3dc&quot;}.fa-phoenix-squadron:before{content:&quot;\f511&quot;}.fa-phone:before{content:&quot;\f095&quot;}.fa-phone-alt:before{content:&quot;\f879&quot;}.fa-phone-slash:before{content:&quot;\f3dd&quot;}.fa-phone-square:before{content:&quot;\f098&quot;}.fa-phone-square-alt:before{content:&quot;\f87b&quot;}.fa-phone-volume:before{content:&quot;\f2a0&quot;}.fa-photo-video:before{content:&quot;\f87c&quot;}.fa-php:before{content:&quot;\f457&quot;}.fa-pied-piper:before{content:&quot;\f2ae&quot;}.fa-pied-piper-alt:before{content:&quot;\f1a8&quot;}.fa-pied-piper-hat:before{content:&quot;\f4e5&quot;}.fa-pied-piper-pp:before{content:&quot;\f1a7&quot;}.fa-pied-piper-square:before{content:&quot;\f91e&quot;}.fa-piggy-bank:before{content:&quot;\f4d3&quot;}.fa-pills:before{content:&quot;\f484&quot;}.fa-pinterest:before{content:&quot;\f0d2&quot;}.fa-pinterest-p:before{content:&quot;\f231&quot;}.fa-pinterest-square:before{content:&quot;\f0d3&quot;}.fa-pizza-slice:before{content:&quot;\f818&quot;}.fa-place-of-worship:before{content:&quot;\f67f&quot;}.fa-plane:before{content:&quot;\f072&quot;}.fa-plane-arrival:before{content:&quot;\f5af&quot;}.fa-plane-departure:before{content:&quot;\f5b0&quot;}.fa-plane-slash:before{content:&quot;\f969&quot;}.fa-play:before{content:&quot;\f04b&quot;}.fa-play-circle:before{content:&quot;\f144&quot;}.fa-playstation:before{content:&quot;\f3df&quot;}.fa-plug:before{content:&quot;\f1e6&quot;}.fa-plus:before{content:&quot;\f067&quot;}.fa-plus-circle:before{content:&quot;\f055&quot;}.fa-plus-square:before{content:&quot;\f0fe&quot;}.fa-podcast:before{content:&quot;\f2ce&quot;}.fa-poll:before{content:&quot;\f681&quot;}.fa-poll-h:before{content:&quot;\f682&quot;}.fa-poo:before{content:&quot;\f2fe&quot;}.fa-poo-storm:before{content:&quot;\f75a&quot;}.fa-poop:before{content:&quot;\f619&quot;}.fa-portrait:before{content:&quot;\f3e0&quot;}.fa-pound-sign:before{content:&quot;\f154&quot;}.fa-power-off:before{content:&quot;\f011&quot;}.fa-pray:before{content:&quot;\f683&quot;}.fa-praying-hands:before{content:&quot;\f684&quot;}.fa-prescription:before{content:&quot;\f5b1&quot;}.fa-prescription-bottle:before{content:&quot;\f485&quot;}.fa-prescription-bottle-alt:before{content:&quot;\f486&quot;}.fa-print:before{content:&quot;\f02f&quot;}.fa-procedures:before{content:&quot;\f487&quot;}.fa-product-hunt:before{content:&quot;\f288&quot;}.fa-project-diagram:before{content:&quot;\f542&quot;}.fa-pump-medical:before{content:&quot;\f96a&quot;}.fa-pump-soap:before{content:&quot;\f96b&quot;}.fa-pushed:before{content:&quot;\f3e1&quot;}.fa-puzzle-piece:before{content:&quot;\f12e&quot;}.fa-python:before{content:&quot;\f3e2&quot;}.fa-qq:before{content:&quot;\f1d6&quot;}.fa-qrcode:before{content:&quot;\f029&quot;}.fa-question:before{content:&quot;\f128&quot;}.fa-question-circle:before{content:&quot;\f059&quot;}.fa-quidditch:before{content:&quot;\f458&quot;}.fa-quinscape:before{content:&quot;\f459&quot;}.fa-quora:before{content:&quot;\f2c4&quot;}.fa-quote-left:before{content:&quot;\f10d&quot;}.fa-quote-right:before{content:&quot;\f10e&quot;}.fa-quran:before{content:&quot;\f687&quot;}.fa-r-project:before{content:&quot;\f4f7&quot;}.fa-radiation:before{content:&quot;\f7b9&quot;}.fa-radiation-alt:before{content:&quot;\f7ba&quot;}.fa-rainbow:before{content:&quot;\f75b&quot;}.fa-random:before{content:&quot;\f074&quot;}.fa-raspberry-pi:before{content:&quot;\f7bb&quot;}.fa-ravelry:before{content:&quot;\f2d9&quot;}.fa-react:before{content:&quot;\f41b&quot;}.fa-reacteurope:before{content:&quot;\f75d&quot;}.fa-readme:before{content:&quot;\f4d5&quot;}.fa-rebel:before{content:&quot;\f1d0&quot;}.fa-receipt:before{content:&quot;\f543&quot;}.fa-record-vinyl:before{content:&quot;\f8d9&quot;}.fa-recycle:before{content:&quot;\f1b8&quot;}.fa-red-river:before{content:&quot;\f3e3&quot;}.fa-reddit:before{content:&quot;\f1a1&quot;}.fa-reddit-alien:before{content:&quot;\f281&quot;}.fa-reddit-square:before{content:&quot;\f1a2&quot;}.fa-redhat:before{content:&quot;\f7bc&quot;}.fa-redo:before{content:&quot;\f01e&quot;}.fa-redo-alt:before{content:&quot;\f2f9&quot;}.fa-registered:before{content:&quot;\f25d&quot;}.fa-remove-format:before{content:&quot;\f87d&quot;}.fa-renren:before{content:&quot;\f18b&quot;}.fa-reply:before{content:&quot;\f3e5&quot;}.fa-reply-all:before{content:&quot;\f122&quot;}.fa-replyd:before{content:&quot;\f3e6&quot;}.fa-republican:before{content:&quot;\f75e&quot;}.fa-researchgate:before{content:&quot;\f4f8&quot;}.fa-resolving:before{content:&quot;\f3e7&quot;}.fa-restroom:before{content:&quot;\f7bd&quot;}.fa-retweet:before{content:&quot;\f079&quot;}.fa-rev:before{content:&quot;\f5b2&quot;}.fa-ribbon:before{content:&quot;\f4d6&quot;}.fa-ring:before{content:&quot;\f70b&quot;}.fa-road:before{content:&quot;\f018&quot;}.fa-robot:before{content:&quot;\f544&quot;}.fa-rocket:before{content:&quot;\f135&quot;}.fa-rocketchat:before{content:&quot;\f3e8&quot;}.fa-rockrms:before{content:&quot;\f3e9&quot;}.fa-route:before{content:&quot;\f4d7&quot;}.fa-rss:before{content:&quot;\f09e&quot;}.fa-rss-square:before{content:&quot;\f143&quot;}.fa-ruble-sign:before{content:&quot;\f158&quot;}.fa-ruler:before{content:&quot;\f545&quot;}.fa-ruler-combined:before{content:&quot;\f546&quot;}.fa-ruler-horizontal:before{content:&quot;\f547&quot;}.fa-ruler-vertical:before{content:&quot;\f548&quot;}.fa-running:before{content:&quot;\f70c&quot;}.fa-rupee-sign:before{content:&quot;\f156&quot;}.fa-rust:before{content:&quot;\f97a&quot;}.fa-sad-cry:before{content:&quot;\f5b3&quot;}.fa-sad-tear:before{content:&quot;\f5b4&quot;}.fa-safari:before{content:&quot;\f267&quot;}.fa-salesforce:before{content:&quot;\f83b&quot;}.fa-sass:before{content:&quot;\f41e&quot;}.fa-satellite:before{content:&quot;\f7bf&quot;}.fa-satellite-dish:before{content:&quot;\f7c0&quot;}.fa-save:before{content:&quot;\f0c7&quot;}.fa-schlix:before{content:&quot;\f3ea&quot;}.fa-school:before{content:&quot;\f549&quot;}.fa-screwdriver:before{content:&quot;\f54a&quot;}.fa-scribd:before{content:&quot;\f28a&quot;}.fa-scroll:before{content:&quot;\f70e&quot;}.fa-sd-card:before{content:&quot;\f7c2&quot;}.fa-search:before{content:&quot;\f002&quot;}.fa-search-dollar:before{content:&quot;\f688&quot;}.fa-search-location:before{content:&quot;\f689&quot;}.fa-search-minus:before{content:&quot;\f010&quot;}.fa-search-plus:before{content:&quot;\f00e&quot;}.fa-searchengin:before{content:&quot;\f3eb&quot;}.fa-seedling:before{content:&quot;\f4d8&quot;}.fa-sellcast:before{content:&quot;\f2da&quot;}.fa-sellsy:before{content:&quot;\f213&quot;}.fa-server:before{content:&quot;\f233&quot;}.fa-servicestack:before{content:&quot;\f3ec&quot;}.fa-shapes:before{content:&quot;\f61f&quot;}.fa-share:before{content:&quot;\f064&quot;}.fa-share-alt:before{content:&quot;\f1e0&quot;}.fa-share-alt-square:before{content:&quot;\f1e1&quot;}.fa-share-square:before{content:&quot;\f14d&quot;}.fa-shekel-sign:before{content:&quot;\f20b&quot;}.fa-shield-alt:before{content:&quot;\f3ed&quot;}.fa-shield-virus:before{content:&quot;\f96c&quot;}.fa-ship:before{content:&quot;\f21a&quot;}.fa-shipping-fast:before{content:&quot;\f48b&quot;}.fa-shirtsinbulk:before{content:&quot;\f214&quot;}.fa-shoe-prints:before{content:&quot;\f54b&quot;}.fa-shopify:before{content:&quot;\f957&quot;}.fa-shopping-bag:before{content:&quot;\f290&quot;}.fa-shopping-basket:before{content:&quot;\f291&quot;}.fa-shopping-cart:before{content:&quot;\f07a&quot;}.fa-shopware:before{content:&quot;\f5b5&quot;}.fa-shower:before{content:&quot;\f2cc&quot;}.fa-shuttle-van:before{content:&quot;\f5b6&quot;}.fa-sign:before{content:&quot;\f4d9&quot;}.fa-sign-in-alt:before{content:&quot;\f2f6&quot;}.fa-sign-language:before{content:&quot;\f2a7&quot;}.fa-sign-out-alt:before{content:&quot;\f2f5&quot;}.fa-signal:before{content:&quot;\f012&quot;}.fa-signature:before{content:&quot;\f5b7&quot;}.fa-sim-card:before{content:&quot;\f7c4&quot;}.fa-simplybuilt:before{content:&quot;\f215&quot;}.fa-sink:before{content:&quot;\f96d&quot;}.fa-sistrix:before{content:&quot;\f3ee&quot;}.fa-sitemap:before{content:&quot;\f0e8&quot;}.fa-sith:before{content:&quot;\f512&quot;}.fa-skating:before{content:&quot;\f7c5&quot;}.fa-sketch:before{content:&quot;\f7c6&quot;}.fa-skiing:before{content:&quot;\f7c9&quot;}.fa-skiing-nordic:before{content:&quot;\f7ca&quot;}.fa-skull:before{content:&quot;\f54c&quot;}.fa-skull-crossbones:before{content:&quot;\f714&quot;}.fa-skyatlas:before{content:&quot;\f216&quot;}.fa-skype:before{content:&quot;\f17e&quot;}.fa-slack:before{content:&quot;\f198&quot;}.fa-slack-hash:before{content:&quot;\f3ef&quot;}.fa-slash:before{content:&quot;\f715&quot;}.fa-sleigh:before{content:&quot;\f7cc&quot;}.fa-sliders-h:before{content:&quot;\f1de&quot;}.fa-slideshare:before{content:&quot;\f1e7&quot;}.fa-smile:before{content:&quot;\f118&quot;}.fa-smile-beam:before{content:&quot;\f5b8&quot;}.fa-smile-wink:before{content:&quot;\f4da&quot;}.fa-smog:before{content:&quot;\f75f&quot;}.fa-smoking:before{content:&quot;\f48d&quot;}.fa-smoking-ban:before{content:&quot;\f54d&quot;}.fa-sms:before{content:&quot;\f7cd&quot;}.fa-snapchat:before{content:&quot;\f2ab&quot;}.fa-snapchat-ghost:before{content:&quot;\f2ac&quot;}.fa-snapchat-square:before{content:&quot;\f2ad&quot;}.fa-snowboarding:before{content:&quot;\f7ce&quot;}.fa-snowflake:before{content:&quot;\f2dc&quot;}.fa-snowman:before{content:&quot;\f7d0&quot;}.fa-snowplow:before{content:&quot;\f7d2&quot;}.fa-soap:before{content:&quot;\f96e&quot;}.fa-socks:before{content:&quot;\f696&quot;}.fa-solar-panel:before{content:&quot;\f5ba&quot;}.fa-sort:before{content:&quot;\f0dc&quot;}.fa-sort-alpha-down:before{content:&quot;\f15d&quot;}.fa-sort-alpha-down-alt:before{content:&quot;\f881&quot;}.fa-sort-alpha-up:before{content:&quot;\f15e&quot;}.fa-sort-alpha-up-alt:before{content:&quot;\f882&quot;}.fa-sort-amount-down:before{content:&quot;\f160&quot;}.fa-sort-amount-down-alt:before{content:&quot;\f884&quot;}.fa-sort-amount-up:before{content:&quot;\f161&quot;}.fa-sort-amount-up-alt:before{content:&quot;\f885&quot;}.fa-sort-down:before{content:&quot;\f0dd&quot;}.fa-sort-numeric-down:before{content:&quot;\f162&quot;}.fa-sort-numeric-down-alt:before{content:&quot;\f886&quot;}.fa-sort-numeric-up:before{content:&quot;\f163&quot;}.fa-sort-numeric-up-alt:before{content:&quot;\f887&quot;}.fa-sort-up:before{content:&quot;\f0de&quot;}.fa-soundcloud:before{content:&quot;\f1be&quot;}.fa-sourcetree:before{content:&quot;\f7d3&quot;}.fa-spa:before{content:&quot;\f5bb&quot;}.fa-space-shuttle:before{content:&quot;\f197&quot;}.fa-speakap:before{content:&quot;\f3f3&quot;}.fa-speaker-deck:before{content:&quot;\f83c&quot;}.fa-spell-check:before{content:&quot;\f891&quot;}.fa-spider:before{content:&quot;\f717&quot;}.fa-spinner:before{content:&quot;\f110&quot;}.fa-splotch:before{content:&quot;\f5bc&quot;}.fa-spotify:before{content:&quot;\f1bc&quot;}.fa-spray-can:before{content:&quot;\f5bd&quot;}.fa-square:before{content:&quot;\f0c8&quot;}.fa-square-full:before{content:&quot;\f45c&quot;}.fa-square-root-alt:before{content:&quot;\f698&quot;}.fa-squarespace:before{content:&quot;\f5be&quot;}.fa-stack-exchange:before{content:&quot;\f18d&quot;}.fa-stack-overflow:before{content:&quot;\f16c&quot;}.fa-stackpath:before{content:&quot;\f842&quot;}.fa-stamp:before{content:&quot;\f5bf&quot;}.fa-star:before{content:&quot;\f005&quot;}.fa-star-and-crescent:before{content:&quot;\f699&quot;}.fa-star-half:before{content:&quot;\f089&quot;}.fa-star-half-alt:before{content:&quot;\f5c0&quot;}.fa-star-of-david:before{content:&quot;\f69a&quot;}.fa-star-of-life:before{content:&quot;\f621&quot;}.fa-staylinked:before{content:&quot;\f3f5&quot;}.fa-steam:before{content:&quot;\f1b6&quot;}.fa-steam-square:before{content:&quot;\f1b7&quot;}.fa-steam-symbol:before{content:&quot;\f3f6&quot;}.fa-step-backward:before{content:&quot;\f048&quot;}.fa-step-forward:before{content:&quot;\f051&quot;}.fa-stethoscope:before{content:&quot;\f0f1&quot;}.fa-sticker-mule:before{content:&quot;\f3f7&quot;}.fa-sticky-note:before{content:&quot;\f249&quot;}.fa-stop:before{content:&quot;\f04d&quot;}.fa-stop-circle:before{content:&quot;\f28d&quot;}.fa-stopwatch:before{content:&quot;\f2f2&quot;}.fa-stopwatch-20:before{content:&quot;\f96f&quot;}.fa-store:before{content:&quot;\f54e&quot;}.fa-store-alt:before{content:&quot;\f54f&quot;}.fa-store-alt-slash:before{content:&quot;\f970&quot;}.fa-store-slash:before{content:&quot;\f971&quot;}.fa-strava:before{content:&quot;\f428&quot;}.fa-stream:before{content:&quot;\f550&quot;}.fa-street-view:before{content:&quot;\f21d&quot;}.fa-strikethrough:before{content:&quot;\f0cc&quot;}.fa-stripe:before{content:&quot;\f429&quot;}.fa-stripe-s:before{content:&quot;\f42a&quot;}.fa-stroopwafel:before{content:&quot;\f551&quot;}.fa-studiovinari:before{content:&quot;\f3f8&quot;}.fa-stumbleupon:before{content:&quot;\f1a4&quot;}.fa-stumbleupon-circle:before{content:&quot;\f1a3&quot;}.fa-subscript:before{content:&quot;\f12c&quot;}.fa-subway:before{content:&quot;\f239&quot;}.fa-suitcase:before{content:&quot;\f0f2&quot;}.fa-suitcase-rolling:before{content:&quot;\f5c1&quot;}.fa-sun:before{content:&quot;\f185&quot;}.fa-superpowers:before{content:&quot;\f2dd&quot;}.fa-superscript:before{content:&quot;\f12b&quot;}.fa-supple:before{content:&quot;\f3f9&quot;}.fa-surprise:before{content:&quot;\f5c2&quot;}.fa-suse:before{content:&quot;\f7d6&quot;}.fa-swatchbook:before{content:&quot;\f5c3&quot;}.fa-swift:before{content:&quot;\f8e1&quot;}.fa-swimmer:before{content:&quot;\f5c4&quot;}.fa-swimming-pool:before{content:&quot;\f5c5&quot;}.fa-symfony:before{content:&quot;\f83d&quot;}.fa-synagogue:before{content:&quot;\f69b&quot;}.fa-sync:before{content:&quot;\f021&quot;}.fa-sync-alt:before{content:&quot;\f2f1&quot;}.fa-syringe:before{content:&quot;\f48e&quot;}.fa-table:before{content:&quot;\f0ce&quot;}.fa-table-tennis:before{content:&quot;\f45d&quot;}.fa-tablet:before{content:&quot;\f10a&quot;}.fa-tablet-alt:before{content:&quot;\f3fa&quot;}.fa-tablets:before{content:&quot;\f490&quot;}.fa-tachometer-alt:before{content:&quot;\f3fd&quot;}.fa-tag:before{content:&quot;\f02b&quot;}.fa-tags:before{content:&quot;\f02c&quot;}.fa-tape:before{content:&quot;\f4db&quot;}.fa-tasks:before{content:&quot;\f0ae&quot;}.fa-taxi:before{content:&quot;\f1ba&quot;}.fa-teamspeak:before{content:&quot;\f4f9&quot;}.fa-teeth:before{content:&quot;\f62e&quot;}.fa-teeth-open:before{content:&quot;\f62f&quot;}.fa-telegram:before{content:&quot;\f2c6&quot;}.fa-telegram-plane:before{content:&quot;\f3fe&quot;}.fa-temperature-high:before{content:&quot;\f769&quot;}.fa-temperature-low:before{content:&quot;\f76b&quot;}.fa-tencent-weibo:before{content:&quot;\f1d5&quot;}.fa-tenge:before{content:&quot;\f7d7&quot;}.fa-terminal:before{content:&quot;\f120&quot;}.fa-text-height:before{content:&quot;\f034&quot;}.fa-text-width:before{content:&quot;\f035&quot;}.fa-th:before{content:&quot;\f00a&quot;}.fa-th-large:before{content:&quot;\f009&quot;}.fa-th-list:before{content:&quot;\f00b&quot;}.fa-the-red-yeti:before{content:&quot;\f69d&quot;}.fa-theater-masks:before{content:&quot;\f630&quot;}.fa-themeco:before{content:&quot;\f5c6&quot;}.fa-themeisle:before{content:&quot;\f2b2&quot;}.fa-thermometer:before{content:&quot;\f491&quot;}.fa-thermometer-empty:before{content:&quot;\f2cb&quot;}.fa-thermometer-full:before{content:&quot;\f2c7&quot;}.fa-thermometer-half:before{content:&quot;\f2c9&quot;}.fa-thermometer-quarter:before{content:&quot;\f2ca&quot;}.fa-thermometer-three-quarters:before{content:&quot;\f2c8&quot;}.fa-think-peaks:before{content:&quot;\f731&quot;}.fa-thumbs-down:before{content:&quot;\f165&quot;}.fa-thumbs-up:before{content:&quot;\f164&quot;}.fa-thumbtack:before{content:&quot;\f08d&quot;}.fa-ticket-alt:before{content:&quot;\f3ff&quot;}.fa-tiktok:before{content:&quot;\f97b&quot;}.fa-times:before{content:&quot;\f00d&quot;}.fa-times-circle:before{content:&quot;\f057&quot;}.fa-tint:before{content:&quot;\f043&quot;}.fa-tint-slash:before{content:&quot;\f5c7&quot;}.fa-tired:before{content:&quot;\f5c8&quot;}.fa-toggle-off:before{content:&quot;\f204&quot;}.fa-toggle-on:before{content:&quot;\f205&quot;}.fa-toilet:before{content:&quot;\f7d8&quot;}.fa-toilet-paper:before{content:&quot;\f71e&quot;}.fa-toilet-paper-slash:before{content:&quot;\f972&quot;}.fa-toolbox:before{content:&quot;\f552&quot;}.fa-tools:before{content:&quot;\f7d9&quot;}.fa-tooth:before{content:&quot;\f5c9&quot;}.fa-torah:before{content:&quot;\f6a0&quot;}.fa-torii-gate:before{content:&quot;\f6a1&quot;}.fa-tractor:before{content:&quot;\f722&quot;}.fa-trade-federation:before{content:&quot;\f513&quot;}.fa-trademark:before{content:&quot;\f25c&quot;}.fa-traffic-light:before{content:&quot;\f637&quot;}.fa-trailer:before{content:&quot;\f941&quot;}.fa-train:before{content:&quot;\f238&quot;}.fa-tram:before{content:&quot;\f7da&quot;}.fa-transgender:before{content:&quot;\f224&quot;}.fa-transgender-alt:before{content:&quot;\f225&quot;}.fa-trash:before{content:&quot;\f1f8&quot;}.fa-trash-alt:before{content:&quot;\f2ed&quot;}.fa-trash-restore:before{content:&quot;\f829&quot;}.fa-trash-restore-alt:before{content:&quot;\f82a&quot;}.fa-tree:before{content:&quot;\f1bb&quot;}.fa-trello:before{content:&quot;\f181&quot;}.fa-tripadvisor:before{content:&quot;\f262&quot;}.fa-trophy:before{content:&quot;\f091&quot;}.fa-truck:before{content:&quot;\f0d1&quot;}.fa-truck-loading:before{content:&quot;\f4de&quot;}.fa-truck-monster:before{content:&quot;\f63b&quot;}.fa-truck-moving:before{content:&quot;\f4df&quot;}.fa-truck-pickup:before{content:&quot;\f63c&quot;}.fa-tshirt:before{content:&quot;\f553&quot;}.fa-tty:before{content:&quot;\f1e4&quot;}.fa-tumblr:before{content:&quot;\f173&quot;}.fa-tumblr-square:before{content:&quot;\f174&quot;}.fa-tv:before{content:&quot;\f26c&quot;}.fa-twitch:before{content:&quot;\f1e8&quot;}.fa-twitter:before{content:&quot;\f099&quot;}.fa-twitter-square:before{content:&quot;\f081&quot;}.fa-typo3:before{content:&quot;\f42b&quot;}.fa-uber:before{content:&quot;\f402&quot;}.fa-ubuntu:before{content:&quot;\f7df&quot;}.fa-uikit:before{content:&quot;\f403&quot;}.fa-umbraco:before{content:&quot;\f8e8&quot;}.fa-umbrella:before{content:&quot;\f0e9&quot;}.fa-umbrella-beach:before{content:&quot;\f5ca&quot;}.fa-underline:before{content:&quot;\f0cd&quot;}.fa-undo:before{content:&quot;\f0e2&quot;}.fa-undo-alt:before{content:&quot;\f2ea&quot;}.fa-uniregistry:before{content:&quot;\f404&quot;}.fa-unity:before{content:&quot;\f949&quot;}.fa-universal-access:before{content:&quot;\f29a&quot;}.fa-university:before{content:&quot;\f19c&quot;}.fa-unlink:before{content:&quot;\f127&quot;}.fa-unlock:before{content:&quot;\f09c&quot;}.fa-unlock-alt:before{content:&quot;\f13e&quot;}.fa-unsplash:before{content:&quot;\f97c&quot;}.fa-untappd:before{content:&quot;\f405&quot;}.fa-upload:before{content:&quot;\f093&quot;}.fa-ups:before{content:&quot;\f7e0&quot;}.fa-usb:before{content:&quot;\f287&quot;}.fa-user:before{content:&quot;\f007&quot;}.fa-user-alt:before{content:&quot;\f406&quot;}.fa-user-alt-slash:before{content:&quot;\f4fa&quot;}.fa-user-astronaut:before{content:&quot;\f4fb&quot;}.fa-user-check:before{content:&quot;\f4fc&quot;}.fa-user-circle:before{content:&quot;\f2bd&quot;}.fa-user-clock:before{content:&quot;\f4fd&quot;}.fa-user-cog:before{content:&quot;\f4fe&quot;}.fa-user-edit:before{content:&quot;\f4ff&quot;}.fa-user-friends:before{content:&quot;\f500&quot;}.fa-user-graduate:before{content:&quot;\f501&quot;}.fa-user-injured:before{content:&quot;\f728&quot;}.fa-user-lock:before{content:&quot;\f502&quot;}.fa-user-md:before{content:&quot;\f0f0&quot;}.fa-user-minus:before{content:&quot;\f503&quot;}.fa-user-ninja:before{content:&quot;\f504&quot;}.fa-user-nurse:before{content:&quot;\f82f&quot;}.fa-user-plus:before{content:&quot;\f234&quot;}.fa-user-secret:before{content:&quot;\f21b&quot;}.fa-user-shield:before{content:&quot;\f505&quot;}.fa-user-slash:before{content:&quot;\f506&quot;}.fa-user-tag:before{content:&quot;\f507&quot;}.fa-user-tie:before{content:&quot;\f508&quot;}.fa-user-times:before{content:&quot;\f235&quot;}.fa-users:before{content:&quot;\f0c0&quot;}.fa-users-cog:before{content:&quot;\f509&quot;}.fa-users-slash:before{content:&quot;\f973&quot;}.fa-usps:before{content:&quot;\f7e1&quot;}.fa-ussunnah:before{content:&quot;\f407&quot;}.fa-utensil-spoon:before{content:&quot;\f2e5&quot;}.fa-utensils:before{content:&quot;\f2e7&quot;}.fa-vaadin:before{content:&quot;\f408&quot;}.fa-vector-square:before{content:&quot;\f5cb&quot;}.fa-venus:before{content:&quot;\f221&quot;}.fa-venus-double:before{content:&quot;\f226&quot;}.fa-venus-mars:before{content:&quot;\f228&quot;}.fa-viacoin:before{content:&quot;\f237&quot;}.fa-viadeo:before{content:&quot;\f2a9&quot;}.fa-viadeo-square:before{content:&quot;\f2aa&quot;}.fa-vial:before{content:&quot;\f492&quot;}.fa-vials:before{content:&quot;\f493&quot;}.fa-viber:before{content:&quot;\f409&quot;}.fa-video:before{content:&quot;\f03d&quot;}.fa-video-slash:before{content:&quot;\f4e2&quot;}.fa-vihara:before{content:&quot;\f6a7&quot;}.fa-vimeo:before{content:&quot;\f40a&quot;}.fa-vimeo-square:before{content:&quot;\f194&quot;}.fa-vimeo-v:before{content:&quot;\f27d&quot;}.fa-vine:before{content:&quot;\f1ca&quot;}.fa-virus:before{content:&quot;\f974&quot;}.fa-virus-slash:before{content:&quot;\f975&quot;}.fa-viruses:before{content:&quot;\f976&quot;}.fa-vk:before{content:&quot;\f189&quot;}.fa-vnv:before{content:&quot;\f40b&quot;}.fa-voicemail:before{content:&quot;\f897&quot;}.fa-volleyball-ball:before{content:&quot;\f45f&quot;}.fa-volume-down:before{content:&quot;\f027&quot;}.fa-volume-mute:before{content:&quot;\f6a9&quot;}.fa-volume-off:before{content:&quot;\f026&quot;}.fa-volume-up:before{content:&quot;\f028&quot;}.fa-vote-yea:before{content:&quot;\f772&quot;}.fa-vr-cardboard:before{content:&quot;\f729&quot;}.fa-vuejs:before{content:&quot;\f41f&quot;}.fa-walking:before{content:&quot;\f554&quot;}.fa-wallet:before{content:&quot;\f555&quot;}.fa-warehouse:before{content:&quot;\f494&quot;}.fa-water:before{content:&quot;\f773&quot;}.fa-wave-square:before{content:&quot;\f83e&quot;}.fa-waze:before{content:&quot;\f83f&quot;}.fa-weebly:before{content:&quot;\f5cc&quot;}.fa-weibo:before{content:&quot;\f18a&quot;}.fa-weight:before{content:&quot;\f496&quot;}.fa-weight-hanging:before{content:&quot;\f5cd&quot;}.fa-weixin:before{content:&quot;\f1d7&quot;}.fa-whatsapp:before{content:&quot;\f232&quot;}.fa-whatsapp-square:before{content:&quot;\f40c&quot;}.fa-wheelchair:before{content:&quot;\f193&quot;}.fa-whmcs:before{content:&quot;\f40d&quot;}.fa-wifi:before{content:&quot;\f1eb&quot;}.fa-wikipedia-w:before{content:&quot;\f266&quot;}.fa-wind:before{content:&quot;\f72e&quot;}.fa-window-close:before{content:&quot;\f410&quot;}.fa-window-maximize:before{content:&quot;\f2d0&quot;}.fa-window-minimize:before{content:&quot;\f2d1&quot;}.fa-window-restore:before{content:&quot;\f2d2&quot;}.fa-windows:before{content:&quot;\f17a&quot;}.fa-wine-bottle:before{content:&quot;\f72f&quot;}.fa-wine-glass:before{content:&quot;\f4e3&quot;}.fa-wine-glass-alt:before{content:&quot;\f5ce&quot;}.fa-wix:before{content:&quot;\f5cf&quot;}.fa-wizards-of-the-coast:before{content:&quot;\f730&quot;}.fa-wolf-pack-battalion:before{content:&quot;\f514&quot;}.fa-won-sign:before{content:&quot;\f159&quot;}.fa-wordpress:before{content:&quot;\f19a&quot;}.fa-wordpress-simple:before{content:&quot;\f411&quot;}.fa-wpbeginner:before{content:&quot;\f297&quot;}.fa-wpexplorer:before{content:&quot;\f2de&quot;}.fa-wpforms:before{content:&quot;\f298&quot;}.fa-wpressr:before{content:&quot;\f3e4&quot;}.fa-wrench:before{content:&quot;\f0ad&quot;}.fa-x-ray:before{content:&quot;\f497&quot;}.fa-xbox:before{content:&quot;\f412&quot;}.fa-xing:before{content:&quot;\f168&quot;}.fa-xing-square:before{content:&quot;\f169&quot;}.fa-y-combinator:before{content:&quot;\f23b&quot;}.fa-yahoo:before{content:&quot;\f19e&quot;}.fa-yammer:before{content:&quot;\f840&quot;}.fa-yandex:before{content:&quot;\f413&quot;}.fa-yandex-international:before{content:&quot;\f414&quot;}.fa-yarn:before{content:&quot;\f7e3&quot;}.fa-yelp:before{content:&quot;\f1e9&quot;}.fa-yen-sign:before{content:&quot;\f157&quot;}.fa-yin-yang:before{content:&quot;\f6ad&quot;}.fa-yoast:before{content:&quot;\f2b1&quot;}.fa-youtube:before{content:&quot;\f167&quot;}.fa-youtube-square:before{content:&quot;\f431&quot;}.fa-zhihu:before{content:&quot;\f63f&quot;}.sr-only{border:0;clip:rect(0,0,0,0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}.sr-only-focusable:active,.sr-only-focusable:focus{clip:auto;height:auto;margin:0;overflow:visible;position:static;width:auto}@font-face{font-family:&quot;Font Awesome 5 Brands&quot;;font-style:normal;font-weight:400;font-display:block;src:url(../webfonts/fa-brands-400.eot);src:url(../webfonts/fa-brands-400.eot?#iefix) format(&quot;embedded-opentype&quot;),url(../webfonts/fa-brands-400.woff2) format(&quot;woff2&quot;),url(../webfonts/fa-brands-400.woff) format(&quot;woff&quot;),url(../webfonts/fa-brands-400.ttf) format(&quot;truetype&quot;),url(../webfonts/fa-brands-400.svg#fontawesome) format(&quot;svg&quot;)}.fab{font-family:&quot;Font Awesome 5 Brands&quot;}@font-face{font-family:&quot;Font Awesome 5 Free&quot;;font-style:normal;font-weight:400;font-display:block;src:url(../webfonts/fa-regular-400.eot);src:url(../webfonts/fa-regular-400.eot?#iefix) format(&quot;embedded-opentype&quot;),url(../webfonts/fa-regular-400.woff2) format(&quot;woff2&quot;),url(../webfonts/fa-regular-400.woff) format(&quot;woff&quot;),url(../webfonts/fa-regular-400.ttf) format(&quot;truetype&quot;),url(../webfonts/fa-regular-400.svg#fontawesome) format(&quot;svg&quot;)}.fab,.far{font-weight:400}@font-face{font-family:&quot;Font Awesome 5 Free&quot;;font-style:normal;font-weight:900;font-display:block;src:url(../webfonts/fa-solid-900.eot);src:url(../webfonts/fa-solid-900.eot?#iefix) format(&quot;embedded-opentype&quot;),url(../webfonts/fa-solid-900.woff2) format(&quot;woff2&quot;),url(../webfonts/fa-solid-900.woff) format(&quot;woff&quot;),url(../webfonts/fa-solid-900.ttf) format(&quot;truetype&quot;),url(../webfonts/fa-solid-900.svg#fontawesome) format(&quot;svg&quot;)}.fa,.far,.fas{font-family:&quot;Font Awesome 5 Free&quot;}.fa,.fas{font-weight:900}</td>
+      </tr>
+</table>
+
+  <details class="details-reset details-overlay BlobToolbar position-absolute js-file-line-actions dropdown d-none" aria-hidden="true">
+    <summary class="btn-octicon ml-0 px-2 p-0 bg-white border border-gray-dark rounded-1" aria-label="Inline file action toolbar">
+      <svg class="octicon octicon-kebab-horizontal" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M8 9a1.5 1.5 0 100-3 1.5 1.5 0 000 3zM1.5 9a1.5 1.5 0 100-3 1.5 1.5 0 000 3zm13 0a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"></path></svg>
+    </summary>
+    <details-menu>
+      <ul class="BlobToolbar-dropdown dropdown-menu dropdown-menu-se mt-2" style="width:185px">
+        <li>
+          <clipboard-copy role="menuitem" class="dropdown-item" id="js-copy-lines" style="cursor:pointer;">
+            Copy lines
+          </clipboard-copy>
+        </li>
+        <li>
+          <clipboard-copy role="menuitem" class="dropdown-item" id="js-copy-permalink" style="cursor:pointer;">
+            Copy permalink
+          </clipboard-copy>
+        </li>
+        <li><a class="dropdown-item js-update-url-with-hash" id="js-view-git-blame" role="menuitem" href="/FortAwesome/Font-Awesome/blame/1147d199a35293b391152ee85e2d30988439157f/css/all.min.css">View git blame</a></li>
+          <li><a class="dropdown-item" id="js-new-issue" role="menuitem" href="/FortAwesome/Font-Awesome/issues/new">Reference in new issue</a></li>
+      </ul>
+    </details-menu>
+  </details>
+
+  </div>
+
+    </div>
+
+  
+
+
+  <details class="details-reset details-overlay details-overlay-dark" id="jumpto-line-details-dialog">
+    <summary data-hotkey="l" aria-label="Jump to line"></summary>
+    <details-dialog class="Box Box--overlay d-flex flex-column anim-fade-in fast linejump" aria-label="Jump to line">
+      <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-jump-to-line-form Box-body d-flex" action="" accept-charset="UTF-8" method="get">
+        <input class="form-control flex-auto mr-3 linejump-input js-jump-to-line-field" type="text" placeholder="Jump to line&hellip;" aria-label="Jump to line" autofocus>
+        <button type="submit" class="btn" data-close-dialog>Go</button>
+</form>    </details-dialog>
+  </details>
+
+
+
+
+  </div>
+</div>
+
+    </main>
+  </div>
+  
+
+  </div>
+
+        
+<div class="footer container-xl width-full p-responsive" role="contentinfo">
+  <div class="position-relative d-flex flex-row-reverse flex-lg-row flex-wrap flex-lg-nowrap flex-justify-center flex-lg-justify-between pt-6 pb-2 mt-6 f6 text-gray border-top border-gray-light ">
+    <ul class="list-style-none d-flex flex-wrap col-12 col-lg-5 flex-justify-center flex-lg-justify-between mb-2 mb-lg-0">
+      <li class="mr-3 mr-lg-0">&copy; 2020 GitHub, Inc.</li>
+        <li class="mr-3 mr-lg-0"><a data-ga-click="Footer, go to terms, text:terms" href="https://github.com/site/terms">Terms</a></li>
+        <li class="mr-3 mr-lg-0"><a data-ga-click="Footer, go to privacy, text:privacy" href="https://github.com/site/privacy">Privacy</a></li>
+        <li class="mr-3 mr-lg-0"><a data-ga-click="Footer, go to security, text:security" href="https://github.com/security">Security</a></li>
+        <li class="mr-3 mr-lg-0"><a href="https://githubstatus.com/" data-ga-click="Footer, go to status, text:status">Status</a></li>
+        <li><a data-ga-click="Footer, go to help, text:help" href="https://help.github.com">Help</a></li>
+
+    </ul>
+
+    <a aria-label="Homepage" title="GitHub" class="footer-octicon d-none d-lg-block mx-lg-4" href="https://github.com">
+      <svg height="24" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="24" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg>
+</a>
+   <ul class="list-style-none d-flex flex-wrap col-12 col-lg-5 flex-justify-center flex-lg-justify-between mb-2 mb-lg-0">
+        <li class="mr-3 mr-lg-0"><a data-ga-click="Footer, go to contact, text:contact" href="https://github.com/contact">Contact GitHub</a></li>
+        <li class="mr-3 mr-lg-0"><a href="https://github.com/pricing" data-ga-click="Footer, go to Pricing, text:Pricing">Pricing</a></li>
+      <li class="mr-3 mr-lg-0"><a href="https://developer.github.com" data-ga-click="Footer, go to api, text:api">API</a></li>
+      <li class="mr-3 mr-lg-0"><a href="https://training.github.com" data-ga-click="Footer, go to training, text:training">Training</a></li>
+        <li class="mr-3 mr-lg-0"><a href="https://github.blog" data-ga-click="Footer, go to blog, text:blog">Blog</a></li>
+        <li><a data-ga-click="Footer, go to about, text:about" href="https://github.com/about">About</a></li>
+    </ul>
+  </div>
+  <div class="d-flex flex-justify-center pb-6">
+    <span class="f6 text-gray-light"></span>
+  </div>
+</div>
+
+
+
+  <div id="ajax-error-message" class="ajax-error-message flash flash-error">
+    <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.22 1.754a.25.25 0 00-.44 0L1.698 13.132a.25.25 0 00.22.368h12.164a.25.25 0 00.22-.368L8.22 1.754zm-1.763-.707c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0114.082 15H1.918a1.75 1.75 0 01-1.543-2.575L6.457 1.047zM9 11a1 1 0 11-2 0 1 1 0 012 0zm-.25-5.25a.75.75 0 00-1.5 0v2.5a.75.75 0 001.5 0v-2.5z"></path></svg>
+    <button type="button" class="flash-close js-ajax-error-dismiss" aria-label="Dismiss error">
+      <svg class="octicon octicon-x" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M3.72 3.72a.75.75 0 011.06 0L8 6.94l3.22-3.22a.75.75 0 111.06 1.06L9.06 8l3.22 3.22a.75.75 0 11-1.06 1.06L8 9.06l-3.22 3.22a.75.75 0 01-1.06-1.06L6.94 8 3.72 4.78a.75.75 0 010-1.06z"></path></svg>
+    </button>
+    You can’t perform that action at this time.
+  </div>
+
+
+    <script crossorigin="anonymous" async="async" integrity="sha512-WcQmT2vhcClFVOaaAJV/M+HqsJ2Gq/myvl6F3gCVBxykazXTs+i5fvxncSXwyG1CSfcrqmLFw/R/bmFYzprX2A==" type="application/javascript" id="js-conditional-compat" data-src="https://github.githubassets.com/assets/compat-bootstrap-59c4264f.js"></script>
+    <script crossorigin="anonymous" integrity="sha512-47cvnR4cfmRA+p1TUeCLY+nCEqD7tni9XPMTW5kLy2C4SUhMCAw0NWiKqvZEM0iZRBw+8u8DgeD30fC56eV02w==" type="application/javascript" src="https://github.githubassets.com/assets/environment-bootstrap-e3b72f9d.js"></script>
+    <script crossorigin="anonymous" async="async" integrity="sha512-XWz5HaaTTrTqPbip/poDC93vFrDNSzLklq8U2NDvVKkqFnGnjKWXc4oqIroQ7niVJGouPSNavRlVOj9sG46GDQ==" type="application/javascript" src="https://github.githubassets.com/assets/vendor-5d6cf91d.js"></script>
+    <script crossorigin="anonymous" async="async" integrity="sha512-cFdsPtFdG3JFLJrPCw2IFgIdnECd3F1B+KWzwEih5VSTbixIO/Ymjon6nfNo/EQihv3x6UYYGbMet6XocJs60Q==" type="application/javascript" src="https://github.githubassets.com/assets/frameworks-70576c3e.js"></script>
+    
+    <script crossorigin="anonymous" async="async" integrity="sha512-Pd5xPTv0AbHqO0tW3FDU088cgHoiy0AFhzOH+zZd2+aOMEpNw8Gie39RZ02m2IThJBhwKhQx2JIHQnZNMwq2qg==" type="application/javascript" src="https://github.githubassets.com/assets/github-bootstrap-3dde713d.js"></script>
+    
+      <script crossorigin="anonymous" async="async" integrity="sha512-4GcSWGoe36+BoWho4gtJcByZe8j43w+lt2/PDe3rmBxRVSgD29YipDwuIywe8fvOd2b2CszBqaPGxSznUtE3Xg==" type="application/javascript" data-module-id="./drag-drop.js" data-src="https://github.githubassets.com/assets/drag-drop-e0671258.js"></script>
+      <script crossorigin="anonymous" async="async" integrity="sha512-2k8dDHk0yt52uKvOvgc9cwOXOeJhxBfVP5kPS2BrCdytDmtEIJ2yone26vFENAyk1a2aFQ7KDgEevRQafuAf8A==" type="application/javascript" data-module-id="./gist-vendor.js" data-src="https://github.githubassets.com/assets/gist-vendor-da4f1d0c.js"></script>
+      <script crossorigin="anonymous" async="async" integrity="sha512-iv+4yAluOjiG50ZypUBIWIUCRDo6JEBf2twvmd5AelxgPQJO/XC1oNMGTMdDfKt30p7G7fHEOTZ2utHWDJ9PPQ==" type="application/javascript" data-module-id="./randomColor.js" data-src="https://github.githubassets.com/assets/randomColor-8affb8c8.js"></script>
+    
+    
+  <div class="js-stale-session-flash flash flash-warn flash-banner" hidden
+    >
+    <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.22 1.754a.25.25 0 00-.44 0L1.698 13.132a.25.25 0 00.22.368h12.164a.25.25 0 00.22-.368L8.22 1.754zm-1.763-.707c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0114.082 15H1.918a1.75 1.75 0 01-1.543-2.575L6.457 1.047zM9 11a1 1 0 11-2 0 1 1 0 012 0zm-.25-5.25a.75.75 0 00-1.5 0v2.5a.75.75 0 001.5 0v-2.5z"></path></svg>
+    <span class="js-stale-session-flash-signed-in" hidden>You signed in with another tab or window. <a href="">Reload</a> to refresh your session.</span>
+    <span class="js-stale-session-flash-signed-out" hidden>You signed out in another tab or window. <a href="">Reload</a> to refresh your session.</span>
+  </div>
+  <template id="site-details-dialog">
+  <details class="details-reset details-overlay details-overlay-dark lh-default text-gray-dark hx_rsm" open>
+    <summary role="button" aria-label="Close dialog"></summary>
+    <details-dialog class="Box Box--overlay d-flex flex-column anim-fade-in fast hx_rsm-dialog hx_rsm-modal">
+      <button class="Box-btn-octicon m-0 btn-octicon position-absolute right-0 top-0" type="button" aria-label="Close dialog" data-close-dialog>
+        <svg class="octicon octicon-x" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M3.72 3.72a.75.75 0 011.06 0L8 6.94l3.22-3.22a.75.75 0 111.06 1.06L9.06 8l3.22 3.22a.75.75 0 11-1.06 1.06L8 9.06l-3.22 3.22a.75.75 0 01-1.06-1.06L6.94 8 3.72 4.78a.75.75 0 010-1.06z"></path></svg>
+      </button>
+      <div class="octocat-spinner my-6 js-details-dialog-spinner"></div>
+    </details-dialog>
+  </details>
+</template>
+
+  <div class="Popover js-hovercard-content position-absolute" style="display: none; outline: none;" tabindex="0">
+  <div class="Popover-message Popover-message--bottom-left Popover-message--large Box box-shadow-large" style="width:360px;">
+  </div>
+</div>
+
+
+  </body>
+</html>
+
