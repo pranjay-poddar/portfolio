@@ -1,6 +1,6 @@
 <h1>Portfolio (Pranjay Poddar)</h1>
 <br>
-<p>This is my portfolio website project <a>pranjay.tech</a></p>
+<p>This is my portfolio website project </p><a>pranjay.tech</a>
 <br><br>
 
   ![forthebadge](https://forthebadge.com/images/badges/made-with-c.svg)
