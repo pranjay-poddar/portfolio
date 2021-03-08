@@ -8,7 +8,7 @@
   ![forthebadge](https://forthebadge.com/images/badges/uses-css.svg)]
   ![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)
   ![forthebadge](https://forthebadge.com/images/badges/check-it-out.svg)
-  ![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)]{align="center"}
+  ![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)]
  <br><br>
  <p>A dark and light mode based portfolio which contains animation and supports all screen sizes</p>
  <br>
