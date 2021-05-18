@@ -119,6 +119,14 @@
   }
    */
 
+.grow {
+    transition: all 0.2s ease-in-out;
+}
+
+.grow:hover {
+    transform: scale(1.05);
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -162,6 +170,7 @@ body {
     background-image: url("./backg1.jpg");
     background: transparent;
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 body::before {
@@ -240,8 +249,8 @@ h6 {
     transition: 0.3s ease-in-out;
     position: relative;
     align-items: center;
-    height: 98vh;
-    z-index: 997;
+    height: 100vh;
+    z-index: 20;
     overflow-y: auto;
 }
 
@@ -486,6 +495,11 @@ li.nav-item:last-child {
     list-style: none;
 }
 
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
 
 /* SECTIONS */
 
@@ -509,7 +523,7 @@ section.section-show {
 
 section .container {
     background: rgba(0, 0, 0, 0.95);
-    padding: 25px;
+    padding: 20px;
 }
 
 @media (max-width: 768px) {
@@ -1059,6 +1073,19 @@ a.button4:hover {
     color: #be5df7;
 }
 
+.project-blog {
+    height: 300px;
+    width: 300px;
+    margin-top: 8%;
+}
+
+.project-blog-headings {
+    font-size: 180%;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 2%;
+}
+
 .contact .info-box {
     color: #000000;
     padding: 20px;
@@ -1095,6 +1122,14 @@ a.button4:hover {
     text-shadow: black;
     font-weight: 700;
     margin: 10px 0 8px 68px;
+}
+
+.contact .container {
+    padding: 0.1px 20px 5px 20px;
+}
+
+#section-title2 {
+    margin-top: 0;
 }
 
 .contact .info-box p {
@@ -1611,6 +1646,13 @@ a.button4:hover {
 .light-mode li.nav-item a.nav-link::after {
     height: 4px;
     background-color: #bc96e6;
+}
+
+@media (max-width: 768px) {
+    .project-blog {
+        height: 230px;
+        width: 230px;
+    }
 }
 
 @media (max-width: 568px) {
