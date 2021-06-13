@@ -1092,6 +1092,7 @@ a.button4:hover {
     width: 100%;
     border-radius: 15%;
     transition: 0.5s ease-in-out;
+    background-color: rgba(255, 255, 255, 0.19);
 }
 
 .contact .info-box:hover {
