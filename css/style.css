@@ -1622,7 +1622,11 @@ a.button4:hover {
 
 .light-mode .contact .php-email-form button[type="submit"] {
     background: #55286F;
-    color: #fff;
+    color: rgb(223, 223, 223);
+}
+
+.light-mode .contact .info-box {
+    background: rgba(240, 240, 240, 0.8);
 }
 
 .light-mode .contact .info-box .social-links i {
@@ -1630,12 +1634,12 @@ a.button4:hover {
 }
 
 .light-mode .contact .php-email-form {
-    background: rgba(255, 255, 255, 0.8);
+    background: rgba(192, 192, 192, 0.8);
 }
 
 .light-mode .contact .php-email-form input,
 .light-mode .contact .php-email-form textarea {
-    background: rgba(204, 204, 204, 0.8);
+    background: rgba(240, 240, 240, 0.8);
     color: #000000;
 }
 
@@ -1647,6 +1651,14 @@ a.button4:hover {
 .light-mode li.nav-item a.nav-link::after {
     height: 4px;
     background-color: #bc96e6;
+}
+
+.light-mode .project-blog-headings {
+    color: black;
+}
+
+.light-mode .project-blog-headings:hover {
+    color: #55286F;
 }
 
 @media (max-width: 768px) {
