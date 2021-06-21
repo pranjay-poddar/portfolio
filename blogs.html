@@ -26,14 +26,16 @@
     </script> -->
     <script>
         // right click disable---------start--------------------------
-        //   document.addEventListener("contextmenu", function(e){
-        //     e.preventDefault();
-        // }, false);
+        document.addEventListener("contextmenu", function(e) {
+            e.preventDefault();
+        }, false);
         // right click disable---------end--------------------------
         // dark mode toggle start-----------------------------------
         function lightmode() {
             var element = document.body;
             element.classList.toggle("light-mode");
+            var x = document.getElementById("myAudio");
+            x.play();
         }
         // dark mode toggle end ------------------------------------
         window.dataLayer = window.dataLayer || [];
@@ -312,6 +314,9 @@
         <script src="/__/firebase/8.2.10/firebase-analytics.js"></script>
         <!-- Initialize Firebase -->
         <script src="/__/firebase/init.js"></script>
+        <audio id="myAudio">
+            <source src="./click.mp3" type="audio/ogg">
+          </audio>
 </body>
 </div>
 
