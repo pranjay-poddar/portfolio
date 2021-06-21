@@ -27,14 +27,16 @@
     </script> -->
     <script>
         // right click disable---------start--------------------------
-        //   document.addEventListener("contextmenu", function(e){
-        //     e.preventDefault();
-        // }, false);
+        document.addEventListener("contextmenu", function(e) {
+            e.preventDefault();
+        }, false);
         // right click disable---------end--------------------------
         // dark mode toggle start-----------------------------------
         function lightmode() {
             var element = document.body;
             element.classList.toggle("light-mode");
+            var x = document.getElementById("myAudio");
+            x.play();
         }
         // dark mode toggle end ------------------------------------
 
@@ -334,6 +336,32 @@
                             </div>
                         </div>
                     </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                        <div class="portfolio-wrap">
+                            <img src="projects images/hangman.png" class="img-fluid" alt="Hangman Game">
+                            <div class="portfolio-info">
+                                <h4>Hangman Game</h4>
+                                <p></p>
+                                <div class="portfolio-links">
+                                    <a href="projects images/hangman.png" data-gall="portfolioGallery" class="venobox" title="Hangman Game"><i class="fas fa-images"></i></a>
+                                    <a href="" target="_blank"><i class="fas fa-link"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                        <div class="portfolio-wrap">
+                            <img src="projects images/tic-tac-toe.png" class="img-fluid" alt="Tic-Tac-Toe Game">
+                            <div class="portfolio-info">
+                                <h4>Tic-Tac-Toe Game</h4>
+                                <p></p>
+                                <div class="portfolio-links">
+                                    <a href="projects images/tic-tac-toe.png" data-gall="portfolioGallery" class="venobox" title="Tic-Tac-Toe Game"><i class="fas fa-images"></i></a>
+                                    <a href="" target="_blank"><i class="fas fa-link"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     <!-- c/c++ projects  -->
                     <div class="col-lg-4 col-md-6 portfolio-item filter-c">
                         <div class="portfolio-wrap">
@@ -493,6 +521,9 @@
 
         <!-- Initialize Firebase -->
         <script src="/__/firebase/init.js"></script>
+        <audio id="myAudio">
+            <source src="./click.mp3" type="audio/ogg">
+          </audio>
 </body>
 </div>
 
