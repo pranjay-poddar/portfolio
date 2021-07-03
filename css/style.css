@@ -457,6 +457,12 @@ section .container {
     justify-content: center;
 }
 
+.header_social {
+    position: absolute;
+    bottom: 20px;
+    left: 10px
+}
+
 
 /*About Section*/
 
@@ -946,10 +952,12 @@ a.button4:hover {
 .projects-social {
     font-size: 30px;
     margin: 0.5%;
+    transition: all 0.2s ease-in-out;
 }
 
 .projects-social:hover {
     color: #be5df7;
+    transform: scale(1.05);
 }
 
 .project-blog {
@@ -1334,6 +1342,18 @@ a.button4:hover {
     background-image: none;
 }
 
+.light-mode .projects-social {
+    font-size: 30px;
+    margin: 0.5%;
+    transition: all 0.2s ease-in-out;
+    color: black;
+}
+
+.light-mode .projects-social:hover {
+    color: #be5df7;
+    transform: scale(1.05);
+}
+
 .light-mode::before {
     background: #d3d3d3;
     color: black;
@@ -1559,5 +1579,23 @@ a.button4:hover {
         right: 0;
         top: 0;
         height: 100vh;
+    }
+    #header.header-top h1 {
+        margin-right: auto;
+        font-size: 35px;
+        margin-top: 10px;
+    }
+    #header h2 {
+        padding: -20px;
+        margin-top: 70px;
+        line-height: auto;
+        font-size: 30px;
+    }
+    #header .typeh2 {
+        font-size: 28px;
+        font-family: 'Roboto', sans-serif;
+        margin-top: 20px;
+        padding: 10px 30px;
+        color: #fff;
     }
 }
