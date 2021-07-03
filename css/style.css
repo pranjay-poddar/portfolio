@@ -6,6 +6,25 @@
     transform: scale(1.05);
 }
 
+
+/* up arrow animation */
+
+@-webkit-keyframes uparrow {
+    0% {
+        -webkit-transform: translateY(0);
+        opacity: 0.4
+    }
+    100% {
+        -webkit-transform: translateY(-0.4em);
+        opacity: 0.9
+    }
+}
+
+.up {
+    -webkit-animation: uparrow 0.6s infinite alternate ease-in-out;
+    border-bottom: 0.2em solid #be5df7;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -1171,7 +1190,6 @@ a.button4:hover {
 .thanks .container {
     background: rgba(255, 255, 255, 0.17);
     border-radius: 15%;
-    transition: 0.4s ease-in-out;
     cursor: pointer;
 }
 
@@ -1186,10 +1204,6 @@ a.button4:hover {
     transition: 0.4s ease-in-out;
 }
 
-.thanks .container:hover {
-    transform: scale(1.1);
-}
-
 .thanks h2 span {
     color: #bc96e6;
 }
@@ -1200,6 +1214,18 @@ a.button4:hover {
 
 #section2 {
     margin-top: 1px;
+}
+
+.top {
+    font-size: 50px;
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+}
+
+.top:hover {
+    color: #bc96e6;
 }
 
 @media (max-width:992px) {
@@ -1560,6 +1586,22 @@ a.button4:hover {
     color: #55286F;
 }
 
+.light-mode .top {
+    font-size: 50px;
+    color: black;
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+}
+
+.light-mode .top:hover {
+    font-size: 50px;
+    color: #55286F;
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+}
+
 @media (max-width: 768px) {
     .project-blog {
         height: 230px;
@@ -1597,5 +1639,18 @@ a.button4:hover {
         margin-top: 20px;
         padding: 10px 30px;
         color: #fff;
+    }
+    .header_social {
+        position: absolute;
+        bottom: 20px;
+        left: 10px;
+    }
+    .top {
+        font-size: 40px;
+        bottom: 10px;
+        left: 20px;
+    }
+    .up {
+        border-bottom: 0.2em solid #be5df7;
     }
 }

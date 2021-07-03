@@ -11,7 +11,7 @@ var pJS = function(tag_id, params) {
         },
         particles: {
             number: {
-                value: 400,
+                value: 80,
                 density: {
                     enable: true,
                     value_area: 800
@@ -21,7 +21,7 @@ var pJS = function(tag_id, params) {
                 value: '#fff'
             },
             shape: {
-                type: 'circle',
+                type: 'star',
                 stroke: {
                     width: 0,
                     color: '#ff0000'
@@ -83,7 +83,7 @@ var pJS = function(tag_id, params) {
             events: {
                 onhover: {
                     enable: true,
-                    mode: 'grab'
+                    mode: 'repulse'
                 },
                 onclick: {
                     enable: true,
@@ -116,7 +116,7 @@ var pJS = function(tag_id, params) {
             },
             mouse: {}
         },
-        retina_detect: false,
+        retina_detect: true,
         fn: {
             interact: {},
             modes: {},
