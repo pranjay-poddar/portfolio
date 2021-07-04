@@ -10,3 +10,5 @@ window.scrollBy({
     left: 0,
     behavior: 'smooth'
 });
+
+window.addEventListener("scroll", function() { var scroll_y = this.scrollY; if (scroll_y > 0) { document.querySelector("#taketotop").classList.remove("n"); } else { document.querySelector("#taketotop").classList.add("n"); } });
