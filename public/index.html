@@ -100,7 +100,12 @@
         drift.load('izskvvhsx7wr');
     </script>
     <!-- End of Async Drift Code -->
-
+    <script type="text/javascript">
+        window.addEventListener('hashchange', function() {
+            document.querySelector('.active').classList.remove('active');
+            document.querySelector('[href="' + window.location.hash + '"]').classList.add('active');
+        });
+    </script>
 
 
 </head>
