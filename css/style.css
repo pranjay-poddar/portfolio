@@ -11,6 +11,10 @@
     src: url(../font/SF-Pro-Text-Medium.otf) format("opentype");
 }
 
+.active {
+    background-color: #3f2e49;
+}
+
 
 /* up arrow animation */
 
@@ -145,9 +149,11 @@ h6 {
     color: #ffffff;
 }
 
-.cat{
+.cat {
     padding: 8vh 0;
 }
+
+
 /* HEADER SECTION */
 
 #header {
