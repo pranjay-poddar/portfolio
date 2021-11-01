@@ -668,8 +668,8 @@ a.button4:hover {
     text-transform: uppercase;
     /* display: block; */
     font-weight: 500;
-    font-size: small;
-    font-family: regular, "Poppins", sans-serif;
+    font-size: medium;
+    font-family: "Poppins", sans-serif;
     color: #fff;
 }
 
@@ -680,19 +680,15 @@ a.button4:hover {
 
 .skills .progress-bar-wrap {
     background: rgba(255, 255, 255, 0.15);
-    border-radius: 30%;
 }
 
 .skills .progress-bar {
     margin-bottom: 20px;
-    width: 1px;
-    height: 15px;
+    width: 2px;
+    height: 20px;
+    color: black;
     transition: .9s;
     background-color: #bc96e6;
-}
-
-.progress-bar {
-    border-radius: 30%;
 }
 
 .counts {

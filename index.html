@@ -13,8 +13,6 @@
     <meta property="og:description" content="BTECH InCSE With Specialisation In Cloud Computing" />
     <meta property="og:image" content="https://billboard.srmkzilla.net/api/blog?title=Portfolio&subtitle=Pranjay%20Poddar%20-2021&theme=dark" />
 
-
-
     <link rel="manifest" href="./manifest.webmanifest">
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -281,25 +279,25 @@
                     <div class="progress">
                         <span class="skill">C<i class="val">95%</i></span>
                         <div class="progress-bar-wrap">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="progress-bar counter" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">95</div>
                         </div>
                     </div>
                     <div class="progress">
                         <span class="skill">C++<i class="val">90%</i></span>
                         <div class="progress-bar-wrap">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="progress-bar counter" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">90</div>
                         </div>
                     </div>
                     <div class="progress">
                         <span class="skill">JavaScript<i class="val">80%</i></span>
                         <div class="progress-bar-wrap">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="progress-bar counter" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">80</div>
                         </div>
                     </div>
                     <div class="progress">
                         <span class="skill">Python<i class="val">60%</i></span>
                         <div class="progress-bar-wrap">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="progress-bar counter" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">60</div>
                         </div>
                     </div>
                 </div>
@@ -307,25 +305,26 @@
                     <div class="progress">
                         <span class="skill">Web Dev<i class="val">90%</i></span>
                         <div class="progress-bar-wrap">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="progress-bar counter" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90</div>
                         </div>
                     </div>
                     <div class="progress">
                         <span class="skill">Angular<i class="val">75%</i></span>
                         <div class="progress-bar-wrap">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+
+                            <div class="progress-bar counter" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75</div>
                         </div>
                     </div>
                     <div class="progress">
-                        <span class="skill">Competitive Coding<i class="val">85%</i></span>
+                        <span class="skill">CP<i class="val">85%</i></span>
                         <div class="progress-bar-wrap">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="progress-bar counter" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">85</div>
                         </div>
                     </div>
                     <div class="progress">
-                        <span class="skill">Graphic Design<i class="val">95%</i></span>
+                        <span class="skill">Graphics<i class="val">95%</i></span>
                         <div class="progress-bar-wrap">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="progress-bar counter" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">95</div>
                         </div>
                     </div>
                 </div>
@@ -338,28 +337,28 @@
                 <div class="col-lg-3 col-md-6">
                     <div class="count-box">
                         <i class="fas fa-award"></i>
-                        <span data-toggle="counter-up">26</span>
+                        <span class="counter">26</span>
                         <p>Certifications</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
                     <div class="count-box">
                         <i class="fas fa-tasks"></i>
-                        <span data-toggle="counter-up">10</span>
+                        <span class="counter">15</span>
                         <p>Projects</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
                     <div class="count-box">
                         <i class="fas fa-project-diagram"></i>
-                        <span data-toggle="counter-up">1337</span>
+                        <span class="counter">2337</span>
                         <p>Git-Commits</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
                     <div class="count-box">
                         <i class="fas fa-certificate"></i>
-                        <span data-toggle="counter-up">3</span>
+                        <span class="counter">3</span>
                         <p>Awards</p>
                     </div>
                 </div>
@@ -601,9 +600,20 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.easing.min.js"></script>
     <script src="js/jquery.waypoints.min.js"></script>
-    <script src="js/counterup.min.js"></script>
+    <!-- <script src="js/counterup.min.js"></script> -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <!-------------------------JAVASCRIPT ANIMATION SCRIPTS-------------------->
+    <script>
+        jQuery(document).ready(function($) {
+            $('.counter').counterUp({
+                delay: 10,
+                time: 2000
+            });
+        });
+    </script>
+
+
     <script>
         // animate on scroll
         AOS.init();
@@ -649,19 +659,12 @@
             });
             $(this).addClass('filter-active');
         });
-        //CounterUp Animations
-        $('[data-toggle="counter-up"]').counterUp({
-            delay: 10,
-            time: 1000
-        });
+
         // Skills section Progress Bar Animmations
-        $('.skills-content').waypoint(function() {
-            $('.progress .progress-bar').each(function() {
-                $(this).css("width", $(this).attr("aria-valuenow") + '%');
-            });
-        }, {
-            offset: '80%'
-        });
+        // Along with time duration in milliseconds
+        $(".progress-bar").animate({
+            width: "80%",
+        }, 2500);
         // Porfolio isotope and filter
         $(window).on('load', function() {
             var portfolioIsotope = $('.portfolio-container').isotope({
@@ -681,6 +684,7 @@
             $('.venobox').venobox();
         });
     </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <!-------------------------------------END ANIMATION SCRIPTS-------------->
     <!-- firebase-----start------>
     <script src="/__/firebase/8.2.10/firebase-app.js"></script>
