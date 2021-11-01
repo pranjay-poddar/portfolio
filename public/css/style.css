@@ -6,6 +6,11 @@
     transform: scale(1.05);
 }
 
+@font-face {
+    font-family: regular;
+    src: url(../font/SF-Pro-Text-Medium.otf) format("opentype");
+}
+
 
 /* up arrow animation */
 
@@ -62,7 +67,7 @@ html {
 /* scrollbar end  */
 
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: regular, 'Open Sans', sans-serif;
     color: #fff;
     position: relative;
     background-image: url("./backg1.jpg");
@@ -132,7 +137,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Raleway", sans-serif;
+    font-family: regular, "Raleway", sans-serif;
 }
 
 .button4 {
@@ -140,7 +145,9 @@ h6 {
     color: #ffffff;
 }
 
-
+.cat{
+    padding: 8vh 0;
+}
 /* HEADER SECTION */
 
 #header {
@@ -158,7 +165,7 @@ h6 {
 
 #header h1 {
     font-size: 60px;
-    font-family: "Poppins", sans-serif;
+    font-family: regular, "Poppins", sans-serif;
     line-height: 1.2;
     margin: 0;
     padding: 0 30px;
@@ -176,7 +183,7 @@ h6 {
 
 #header h2 {
     font-size: 40px;
-    font-family: 'Roboto', sans-serif;
+    font-family: regular, 'Roboto', sans-serif;
     margin-top: 50px;
     padding: 10px 30px;
     color: #fff;
@@ -190,7 +197,7 @@ h6 {
 
 #header .typeh2 {
     font-size: 30px;
-    font-family: 'Roboto', sans-serif;
+    font-family: regular, 'Roboto', sans-serif;
     margin-top: 20px;
     padding: 10px 30px;
     color: #fff;
@@ -439,7 +446,7 @@ section .container {
     font-size: 36px;
     font-weight: 700;
     text-transform: uppercase;
-    font-family: "Poppins", sans-serif;
+    font-family: regular, "Poppins", sans-serif;
     color: #fff;
     text-align: center;
 }
@@ -471,7 +478,7 @@ section .container {
     letter-spacing: 1px;
     text-transform: none;
     color: rgba(255, 255, 255, 0.7);
-    font-family: "Roboto", sans-serif;
+    font-family: regular, "Roboto", sans-serif;
     align-items: center;
     justify-content: center;
 }
@@ -552,7 +559,7 @@ a.button4 {
     border-radius: 2em;
     box-sizing: border-box;
     text-decoration: none;
-    font-family: 'Roboto', sans-serif;
+    font-family: regular, 'Roboto', sans-serif;
     font-weight: 400;
     color: #FFFFFF;
     text-shadow: 0 0.08em 0.08em rgba(0, 0, 0, 0.35);
@@ -601,7 +608,7 @@ a.button4:hover {
     font-size: 18px;
     font-weight: 600;
     text-transform: uppercase;
-    font-family: "Roboto", sans-serif;
+    font-family: regular, "Roboto", sans-serif;
     color: #bc96e6;
     margin-bottom: 10px;
 }
@@ -616,7 +623,7 @@ a.button4:hover {
 }
 
 .education .education-item p {
-    font-family: "Roboto", sans-serif;
+    font-family: regular, "Roboto", sans-serif;
 }
 
 .education .education-item ul {
@@ -656,7 +663,7 @@ a.button4:hover {
     /* display: block; */
     font-weight: 500;
     font-size: small;
-    font-family: "Poppins", sans-serif;
+    font-family: regular, "Poppins", sans-serif;
     color: #fff;
 }
 
@@ -721,7 +728,7 @@ a.button4:hover {
 .counts .count-box p {
     padding: 0;
     margin: 0;
-    font-family: "Roboto", sans-serif;
+    font-family: regular, "Roboto", sans-serif;
     font-size: 15px;
     font-weight: 300;
 }
@@ -753,7 +760,7 @@ a.button4:hover {
     font-size: 18px;
     font-weight: 600;
     text-transform: uppercase;
-    font-family: "Poppins", sans-serif;
+    font-family: regular, "Poppins", sans-serif;
     color: #bc96e6;
     margin-bottom: 10px;
 }
@@ -1025,7 +1032,7 @@ a.button4:hover {
 .contact .info-box h3 {
     font-size: 20px;
     color: #FFFFFF;
-    font-family: "Poppins", sans-serif;
+    font-family: regular, "Poppins", sans-serif;
     text-shadow: black;
     font-weight: 700;
     margin: 10px 0 8px 68px;
@@ -1196,7 +1203,7 @@ a.button4:hover {
 .thanks h2 {
     margin: auto 250px;
     margin-bottom: 10px;
-    font-family: 'Roboto', sans-serif;
+    font-family: regular, 'Roboto', sans-serif;
     font-weight: 700;
     width: auto;
     justify-content: center;
@@ -1405,7 +1412,7 @@ a.button4:hover {
 
 .light-mode #header .typeh2 {
     font-size: 30px;
-    font-family: 'Roboto', sans-serif;
+    font-family: regular, 'Roboto', sans-serif;
     margin-top: 20px;
     padding: 10px 30px;
     color: rgb(0, 0, 0);
@@ -1635,7 +1642,7 @@ a.button4:hover {
     }
     #header .typeh2 {
         font-size: 28px;
-        font-family: 'Roboto', sans-serif;
+        font-family: regular, 'Roboto', sans-serif;
         margin-top: 20px;
         padding: 10px 30px;
         color: #fff;
