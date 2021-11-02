@@ -662,9 +662,17 @@
 
         // Skills section Progress Bar Animmations
         // Along with time duration in milliseconds
-        $(".progress-bar").animate({
-            width: "80%",
-        }, 2500);
+        // $(".progress-bar").animate({
+        //     width: "80%",
+        // }, 2500);
+
+        $('.skills-content').waypoint(function() {
+            $('.progress .progress-bar').each(function() {
+                $(this).css("width", $(this).attr("aria-valuenow") + '%');
+            });
+        }, {
+            offset: '80%'
+        });
         // Porfolio isotope and filter
         $(window).on('load', function() {
             var portfolioIsotope = $('.portfolio-container').isotope({
