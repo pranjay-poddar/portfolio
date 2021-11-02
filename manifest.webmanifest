@@ -1,25 +1,25 @@
 {
     "name": "Pranjay Poddar",
     "short_name": "Pranjay Portfolio",
-    "start_url":".",
+    "start_url": ".",
     "display": "standalone",
-    "background_color":"#fff",
+    "background_color": "#fff",
     "description": "A portfolio app",
     "icons": [{
-      "src": "./apple touch/57.png",
-      "sizes": "57x57",
-      "type": "image/png"
+        "src": "./apple/p57.jpg",
+        "sizes": "57x57",
+        "type": "image/jpg"
     }, {
-      "src": "./apple touch/72.png",
-      "sizes": "72x72",
-      "type": "image/png"
+        "src": "./apple/p72.jpg",
+        "sizes": "72x72",
+        "type": "image/jpg"
     }, {
-      "src": "./apple touch/114.png",
-      "sizes": "114x114",
-      "type": "image/png"
+        "src": "./apple/p114.jpg",
+        "sizes": "114x114",
+        "type": "image/jpg"
     }, {
-      "src": "./apple touch/144.png",
-      "sizes": "144x144",
-      "type": "image/png"
+        "src": "./apple/p144.jpg",
+        "sizes": "144x144",
+        "type": "image/jpg"
     }]
-  }
+}
