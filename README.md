@@ -1,7 +1,5 @@
 <h1>Portfolio (Pranjay Poddar)</h1>
-<br>
-<p>This is my portfolio website project </p> 
-
+protfolio link <a href="https://pranjaypoddar.netlify.app/">pranjaypoddar.netlify.app/</a>
 <br><br>
   ![forthebadge](https://forthebadge.com/images/badges/uses-brains.svg)
   ![forthebadge](https://forthebadge.com/images/badges/validated-html5.svg)
