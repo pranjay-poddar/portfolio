@@ -18,21 +18,11 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-171690017-1"></script>
 
-    <!-- pre loader ----------------->
-    <!-- <script>
-    function preloader() {
-      var preloader = document.getElementById("preloader");
-      preloader.style.opacity = "0";
-      preloader.setAttribute("aria-busy", "false");
-      document.getElementById("site").style.opacity = "1";
-    }
-    window.onload = preloader;
-    </script> -->
     <script>
         // right click disable---------start--------------------------
-        // document.addEventListener("contextmenu", function(e) {
-        //     e.preventDefault();
-        // }, false);
+        document.addEventListener("contextmenu", function(e) {
+            e.preventDefault();
+        }, false);
         // right click disable---------end--------------------------
         // dark mode toggle start-----------------------------------
         function lightmode() {
@@ -591,6 +581,7 @@
         function loadinganimate() {
             setTimeout(function() {
                 document.getElementById("hideDiv").style.display = "none";
+                document.querySelector("body").style.overflowY = "scroll";
             }, 4000)
         }
     </script>
