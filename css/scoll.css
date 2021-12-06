@@ -1,0 +1,10 @@
+body {
+    font-family: regular, 'Open Sans', sans-serif;
+    color: #fff;
+    position: relative;
+    background-image: url("./backg1.jpg");
+    background: transparent;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
