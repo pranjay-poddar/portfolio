@@ -194,6 +194,12 @@ body::before {
     cursor: pointer;
 }
 
+.awscloud {
+    font-size: 15px;
+    background-color: rgb(200, 145, 252);
+    margin-top: 5%;
+}
+
 @media (min-width: 1024px) {
     body::before {
         background-attachment: fixed;
@@ -1693,6 +1699,11 @@ a.button4:hover {
 }
 
 @media (max-width: 568px) {
+    .awscloud {
+        font-size: 13px;
+        background-color: rgb(200, 145, 252);
+        margin-top: 15%;
+    }
     .light-mode::before {
         background: #ffffff;
         color: black;
